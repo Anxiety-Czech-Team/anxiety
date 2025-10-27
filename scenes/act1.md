@@ -1264,7 +1264,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ PERVERT-MON! MUSÍM CH-
+b: ♫ PERVERT-MON! VŠECH-
 
 ```
 Game.FORCE_CANT_SKIP = false;

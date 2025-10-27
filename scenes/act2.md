@@ -23,14 +23,14 @@
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" about that horrible thing happening somewhere?
+s: Ale *viděla* jsi tu "zprávu" ohledně té strašné věci, která se stala někde?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: a-ahoj...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -38,14 +38,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: God I hate the news. It's all sensationalism and clickbait.
+a: Boha. Já nesnáším zprávy. Je to jen o senzacích a clikbaitu.
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: h... hezká party...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -53,13 +53,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: True, but they're just following incentives. The *real* problem is people who click the clickbait.
+s: Pravda, ale oni jednají jen popudově. Ten *realný* problém je s lidmi co klikají na clickbaity.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: Who would retweet a terrible news story, and make all their friends feel bad?
+s: Kdo by retweetnul tak hrozný článek? Chce snad, aby se jeho kamarádi cítili špatně?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -67,7 +67,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uhhh, že jo?
 
 (#act2-preamble-end)
 
@@ -78,14 +78,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: But did you *see* that "news story" going viral?
+s: Ale *viděla* jsi, že ten "článek" je celkem virální?
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: a-ahoj...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -93,14 +93,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Yeah, totally fake. Who would fall for that and retweet it?
+a: Jo, naprosto falešný. Kdo by tomu věřil a ještě to retweetnul?
 
 ```
 publish("act2",["dum",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: h... hezká party...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Seriously dude. Like, hello, open up Google and factcheck first?
+s: Vážně kámo. Jako fakt? Co si Otevřít Google a ověřit si fakta?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -116,7 +116,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uhhh, že jo?
 
 (#act2-preamble-end)
 
@@ -127,14 +127,14 @@ a: Ugh, I know right?
 publish("act2",["dee",3]);
 ```
 
-s: Like I was saying, the Meme Industrial Complex exploits cats.
+s: Jak jsem říkala, mašinérie na memy zneužívá kočky.
 
 ```
 publish("act2",["dee",2]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: a-ahoj...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,14 +142,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Elaborate on this thesis.
+a: Rozeber tu myšenku trochu.
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: h... hezká party...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -157,13 +157,13 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Well, I saw someone retweet a GIF of a cat drinking milk yesterday.
+s: Víš, viděla jsem včera někoho retweetnout GIF kočky, co pije mléko.
 
 ```
 publish("act2",["dee",3]);
 ```
 
-s: They can't digest that ^crap^! Who would retweet *animal abuse* like that?
+s: Nemůžou ten ^kekel^ trávit! Kdo by taktko retweetoval *zneužívaní zvířat*?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -171,7 +171,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uhhh, že jo?
 
 (#act2-preamble-end)
 
@@ -182,14 +182,14 @@ a: Ugh, I know right?
 publish("act2",["dee",1]);
 ```
 
-s: So yeah they never replied back!
+s: No a žádná odpověď už nepřišla.
 
 ```
 publish("act2",["dee",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: h-hi...
+h2: a-ahoj...
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,14 +197,14 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Even though you both matched each other on Tinder?
+a: I přes to, že máte oba match na Tinderu?
 
 ```
 publish("act2",["dum",0]);
 publish("act2",["party_hong","next"]);
 ```
 
-h2: n... nice party...
+h2: h... hezká party...
 
 ```
 publish("act2",["party_hong","next"]);
@@ -229,7 +229,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! What, did they think I was a *serial killer* or something? So paranoid.
+s: Já ti nevím. Třeba si myslel, že jsem *sériový vrah* nebo co? Tak paranoidní.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -237,7 +237,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uhhh, že jo?
 
 (#act2-preamble-end)
 
@@ -249,9 +249,9 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! Maybe they think hookups can't fill the hole in their heart?
+s: Já ti nevím. Třeba si myslí, že jednorázovky nezaplní tu díru v jejich životě?
 
-s: Stop being such a prude! Open your mind, then open your legs!
+s: Nebuď taková pruda! Otevři jsou mysl, pak rozhoď nohy!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -259,7 +259,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Ugh, I know right?
+a: Uhhh, že jo?
 
 (#act2-preamble-end)
 
@@ -271,7 +271,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Yeah I dunno! They weren't that hot, but they would have been a nice catch!
+s: Já ti nevím. Nebyl tak sexy, ale byl by fakt dobrý úlovek.
 
 ```
 publish("act2",["party_hunter",1]);
@@ -279,10 +279,9 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: Gotta Catch 'Em All!™
+a: VŠECHNY CHITI MÁŠ!™ 
 
 (#act2-preamble-end)
-
 
 # act2-preamble-end
 
@@ -300,27 +299,27 @@ publish("hp_show");
 bb({body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-n: ROUND TWO: *FIGHT!*
+n: DRUHÉ KOLO: *BOJUJTE!*
 
-[Oh no they all hate us!](#act2a_social)
+[Ale ne, všichni nás nenávidí!](#act2a_social)
 
-[Were you *ogling* the redhead?](#act2a_perv)
+[*Nezíráš* náhodou na tu zrzku?](#act2a_perv)
 
-[Hey, let's talk about the meaning of life.](#act2a_meaning)
+[Hej, pojďme se pobavit o smyslu života.](#act2a_meaning)
 
 # act2a_social
 
 `bb({eyes:"sad"})`
 
-b: We're bringing down the mood of this party by being such a sad lump!
+b: Kazíme náladu na celé partý, tím že jsme takový smutný ^zaprděnec^!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: We're killing the good vibes! We're committing first-degree vibe-murder!
+b: Zabíjíme tady tu dobrou atmosféru! Právě pácháme atmo-vraždu první kategorie!
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Human, we have to leave *now* before--
+b: Človeče, musíme *teď* odejít, než--
 
 ```
 _.a2_first_danger = 'social';
@@ -333,15 +332,15 @@ _.a2_attack_1 = "alone";
 
 `bb({eyes:"suspect"})`
 
-b: They're more attractive than us, which means if we even *look* at them, then--
+b: Je hezčí než my, což znamená, že jestli se na ní *podíváme*, tak--
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: WE'RE CREEPS
+b: JSME ÚCHYLÁCI
 
 `bb({body:"normal"})`
 
-b: We're creepy, evil, bad bad bad terrible terrible perv--
+b: Jsme úchylní, zlí, špatný špatný špatný hrozlivý hrozlivý úchy--
 
 ```
 _.a2_first_danger = 'perv';
@@ -354,31 +353,31 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: At the end of it all, what can we possibly do that really matters? 
+b: Všecho všudy, co zásadního můžeme udělat?
 
 `bb({body:"normal", eyes:"sad"})`
 
-b: Contribute to humanity? All great works decay the way of Ozymandias. Love? Death will always do it part.
+b: Přispět lidstvu? Všechna velká díla se rozpadnou jak Kytice. Láska? Smrt nás vždy rozdělí.
 
 `bb({eyes:"sad_r"})`
 
-b: And how much death there is! *We* will die. *Our loved ones* will die.
+b: A kolik je na světě smrti! *My* umřeme. *Naši milovaní* umřou.
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Heck, the Second Law of Thermodynamics means even our *universe* will die!
+b: Sakra, druhý termodynamický zákon říká, že *vesmír* umře!
 
 `bb({eyes:"suspect", body:"normal"})`
 
-b: Oh, "death makes us appreciate life"? That's like saying slavery is good because it makes us appreciate freedom!
+b: A, že "smrt nás nutí cenit si života"? To je jako říkat, že otroctví je super, jelikož doceníš svobodu!
 
 `bb({body:"one_up"})`
 
-b: Oh, "you need to make your own meaning"? That's what cultists and conspiracy theorists do!
+b: A, že "si musíš udělat vlasní smysl života"? To je přesně, co kultisti a konspirační teoretici dělají!
 
 `bb({eyes:"shock", body:"two_up"})`
 
-b: Life has no meaning, death has no meaning, even *meaning* has no meaning! What is a mortal soul supposed to--
+b: Život nemá smysl, smrt nemá smysl, ani *smysl* nemá smysl! Co smrtelná duše vlas--
 
 ```
 _.a2_first_danger = 'meaning';
@@ -395,7 +394,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Um... can you hear me, human?
+b: Uhh... vidíš mě člověče?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -403,23 +402,23 @@ b: ...
 
 `bb({eyes:"shock", mouth:"small_talk", body:"chest", MOUTH_LOCK:true})`
 
-b: *GASP*
+b: *NÁDECH*
 
 `bb({mouth:"small_talk"})`
 
-b: I MUST WARN YOU ABOUT...
+b: MUSÍM TĚ VAROVAT...
 
-[*More* of the same danger!](#act2b_louder)
+[*Více* toho samého nebezpečí!](#act2b_louder)
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2b_different_social)
+[*Jiné* společenské nebezpečí!](#act2b_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2b_different_moral)
+[*Jiné* moralí nebezpečí!](#act2b_different_moral)
 {{/if}}
 
-[You're ignoring danger! That's dangerous!](#act2b_ignore)
+[Ignoruješ nebezpečí! To je nebezpečné!](#act2b_ignore)
 
 # act2b_louder
 
@@ -441,13 +440,13 @@ b: I MUST WARN YOU ABOUT...
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: EMOTIONS ARE CONTAGIOUS! SO IF YOU DON'T LEAVE YOU'LL INFECT EVERYONE WITH YOUR MENTAL ILLNESS! 
+b: EMOCE JSOU NAKAŽLIVÉ! TAKŽE POKUD NEODEJDEŠ, TAK NAKAZÍŠ NĚKOHO SVOU MENTÁLNÍ NEMOCÍ! 
 
-b: You'll create a deadly outbreak of SAD LUMP SYNDROME
+b: Způsobíš epidemii SMUTNÉHO ^ZAPRDĚNCE^
 
 `bb({eyes:"suspect", body:"normal", mouth:"normal"})`
 
-b: We need to get out of here and quarantine ourselves forever in a small room with Netflix and food delivery!
+b: Musíme vypadnout a jít do karantény v malé místnosti s Netflixem a dovážkou jídla!
 
 ```
 _.a2_second_danger = 'netflix';
@@ -461,7 +460,7 @@ _.a2_hoodie_callback = "a quarantine";
 
 `bb({eyes:"suspect", body:"two_up", mouth:"normal"})`
 
-b: DON'T BE A CREEP. IT'S AGAINST THE LAW!
+b: NEBUĎ ÚCHYL. JE TO PROTIZÁKONNÉ!
 
 `bb({eyes:"judge", body:"judge_1", mouth:"normal"})`
 
@@ -486,11 +485,11 @@ sfx("gravel");
 
 (...501)
 
-b: Creep Law, Section 74.5: (1) Any Person who checks out (a) those muscular shoulders (b) that bubble booty (2) shall be hereby known as
+b: Proti-úchylný zákon č. 152/2021 Sb.: (1) Kokoliv kdo koukne na (a) ta nasvalená ramena (b) tu oblou zadnici (2) bude znám jako
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
-b: "A BIG DISGUSTING TRASH PERVERT"
+b: "VELKÝ NECHUTNÝ HNUSNÝ ÚCHYL"
 
 ```
 _.a2_second_danger = 'law';
@@ -504,23 +503,23 @@ _.a2_hoodie_callback = "the law";
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: Actually, even if you find a noble purpose in life, you can *still* mess everything up!
+b: Vlastně, i když najdeme smysl života, tak *stále* můžeme všechno pokazit!
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Alfred Nobel wanted world peace and for cultures to understand each other. So he decided to make travel easier.
+b: Alfred Nobel chtěl světový mír a aby si kultury rozuměly. Tak se rozhodl, že zjednoduší cestování.
 
 `bb({eyes:"normal_r"})`
 
-b: So he needed a way to cheaply create train tunnels. So he invented a new material called "dynamite"...
+b: Což vyžadovalo způsob jak jednoduše hloubit tunely. Tak vynalezl nový materiál zvaný "dynamit"...
 
 `bb({body:"one_up", eyes:"normal"})`
 
-b: which was used in World War I to KILL MILLIONS OF PEOPLE
+b: který použili v první světové, aby ZABILI MILIÓNY LIDÍ
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: IT'S THE BUTTERFLY EFFECT, HUMAN! HOW MANY PEOPLE ARE YOU ACCIDENTALLY KILLING RIGHT NOW
+b: JE TO EFEKT MOLTÝLÍCH KŘÍDEL! KOLIK LIDÍ OMYLEM ZABÍJÍŠ PRÁVĚ TEĎ
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -536,19 +535,19 @@ _.a2_hoodie_callback = "World War I";
 
 `bb({eyes:"normal_r", body:"point", mouth:"normal"})`
 
-b: Actually, you know what's worse than no-one liking you? *Everyone* liking you.
+b: Víš, co je horší než, když tě nemá nikdo rád? Když tě mají *všichni* rádi.
 
 `bb({body:"one_up", eyes:"suspect", mouth:"normal"})`
 
-b: That is, becoming one of *these* pleasure-chasing party animals.
+b: No jo, stát se jedním z *těch* požitkářských večírkových pařmenů.
 
 `bb({body:"normal", mouth:"small"})`
 
-b: A shallow life with shallow friends who only know the shallow you!
+b: Povrchní život s povrchními přáteli, kteří znají tvé povchní já.
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Human, we need to run away from these pleasure-zombies before they turn us into one of them!
+b: Člověče, musíme utéct od těchto požitkářských zombíků než nás přemění na jednoho z nich!
 
 ```
 _.a2_second_danger = 'zombies';
@@ -564,19 +563,19 @@ _.a2_hoodie_callback = "zombies";
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: People are dying in famines and genocides *right now* and we're just partying!
+b: Celé rodiny umírají v genocidách *právě teď* a my tu paříme!
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: A wise person once said, "the only thing necessary for the triumph of evil is for good folks to do nothing."
+b: Moudrý člověk jednou řekl, "jediná věc je nezbytná pro triumf zla, aby dobří lidé nic nedělali"
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: WE'RE DOING NOTHING.
+b: MY NIC NEDĚLÁME.
 
 `bb({mouth:"small"})`
 
-b: BY PARTYING, WE'RE HELPING *HITLER*.
+b: PAŘENÍM POMÁHÁME *HITLEROVI*.
 
 ```
 _.a2_second_danger = 'hitler';
@@ -592,15 +591,15 @@ _.a2_hoodie_callback = "Hitler";
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: You think you're safe just because you took the batteries out of the carbon monoxide detector?
+b: Myslíš si, že jsi v bezpečí, jelikož jsi jen vyndala baterky z hlásiče oxidu uhelnatého.
 
 `bb({eyes:"suspect_r"})`
 
-b: You won't even smell the poison! You'll just get sleepy and then you'll--
+b: Ani ten jed neucitíš! Jen usneš a pak--
 
 `bb({body:"scream_c_1"})`
 
-b: DIEEEEEEEEEEEEEEEEEE
+b: UMŘEEEEEEEEEEŠ
 
 ```
 _.a2_second_danger = 'ignore';
@@ -621,29 +620,29 @@ b: ...
 
 `bb({eyes:"happy", mouth:"smile", body:"chest"})`
 
-b: Oh thank goodness human, I think you can hear me again!
+b: Díky bohu, myslím, že mě znovu slyšíš!
 
 `bb({eyes:"closed", body:"point"})`
 
-b: I SHALL WARN YOU ABOUT...
+b: MUSÍM TĚ VAROVAT O...
 
 {{if _.a2_first_choice=="louder"}}
-[*Even more* of the same danger!](#act2c_louder)
+[*Ještě více* toho samého nebezpečí!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_choice!="louder"}}
-[*More* of the same danger!](#act2c_louder)
+[*Více* toho samého nebezpečí!](#act2c_louder)
 {{/if}}
 
 {{if _.a2_first_danger=="social"}}
-[A *different* social danger!](#act2c_different_social)
+[*Jiné* společenské nebezpečí!](#act2c_different_social)
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[A *different* moral danger!](#act2c_different_moral)
+[*Jiné* moralí nebezpečí!](#act2c_different_moral)
 {{/if}}
 
-[Did you check that punch before drinking?](#act2c_punch)
+[Zkontrolovala jsi ten punč, který pijem?](#act2c_punch)
 
 #act2c_louder
 
@@ -675,15 +674,15 @@ b: I SHALL WARN YOU ABOUT...
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: Actually, Netflix & food delivery isn't quarantined enough! We'd still infect the delivery person!
+b: Ve skutečnosti, Netflix a dovážka jídla není dostatečná karanténa! Stále bychom nakazili poslíčka!
 
 `bb({body:"one_up", mouth:"small"})`
 
-b: We need to move to the Canadian Yukon territories, and have our food delivered by drone!
+b: Musíme se přesunout někam do Finska za polární kruh a mít jídlo dovážené dronem!
 
 `bb({body:"two_up", mouth:"normal"})`
 
-b: And then they'd have to sterilize the drone to rid it of our SAD LUMP GERMS
+b: A ještě by museli dezinfikovat ten dron kvůli našim virům SMUTNÉHO ZAPRDĚNCE
 
 `_.a2_attack_3 = "alone";`
 
@@ -716,13 +715,13 @@ sfx("gravel");
 
 (...501)
 
-b: The BIG DISGUSTING TRASH PERVERT shall be sentenced to 72 hours in one of those medieval public-humiliation devices
+b: VELKÝ NECHUTNÝ HNUSNÝ ÚCHYL bude odsouzen na 72 hodin v jednom z těch středověkých zařízení na veřejné ponížení
 
-b: unless they're secretly *into* that sort of thing
+b: pokud to tedy není *jejich záliba*
 
 `bb({body:"scream_a_1"})`
 
-b: because they're a BIG DISGUSTING TRASH PERVERT
+b: prože je VELKÝ NECHUTNÝ HNUSNÝ ÚCHYL
 
 `_.a2_attack_3 = "bad";`
 
@@ -734,19 +733,19 @@ b: because they're a BIG DISGUSTING TRASH PERVERT
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: BUTTERFLY EFFECT! You're using a non-biodegradable plastic cup?
+b: EFEKT MOTÝLÍCH KŘÍDEL! Používaš nebiorozkladatelný kelímek?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BAM, A LANDFILL LEAKS POISON AND KILLS A KID
+b: BUM, ZKLÁDKA VYPUŠTÍ JED A ZABÍJÍ DÍTĚ
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: You're sweating and your heart's pounding?
+b: Potíš se a buší ti srdce?
 
 `bb({body:"scream_a_1"})`
 
-b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
+b: BUM, ZBANKROTOVALA JSI NAŠE ZDRAVOTNICTVÍ A MILIONY UMŘOU
 
 `_.a2_attack_3 = "bad";`
 
@@ -758,15 +757,15 @@ b: BAM, YOU BANKRUPT OUR HEALTHCARE SYSTEM AND MILLIONS DIE
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: These pleasure-zombies will stumble towards you mumbling,
+b: Tihle požitkářští zombíci přijdou k tobě šuškající,
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
-b: LIIIIIKES. LIIIIIIIIIIKES.
+b: LIIIIIKE. LIIIIIIIIIIKE.
 
 `bb({body:"scream_a_1"})`
 
-b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS THOT!
+b: Kousnou tě a promění tě do BEZMOZKOVÉHO TÝPKA či NEPŘEMÝŠLEJÍCÍ PIPKY
 
 `_.a2_attack_3 = "bad";`
 
@@ -778,15 +777,15 @@ b: Then they'll BITE YOU and turn you into a BRAINLESS BRO and/or THOUGHTLESS TH
 
 `bb({body:"scream_a_1"})`
 
-b: THE NAZIS ARE GOOSE-STEPPING BACK ON THE STREETS RIGHT NOW
+b: NACISTI PRÁVĚ TĚĎ ZASE POCHODUJÍ NA ULICÍCH
 
 `bb({body:"one_up", mouth:"smile", eyes:"happy"})`
 
-b: Saying, *good thing those 'good folks' slacked off with stuff like 'relaxing' and 'self-care'!*
+b: Říkat, *ještě že 'dobří lidé' se poflakovali 'relaxováním' a 'self-care'!*
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Now our plans can go fourth, reich on schedule!*
+b: *Náš plán je jít kupředu, zpátky ni krok!*
 
 `_.a2_attack_3 = "bad";`
 
@@ -798,15 +797,15 @@ b: *Now our plans can go fourth, reich on schedule!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Come to think about it, do we know if this building *has* a monoxide detector?!
+b: Zamysli se nad tím, víme, zda tato buda *má* detektory oxidu uhelnatého?!
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
-b: What if we're all being poisoned *RIGHT NOW?*
+b: Co když se trávíme *PRÁVĚ TEĎ?*
 
 `bb({body:"scream_a_1"})`
 
-b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER AND EV--
+b: ANI BYCHOM NEVIDĚLI SMRT PŘICHÁZET. PROSTĚ BYCHOM PŘESTALI EXISTOVAT NAVĚKY A NAVŽDY A NA--
 
 `_.a2_attack_3 = "harm";`
 
@@ -818,15 +817,15 @@ b: WE WOULDN'T EVEN SEE DEATH APPROACH. WE'D JUST STOP EXISTING FOREVER AND EVER
 
 `bb({body:"normal", mouth:"normal", eyes:"sad"})`
 
-b: What if we're just *fundamentally incapable* of ever being loved, or loving another?
+b: Co když jsme *absolutně neschopní* být milováni, nebo milovat ostatní?
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if something irreversibly broke inside of us a long time ago? Or never existed in us in the first place?
+b: Co když se něco nevratně rozbilo uvnitř nás hlouho zpátky? Nebo to nikdy neexistovalo?
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AHH JSME ROZBITÍ! TAK ROZBITÍ TAK ROZBITÍ TAK ROZB--
 
 `_.a2_attack_3 = "alone";`
 
@@ -836,19 +835,19 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: What if we're just *fundamentally rotten?*
+b: Co když jsme *zhnilí zevnitř?*
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Others have an inner drive to do goodness, but we only do "good" out of guilt or shame, if at all.
+b: Ostatní mají vlastní chuť dělat dobré věci, ale my děláme "dobré věci" jen kůli pocitu viny či studu, pokud vůbec.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: What if it's in our nature to hurt others? What if we can't be anything *other* than a burden to those close to us?
+b: Co když naše nátura ublíží ostaním? Co když nezvládneme být *něčím jiným* než přítěží pro ty kolem nás?
 
 `bb({body:"scream_a_1"})`
 
-b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
+b: AHH JSME ROZBITÍ! TAK ROZBITÍ TAK ROZBITÍ TAK ROZB--
 
 `_.a2_attack_3 = "bad";`
 
@@ -858,15 +857,15 @@ b: AHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKE--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: I'm not being irrational. People *do* drug punch bowls. That is an actual thing that actually happens.
+b: Já nejsem iracionální. Lidé *dělají* drogové punčové údery. To je reálne věc, co se reálně děje.
 
 `bb({eyes:"suspect"})`
 
-b: Human, does your head hurt? Are your limbs limp? I think we're dying.
+b: Člověče, bolí tě hlava? Jsou tvé končetiny ochablé? Myslím, že umíráme.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE DYING! WE'RE DYING WE'RE DYING WE'RE DYI--
+b: AHHH MY UMÍRÁME! MY UMÍRÁME MY UMÍRÁME MY UMÍR--
 
 `_.a2_attack_3 = "harm";`
 
