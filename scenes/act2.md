@@ -737,7 +737,7 @@ b: EFEKT MOTÝLÍCH KŘÍDEL! Používaš nebiorozkladatelný kelímek?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BUM, ZKLÁDKA VYPUŠTÍ JED A ZABÍJÍ DÍTĚ
+b: BUM, ZKLÁDKA VYPUSTÍ JED A ZABIJE DÍTĚ
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
@@ -757,7 +757,7 @@ b: BUM, ZBANKROTOVALA JSI NAŠE ZDRAVOTNICTVÍ A MILIONY UMŘOU
 
 `bb({body:"normal", mouth:"small", eyes:"angry"})`
 
-b: Tihle požitkářští zombíci přijdou k tobě šuškající,
+b: Tihle požitkářští zombíci přijdou k tobě mumlající,
 
 `bb({body:"normal", mouth:"normal", eyes:"shock"})`
 
