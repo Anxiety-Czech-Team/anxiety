@@ -1524,9 +1524,9 @@ b: Promiň, člověče.
 
 n: *UKOČNI TO*
 
-[{BOJUJ: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{BOJUJ: Dej pěstí hostiteli.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{UTEČ: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{UTEČ: Jdeme pryč.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
@@ -1542,7 +1542,7 @@ b: Dej mu pěstí! Dej mu absolutního vypínáka!
 
 `bb({ body:"final_1" });`
 
-b: PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRA--
+b: PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRA--
 
 `_.a2_ending = "fight";`
 
