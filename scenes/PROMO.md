@@ -14,13 +14,13 @@
 
 `clearText()`
 
-n3: So before we start, how would *you* like to read?
+n3: Než začneme, jak moc by sis rád něco přečetl?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Now, let's begin our story...
+n3: Nyní začněme náš příběh...
 
 ```
 publish("hide_tabs");
@@ -31,7 +31,7 @@ clearText();
 
 `publish("intro-to-game-2")`
 
-n2: THIS IS A HUMAN
+n2: TOTO JE ČLOVĚK
 
 (...600)
 
@@ -51,9 +51,9 @@ music('battle', {volume:0.5});
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: TOTO JE JEHO ÚZKOST
 
-n: _YOU_ ARE THE ANXIETY
+n: _TY_ JSI TA UZKOST
 
 (#act1_normal)
 

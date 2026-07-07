@@ -14,7 +14,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n3: (game auto-saved)
+n3: (hra se automaticky uložila)
 
 ```
 Game.clearText();
@@ -486,7 +486,7 @@ b: Další myšlenky, člověče?
 
 [Vystavme se *většímu* nebezpečí.](#act4_harm_exposure)
 
-[Děkuji.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Děkuji.](#act4_thanks) `_.thanks_for = "fyzické bezpečí";`
 
 # act4_harm_skills
 
@@ -650,15 +650,15 @@ h: Protože jsi pes, mělo by to fungovat i pro tebe, ne? Všichni savci mají s
 
 `hong({ body:"normal" });`
 
-[What if we desensitize *too* much?](#act4_harm_exposure_overboard)
+[Co se stane, když se znecitlivím *až* moc?](#act4_harm_exposure_overboard)
 
-[What if we're exposed to *real* danger?](#act4_harm_exposure_hurt)
+[Co když budeme vystaveni *pravému* nebezpečí?](#act4_harm_exposure_hurt)
 
-[I'm a wolf, not a dog.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[Jsem vla a ne pes.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
-h: And I'll show you kindness and patience 'til you're domesticated into a cute lil' puppy.
+h: A já ti budu laskavá a trpělivá, dokud nebudeš domestikován do malého roztomilého štěnátka.
 
 `bb({ MOUTH_LOCK:true })`
 
@@ -666,7 +666,7 @@ b: ...
 
 `bb({ eyes:"sad", mouth:"smile" })`
 
-b: D'aw.
+b: Ťuťu.
 
 (#act4_something_else)
 
@@ -674,35 +674,35 @@ b: D'aw.
 
 `bb({ eyes:"annoyed" })`
 
-b: We *just* saw what happens if you shut down your fear – you put yourself in *actually* dangerous situations.
+b: *Právě* jsme viděli, co se stane, když vypneš svůj strach. Skončíš v *doopravdy* nebezpečných situacích.
 
 `bb({ eyes:"angry_r", body:"one_up" })`
 
-b: Besides, won't *too* much desensitization turn us into psychopaths?
+b: Navíc, neudělalo by z nás moc velké znecitlivění psychopaty?
 
 `bb({ mouth:"scream", eyes:"scream", body:"two_up" })`
 
-b: Soon we'll give ourselves treats while watching snuff murder porn!
+b: Brzo bude jíst sladkosti při koukání na nechutné vraždící porno!
 
 `hong({ eyes:"annoyed" })`
 
-h: I... think there's a line between that and the thunder.
+h: Já... si myslím, že je tu hranice mezi tím a správným chováním.
 
 `bb({ body:"normal", mouth:"normal", eyes:"suspect" })`
 
-b: But exactly *where*, human? *Where?!*
+b:  *Kde* přesně ale je, člověče? *Kde?!*
 
 `hong({ eyes:"surprise", body:"one_up" })`
 
-h: I don't know. But *you* can help me!
+h: Nevím, ale *ty* mi s tím můžeš pomoci!
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Working and negotiating with you, we'll draw that line.
+h: Pracovaním a vyjednávaním s tebou tu hranici někde vytyčíme.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
+b: Dobře. Ale já nemám protilehlé palce, takža to zapíchávání kolíků je na tobě.
 
 (#act4_something_else)
 
@@ -711,11 +711,11 @@ b: Okay. But I've got no opposable thumbs, so you have to do the drawing.
 `bb({ body:"two_up", eyes:"angry_r" })`
 
 {{if _.INJURED}}
-b: For example: we jumped off a freaking *roof!*
+b: Například: jsme skočili z té zpropadené *střechy!*
 {{/if}}
 
 {{if !_.INJURED}}
-b: For example: we almost jumped off a freaking *roof!*
+b:  Například: jsme skoro skočili z té zpropadené *střechy!*
 {{/if}}
 
 ```
@@ -723,17 +723,17 @@ hong({ eyes:"annoyed" });
 bb({ body:"normal", eyes:"annoyed" });
 ```
 
-h: Nah you're right. One *can* go too far.
+h: Jako máš pravdu. Člověk *může* zajít moc daleko.
 
 `hong({ eyes:"normal" });`
 
-h: But that's why, if we do exposure therapy, we'll start small, and make small steps upward.
+h: To je přesně proč, kdybycho začali expoziční terapii, tak začneme pomalu a malými krůčky kupředu.
 
-h: Just before we hit *actual* danger, we stop.
+h: Právě před tím než narazíme na *skutečné* nebezpečí, zastavíme.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Yeah I draw the line between hearing loud thunder, and standing in a storm with a tall pointy hat.
+b: Já vymezuji hranici mezi tím, že slyším vzdáleného hromu a stáním v bouřce se špičatou čepicí.
 
 (#act4_something_else)
 
@@ -761,11 +761,11 @@ b: ...
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait, no arguments for or against what I'm feeling? Just... "thank you"?
+b: Počkej, žádné argumenty pro nebo proti tomu, co cítím? Prostě... "děkuji"?
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Yeah! Thank you for showing your concern for my {{_.thanks_for}}.
+h: Jo! Děkuji ti, že jsi se staral o moje {{_.thanks_for}}.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -774,67 +774,67 @@ hong({ eyes:"normal", body:"normal" });
 
 b: ...
 
-h: You okay?
+h: Jsi v pohodě?
 
 `bb({ eyes:"super_sad", mouth:"narrow" });`
 
-b: You've never said *thank you* to me before.
+b: Nikdy jsi mi předtím neřekla *děkuji ti*.
 
 `hong({ mouth:"smile" });`
 
-h: Aw you big fuzzy-wuzzy panic-wolf.
+h: Ťuťu ty jeden velký, huňatý, panikařící vlku.
 
 (#act4_something_else)
 
 # act4_thanks_2
 
-h: Even if you over-react, I appreciate you looking out for my {{_.thanks_for}}.
+h: I když máš přehnané reakce, já oceňuji, že hledíš na mé {{_.thanks_for}}.
 
 `bb({ eyes:"annoyed" })`
 
-b: Wait... you're not just repeating "thank you" to avoid actually talking about these fears, are you?
+b: Počkej... neříkáš furt dokola "děkuji ti", aby ses vyhnula mluvit o tvých straších, že ne?
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"annoyed", body:"chin" });
 ```
 
-h: Well, stuff's complicated, and I don't always have answers ready.
+h: Víš, je to komplikované a já nebudu mít vždy připravené odpovědi.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: It's not like life gives you a list of 3 pre-made dialogue responses.
+h: Život ti ale nedává seznam tři předpřipravených dialogových odpovědí.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
-h: But for now, I can at least say thanks.
+h: Ale prozatím, mohu alespoň poděkovat.
 
-b: Well, thank you too, for listening to me patiently.
+b: No, já děkuji tobě taky, za trpělivé vysvětlování.
 
 `bb({ eyes:"closed" });`
 
-b: You small hairless flesh-mammal.
+b: Ty malé bezchlupý savče z masa a kostí.
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: Even if your yapping scares me, you're simply trying to protect my {{_.thanks_for}}.
+h: I když mě tvé žvaňění straší, snažíš se prostě chránit moje {{_.thanks_for}}.
 
 `bb({ eyes:"smile_r" });`
 
-b: Okay, if you keep flattering me like this, the internet's gonna get some weird ideas about us.
+b: Dobře, jestli mi budeš skládat komplimenty, tak internet si o nás bude myslet divné věci.
 
 ```
 bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: C'mon, I'm just a vulnerable college-age kid and you're a big, scary wolf. What's the worst that cou--
+h: Ale, já jsem jen zranitelná holka a ty jsi velký, zlý vlk. Co nejhoršího se můž--
 
 `hong({ eyes:"normal", body:"point" });`
 
-h: Actually, do not answer that.
+h: Víš co. Radši na to neodpovídej.
 
 (#act4_something_else)
 
@@ -850,33 +850,33 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"sad_d" });`
 
-b: I want to make sure you fulfil that deep, human need to belong...
+b: Já chci zajistit, že naplníš tu niternou lidskou potřebu někam patřit...
 
 `bb({ eyes:"sad_u" });`
 
-b: But I worry that if anyone ever knew us – the *real* us – we'd scare them all away.
+b: Já se ale bojím, že pokud někdo nás pozná, naše skutečné já, tak je vyděsíme a utečou.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Já ti nevím, dost *mě* vybírající, co řeknu dál. Co na to říkáš *ty*, člověče?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Zase, zpět k tobě, člověče. Co si myslíš?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Nějake další návrhy, člověče?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[I agree: let's work on our social life.](#act4_alone_skills)
+[Já souhlasím: zapracujme na našem sociálním životě.](#act4_alone_skills)
 
-[I think people like us. Let's find out?](#act4_alone_experiment)
+[Myslím si, že nás mají lidé rádi. Proč to nezkusit?](#act4_alone_experiment)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "social belonging";`
+[Děkuji ti.](#act4_thanks) `_.thanks_for = "sociální sounáležitost";`
 
 # act4_alone_skills
 
