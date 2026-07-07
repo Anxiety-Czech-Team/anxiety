@@ -215,35 +215,35 @@ hong({body:"hold", eyes:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: So what the ^hell^ was the moral of this story?
+h: Takže jaké bylo, sakra, ponaučení z tohoto příběhu?
 
 `hong({body:"one_up", eyes:"annoyed"})`
 
-h: What did we even *learn*? I *was* being stupid, my "friends" *were* using me, and we almost frickin' *died*.
+h: Co jsme se vůbec *naučili*? *Byla* jsem hloupá, moji „přátelé“ mě využívali a málem jsme umřeli.
 
 `hong({body:"normal", eyes:"normal"})`
 
 {{if _.INJURED}}
-[Yeah, not to mention the hospital bill.](#act4a_bill)
+[Jo, a to nemluvím o účtu za nemocnici.](#act4a_bill)
 {{/if}}
 
 {{if !_.INJURED}}
-[Yeah, not to mention the liver damage.](#act4a_liver)
+[Jo, a to nemluvím o poškození jater.](#act4a_liver)
 {{/if}}
 
-[Yeah, that *was* the worst-case scenario.](#act4a_worst)
+[Jo, to *byl* ten nejhorší možný scénář.](#act4a_worst)
 
-[Yeah, I was right.](#act4a_right)
+[Jo, měl jsem pravdu.](#act4a_right)
 
 # act4a_bill
 
 `hong({eyes:"annoyed_l", mouth:"narrow"});`
 
-h: Right. I don't think my insurance plan covers "being a dumb^ass^".
+h: Správně. Nemyslím si, že můj pojistný plán pokrývá „být blbcem“.
 
 `hong({eyes:"annoyed", mouth:"normal"});`
 
-b: And yet... we survived!
+b: A přesto... jsme přežili!
 
 `hong({eyes:"normal"});`
 
@@ -255,12 +255,11 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: We definitely shaved a few years off our life expectancy...
+b: Rozhodně jsme si zkrátili život o několik let...
 
 `bb({eyes:"surprise"});`
 
-b: But at least we still *have* a life expectancy! We survived!
-
+b: Ale alespoň *máme* stále ještě průměrnou délku života! Přežili jsme!
 ```
 hong({eyes:"surprise"});
 bb({eyes:"normal"});
@@ -280,15 +279,14 @@ h: Hm?
 
 `bb({eyes:"surprise"});`
 
-b: We survived!
-
+b: Přežili jsme!
 (#act4b)
 
 # act4a_right
 
 `bb({eyes:"normal_d"});`
 
-b: But... you were right, too.
+b: Ale... také jsi měla pravdu.
 
 `hong({eyes:"surprise"});`
 
@@ -296,11 +294,11 @@ h: Hm?
 
 `bb({eyes:"normal"});`
 
-b: I *was* the wolf who cried wolf. So when *actual* danger came, you – justifiably – didn't believe me.
+b: *Byl* jsem vlkem, který volal „vlk“. Takže když *skutečné* nebezpečí přišlo, ty jsi mi – oprávněně – nevěřila.
 
 `bb({eyes:"surprise_r"});`
 
-b: And yet, we survived!
+b: A přesto jsme přežili!
 
 (#act4b)
 
@@ -311,16 +309,16 @@ bb({eyes:"normal", mouth:"normal"});
 hong({eyes:"normal", mouth:"normal"});
 ```
 
-b: Despite everything, we're still here.
+b: Navzdory všemu jsme stále tady.
 
 `hong({eyes:"suspect"});`
 
 {{if _.INJURED}}
-h: You seem pretty calm considering we just had a near-death experience.
+h: Vypadáš docela klidně, vzhledem k tomu, že jsme právě málem umřeli.
 {{/if}}
 
 {{if !_.INJURED}}
-h: You seem pretty calm considering we just had a *near*-near-death experience.
+h: Vypadáš docela klidně, vzhledem k tomu, že jsme právě *málem*-málem umřeli.
 {{/if}}
 
 ```
@@ -328,21 +326,21 @@ hong({eyes:"normal"});
 bb({eyes:"annoyed_d", mouth:"narrow"});
 ```
 
-b: Well, it makes everything else less scary in comparison. It's also got me thinking.
+b: V porovnání s tím je všechno ostatní méně děsivé. Také mě to přimělo k zamyšlení.
 
 `bb({eyes:"normal", mouth:"normal"});`
 
-b: If me fighting you sucks, because it doesn't protect you...
+b: Jestli je můj boj s tebou na nic, protože tě nechrání...
 
-h: But me fighting you *also* sucks, because it just makes you yell louder...
+h: Ale to, že se s tebou hádám, je *taky* na nic, protože tě to nutí křičet ještě hlasitěji...
 
 `bb({eyes:"normal_r"})`
 
-b: Then maybe...
+b: Pak možná...
 
 `bb({eyes:"normal"})`
 
-h: Maybe we don't have to fight.
+h: Možná nemusíme bojovat.
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -381,15 +379,15 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: I'm not a Big Bad Wolf. But I'm not a guard-wolf either.
+b: Nejsem Velký zlý vlk. Ale nejsem ani strážný vlk.
 
 `bb({eyes:"sad_d"})`
 
-b: I'm a battered shelter dog.
+b: Jsem týraný pes z útulku.
 
 `bb({eyes:"sad"})`
 
-b: We've been through rough stuff. Maybe trauma or neglect. That's why I sometimes over-react and go:
+b: Prošli jsme si těžkými věcmi. Možná trauma nebo zanedbávání. Proto někdy reaguji přehnaně a odcházím:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -410,35 +408,35 @@ Game.FORCE_CANT_SKIP = false;
 bb({body:"normal", mouth:"scream", eyes:"scream_sad"});
 ```
 
-b: But I don't *want* to be a cowardly dog! I want to protect you! I want to be a good dog!
+b: Ale já *nechci* být zbabělý pes! Chci tě chránit! Chci být hodný pes!
 
 `bb({eyes:"sad", mouth:"normal"});`
 
-b: Human... will you help tame this wolf?
+b: Člověče... pomůžeš zkrotit tohoto vlka?
 
 `hong({eyes:"sad"})`
 
-h: I... I'll try.
+h: Já... Zkusím to.
 
 `hong({eyes:"normal_l", body:"chin", mouth:"narrow"})`
 
-h: Okay. Healthy relationship with emotions. Relationships need communication. So, let's communicate.
+h: Dobře. Zdravý vztah k emocím. Vztahy potřebují komunikaci. Takže komunikujme.
 
 `hong({eyes:"normal", body:"hands_1", mouth:"normal"})`
 
-h: The next five minutes are going to sound super cheesy, but let's fake it 'til we make it.
+h: Následujících pět minut bude znít velmi lacině, ale předstírejme to, dokud se nám to nepodaří.
 
 ```
 hong({body:"hands_2", mouth:"normal"});
 ```
 
-h: Dear inner wolf... how are *you* feeling?
+h: Milý vnitřní vlku... jak se cítíš?
 
-n2: TOTAL FEARS USED:
+n2: CELKOVÝ POČET POUŽITÝCH OBAV:
 
-n2: *HARMED* {{_.attack_harm_total}}, *UNLOVED* {{_.attack_alone_total}}, *BAD PERSON* {{_.attack_bad_total}}
+n2: *ZRANĚNÝ* {{_.attack_harm_total}}, *NEMILOVANÝ* {{_.attack_alone_total}}, *ŠPATNÝ ČLOVĚK* {{_.attack_bad_total}}
 
-n2: WHAT FEAR DO YOU WANT TO TALK ABOUT FIRST? (YOU CAN DO THE OTHERS LATER)
+n2: O JAKÉM STRACHU CHCETE MLUVIT NEJDŘÍVE? (O OSTATNÍCH SE MŮŽETE ZMÍNIT POZDĚJI)
 
 ```
 _.a4_fears_discussed = 0;
@@ -447,11 +445,11 @@ hong({body:"normal"});
 bb({eyes:"normal"});
 ```
 
-[I'm scared we'll be harmed.](#act4_harm)
+[Bojím se, že nám někdo ublíží.](#act4_harm)
 
-[I'm scared we'll be alone.](#act4_alone)
+[Bojím se, že zůstaneme sami.](#act4_alone)
 
-[I'm scared we're bad people.](#act4_bad)
+[Bojím se, že jsme špatný člověk.](#act4_bad)
 
 # act4_harm
 
@@ -462,92 +460,92 @@ _.a4_fears_discussed += 1;
 
 `bb({eyes:"normal_d"})`
 
-b: I want to protect your need for physical safety,
+b: Chci chránit tvoji potřebu fyzického bezpečí,
 
 `bb({eyes:"sad_d"})`
 
-b: But the *whole world* seems so dangerous. So full of tragedy and evil.
+b: Ale *celý svět* se zdá být tak nebezpečný. Tak plný tragédií a zla.
 
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Nevím, už dost toho, že si vybírám, co řeknu dál. Co říkáš *ty*, člověče?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Znovu se vracím k tobě, člověče. Co si myslíš?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Další myšlenky, člověče?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[You're right. So let's protect ourselves.](#act4_harm_skills)
+[Máte pravdu. Tak se chraňme.](#act4_harm_skills)
 
-[Let's expose ourselves to *more* danger.](#act4_harm_exposure)
+[Vystavme se *většímu* nebezpečí.](#act4_harm_exposure)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "physical safety";`
+[Děkuji.](#act4_thanks) `_.thanks_for = "physical safety";`
 
 # act4_harm_skills
 
 `bb({eyes:"look_down", body:"paw"})`
 
-b: But... how? I have fangs and claws, but I'm just a metaphor.
+b: Ale... jak? Mám tesáky a drápy, ale jsem jen metafora.
 
 ```
 bb({ body:"normal", eyes:"normal" });
 hong({ body:"one_up", eyes:"surprise" });
 ```
 
-h: We could learn self-defense? Join a community that protects each other? Improve our general health & personal boundaries?
+h: Mohli bychom se naučit sebeobranu? Přidat se ke komunitě, která se navzájem chrání? Zlepšit naše celkové zdraví a osobní hranice?
 
 ```
 bb({ eyes:"annoyed_r" });
 hong({ body:"normal", eyes:"normal" });
 ```
 
-b: Maybe, but...
+b: Možná, ale...
 
-[Where do we even start?](#act4_harm_skills_start)
+[Kde vůbec začít?](#act4_harm_skills_start)
 
-[What if they still don't work?](#act4_harm_skills_work)
+[Co když stále nebudou fungovat?](#act4_harm_skills_work)
 
-[What if we go overboard on "safety"?](#act4_harm_skills_overboard)
+[Co když to s „bezpečností“ přeženeme?](#act4_harm_skills_overboard)
 
 # act4_harm_skills_start
 
 `bb({ eyes:"sad_d" })`
 
-b: There's so much to do, so much we need to fix about ourselves. What do we even *begin* with?
+b: Je toho tolik, co musíme udělat, tolik toho, co musíme na sobě napravit. Čím vůbec *začít*?
 
 `hong({ body:"shrug", eyes:"surprise" })`
 
-h: We're beginning right now.
+h: Začínáme právě teď.
 
 `bb({ eyes:"normal", mouth:"narrow" })`
 
-b: Eh?
+b: Cože?
 
 ```
 bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: We're practicing good communication right now. Which will help us detect danger better, with fewer false positives,
+h: Právě teď si procvičujeme dobrou komunikaci. Což nám pomůže lépe odhalit nebezpečí, s menším počtem falešných poplachů,
 
 `hong({ eyes:"surprise" });`
 
-h: And *that* will help protect us from harm!
+h: A *to* nás pomůže ochránit před újmou!
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Therefore: this *is* self-defense training.
+h: Proto: *jedná se* o výcvik sebeobrany.
 
 `bb({ eyes:"normal_r" })`
 
-b: Huh. I was expecting more of this:
+b: Hm. Čekal jsem spíš něco jako tohle:
 
 ```
 Game.FORCE_CANT_SKIP = true;
@@ -567,26 +565,26 @@ sfx("hiya");
 
 `bb({ eyes:"normal" });`
 
-h: True, there's no way to 100% protect ourselves...
+h: Je pravda, že neexistuje způsob, jak se stoprocentně ochránit...
 
 `hong({ body:"one_up" });`
 
-h: But even a 1% improvement is still worth something, right?
+h: Ale i 1% zlepšení má svou cenu, že?
 
 ```
 bb({ eyes:"annoyed" });
 hong({ normal:"one_up" });
 ```
 
-b: You're seeing the glass as not 99% empty, but 1% full?
+b: Nevidíš sklenici z 99 % prázdnou, ale z 1 % plnou?
 
 `bb({ eyes:"normal" });`
 
-h: Which is still worth something if you're stranded in the desert.
+h: Což je stále k něčemu, pokud jsi uvízl v poušti.
 
 `bb({ eyes:"closed" });`
 
-b: Well. Bottoms up, then.
+b: Tak jo. Tak na zdraví.
 
 (#act4_something_else)
 
@@ -594,26 +592,26 @@ b: Well. Bottoms up, then.
 
 `bb({ body:"chest", eyes:"annoyed" })`
 
-b: I mean, the whole reason you ignored my warnings was because *I* went overboard with safety! 
+b: Vždyť celý důvod, proč jsi ignorovala moje varování, byl ten, že *jsem* to přehnal s bezpečností!
 
 `bb({ body:"normal", eyes:"normal" })`
 
-h: Naw, you're right. We would want to do safety in moderation. Everything in moderation.
+h: Ne, máš pravdu. Bezpečnost bychom měli brát s mírou. Všechno s mírou.
 
 `bb({ eyes:"suspect" })`
 
-b: Sorry, *EVERYTHING* in moderation?
+b: Pardon, *VŠECHNO* s mírou?
 
 `hong({ eyes:"annoyed" })`
 
-h: *A moderate number of things* in moderation.
+h: *Mírný počet věcí* s mírou.
 
 ```
 bb({ eyes:"closed" });
 hong({ eyes:"normal" });
 ```
 
-b: Thank you for making your statements recursively self-consistent.
+b: Děkuji, že jsi své výroky učinil rekurzivně konzistentními.
 
 (#act4_something_else)
 
@@ -622,33 +620,33 @@ b: Thank you for making your statements recursively self-consistent.
 
 `bb({ mouth:"scream_talk", eyes:"scream", MOUTH_LOCK:true });`
 
-b: *WHAT*
+b: *CO*
 
 ```
 bb({ mouth:"narrow", eyes:"suspect" });
 hong({ body:"one_up" });
 ```
 
-h: I mean, let's say a dog is scared of thunder.
+h: Řekněme, že se pes bojí hromu.
 
 `hong({ body:"hands_1" });`
 
-h: One trick trainers use is to play a recording of thunder at a low volume, then give the dog a treat for staying calm.
+h: Jeden z triků, který trenéři používají, je pustit nahrávku hřmění při nízké hlasitosti a pak dát psovi pamlsek za to, že zůstal klidný.
 
 `hong({ body:"hands_2" });`
 
-h: Over several days, the trainer raises the volume bit by bit, until the dog has overcome their fear of thunder.
+h: Během několika dní cvičitel postupně zvyšuje hlasitost, dokud pes nepřekoná strach z hromu.
 
 ```
 hong({ body:"normal", eyes:"surprise" });
 bb({ mouth:"normal", eyes:"normal" });
 ```
 
-h: It's called exposure therapy!
+h: Říká se tomu expoziční terapie!
 
 `hong({ body:"point", eyes:"normal" });`
 
-h: Since you're a dog, it should work for you too, right? All mammals have the same fight-or-flight response.
+h: Protože jsi pes, mělo by to fungovat i pro tebe, ne? Všichni savci mají stejnou reakci „bojuj nebo uteč“.
 
 `hong({ body:"normal" });`
 
