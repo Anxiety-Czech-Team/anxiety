@@ -26,7 +26,7 @@ Loader.addSounds([
 			HOW_MANY_PROMPTS = 1;
 		}
 		Game.CLICK_TO_ADVANCE = !Game.CLICK_TO_ADVANCE;
-		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "on click" : "automatically";
+		text_automatic_toggle.innerHTML = Game.CLICK_TO_ADVANCE ? "po kliknutí" : "automaticky";
 
 		// Sound
 		sfx( Game.CLICK_TO_ADVANCE ? "ui_button2" : "ui_button1");
@@ -145,7 +145,7 @@ Loader.addSounds([
 		div.innerHTML = "";
 
 		// What's the dialogue?
-		var dialogue = Game.TEXT_SPEED<80 ? "Speak this fast" : "Speak this slow";
+		var dialogue = Game.TEXT_SPEED<80 ? "Mluv takto rychle" : "Mluv takto pomalu";
 
 		// Put in the text
 		var span, chr;
@@ -186,7 +186,7 @@ Loader.addSounds([
 	subscribe("show_options_bottom", function(){
 
 		ALREADY_DID_INTRO = false;
-		optionsDOM.setAttribute("past_intro", ALREADY_DID_INTRO ? "yes" : "no");
+		optionsDOM.setAttribute("past_intro", ALREADY_DID_INTRO ? "ano" : "ne");
 		
 		optionsDOM.style.top = "447px";
 		_clearAllTimeouts();
@@ -240,7 +240,7 @@ Loader.addSounds([
 	subscribe("show_options", function(){
 
 		ALREADY_DID_INTRO = true;
-		optionsDOM.setAttribute("past_intro", ALREADY_DID_INTRO ? "yes" : "no");
+		optionsDOM.setAttribute("past_intro", ALREADY_DID_INTRO ? "ano" : "ne");
 
 		optionsDOM.style.top = "200px";
 		Options.showing = true;

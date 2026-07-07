@@ -451,7 +451,7 @@ b: Musíme vypadnout a jít do karantény v malé místnosti s Netflixem a dová
 ```
 _.a2_second_danger = 'netflix';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "a quarantine";
+_.a2_hoodie_callback = "karanténa";
 ```
 
 (#act2c)
@@ -494,7 +494,7 @@ b: "VELKÝ NECHUTNÝ HNUSNÝ ÚCHYL"
 ```
 _.a2_second_danger = 'law';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "the law";
+_.a2_hoodie_callback = "zákon";
 ```
 
 (#act2c)
@@ -524,7 +524,7 @@ b: JE TO EFEKT MOLTÝLÍCH KŘÍDEL! KOLIK LIDÍ OMYLEM ZABÍJÍŠ PRÁVĚ TEĎ
 ```
 _.a2_second_danger = 'butterfly';
 _.a2_attack_2 = "bad";
-_.a2_hoodie_callback = "World War I";
+_.a2_hoodie_callback = "první světová válka";
 ```
 
 (#act2c)
@@ -552,7 +552,7 @@ b: Člověče, musíme utéct od těchto požitkářských zombíků než nás p
 ```
 _.a2_second_danger = 'zombies';
 _.a2_attack_2 = "alone";
-_.a2_hoodie_callback = "zombies";
+_.a2_hoodie_callback = "zombíci";
 ```
 
 (#act2c)
@@ -604,7 +604,7 @@ b: UMŘEEEEEEEEEEŠ
 ```
 _.a2_second_danger = 'ignore';
 _.a2_attack_2 = "harm";
-_.a2_hoodie_callback = "carbon monoxide";
+_.a2_hoodie_callback = "oxid uhelnatý";
 ```
 
 (#act2c)
@@ -686,7 +686,7 @@ b: A ještě by museli dezinfikovat ten dron kvůli našim virům SMUTNÉHO ZAPR
 
 `_.a2_attack_3 = "alone";`
 
-`_.a2_hoodie_callback = "a quarantine";`
+`_.a2_hoodie_callback = "karanténa";`
 
 (#act2d)
 
@@ -725,7 +725,7 @@ b: prože je VELKÝ NECHUTNÝ HNUSNÝ ÚCHYL
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the law";`
+`_.a2_hoodie_callback = "zákon";`
 
 (#act2d)
 
@@ -749,7 +749,7 @@ b: BUM, ZBANKROTOVALA JSI NAŠE ZDRAVOTNICTVÍ A MILIONY UMŘOU
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "the butterfly effect";`
+`_.a2_hoodie_callback = "efekt motýlích křídel";`
 
 (#act2d)
 
@@ -769,7 +769,7 @@ b: Kousnou tě a promění tě do BEZMOZKOVÉHO TÝPKA či NEPŘEMÝŠLEJÍCÍ P
 
 `_.a2_attack_3 = "bad";`
 
-`_.a2_hoodie_callback = "zombies";`
+`_.a2_hoodie_callback = "zombíci";`
 
 (#act2d)
 
@@ -809,7 +809,7 @@ b: ANI BYCHOM NEVIDĚLI SMRT PŘICHÁZET. PROSTĚ BYCHOM PŘESTALI EXISTOVAT NAV
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "carbon monoxide";`
+`_.a2_hoodie_callback = "oxid uhelnatý";`
 
 (#act2d)
 
@@ -869,7 +869,7 @@ b: AHHH MY UMÍRÁME! MY UMÍRÁME MY UMÍRÁME MY UMÍR--
 
 `_.a2_attack_3 = "harm";`
 
-`_.a2_hoodie_callback = "punch bowls";`
+`_.a2_hoodie_callback = "punčové údery";`
 
 (#act2d)
 
@@ -897,70 +897,70 @@ attack("20p", _.a2_attack_3);
 
 (...1001)
 
-h: F^AAACK^!
+h: K^RVAAA^!
 
-h: F^ACK^ING F^ACK^-F^AKK^ITY *F^AAAAACK^*
+h: ZK^URVENÝ^ K^URVY^ K^KUREV^SKÝ *K^URVA^*
 
 `bb({body:"two_up", mouth:"smile", eyes:"happy"});`
 
-b: Yay, human! I'm so happy you can hear me again!
+b: Jéj, člověče! Jsem tak rád, že mě zase slyšíš!
 
 `bb({body:"normal", mouth:"small", eyes:"sad"})`
 
-b: Why were you ignoring me?
+b: Proč jsi mě ignorovala?
 
 `hong({body:"facepalm"})`
 
-h: Holy ^hell^, you absolute moron.
+h: Ach jo, ty jeden hlupáčku.
 
 `hong({body:"facepalm_2"})`
 
-h: You know that Native American story?
+h: Znáš ten příběh od původních Američanů?
 
-h: "There are two wolves inside you, one is hope, one is despair, which wolf wins? The one you feed."
+h: "Uvnitř tebe jsou dva vlci: jeden je naděje, druhý je zoufalství. Který z nich vyhraje? Ten kterého krmíš."
 
 ```
 hong({body:"facepalm_3"});
 bb({eyes:"normal"});
 ```
 
-h: I was trying to *starve* you, you sadistic ^asshole^!
+h: Snažila jsem se tě *vyhladovět*. Ty sadistický ^zmetku^!
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Screw it, I'll do positive affirmations instead.
+h: Kašlu na to. Zkusím pozitivnívní myšlení.
 
-h: *I am loved. I am good. I am smart. I am beautiful. I am special.*
+h: *Jsem milováná. Jsem dobrá. Jsem chytrá. Jsem krásná. Jsem speciální.*
 
 `bb({eyes:"suspect"});`
 
-[Golly, that's so narcissistic!](#act2d_narcissist)
+[Sakryš, ty jsi ale narcis.](#act2d_narcissist)
 
-[Y'know affirmations were *disproven?*](#act2d_disproven)
+[Víš, že pozitivní myšlení bylo *vyvráceno?*](#act2d_disproven)
 
-[omg don't credit random stories to indigenous folk](#act2d_racist)
+[omg nemůžeš připisovat náhodné příběhy domorodcům](#act2d_racist)
 
 # act2d_disproven
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: In fact, they actually *backfire* for people with low self-esteem! 
+b: Ve skutečnosti, se to u lidí s malým sebevědomím vždy *obrátí* proti nim! 
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: It was a well-designed study – randomized controlled trial, experimenter was blinded as to who was in which group.
+b: Byla to dobře navržená studie. Náhodný kontrolní vzorek. Byl to dvojtě slepý experiment, takže vědec nevědel, jaká skupina je jaká.
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Results: if you already had low self-esteem, being asked to repeat affirmations makes you feel *worse* than if you'd said nothing at all!
+b: Výsledek: pokud máš nízké sebevědomí, snažit se o pozitivní myšlení tvé myšlení ovlivní *hůře*, než když bys nedělala nic.
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Look it up on Google Scholar, human,
+b: Wood 2009, Psychological Science. Najdi si to na Google Scholar, člověče,
 
 `bb({body:"scream_b_1"})`
 
-b: THEN STOP SPREADING UNSCIENTIFIC FAKE NEWS
+b: A PŘESTAŇ ŠÍŘIT NEVĚDECKÉ DESINFORMACE
 
 ```
 hong({body:"attacked"});
@@ -976,19 +976,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: You *need* to humbly see your own flaws in order to grow as a person!
+b: *Musíš* pokorně příjmout své chyby aby ses stala lepším člověkem!
 
 `bb({body:"two_up", eyes:"suspect"})`
 
-b: You can't spray air freshener over a moldy room! Covering up your flaws makes you worse in the long run.
+b: Nemůžeš použít osvěžovač vzduchu na plesnivou místnost! Zametat své chyby pod koberec tě v dlouhodobém hledisku zkazí.
 
 `bb({body:"chest", mouth:"smile", eyes:"closed"})`
 
-b: Thankfully, I, as your loyal guard-wolf, can alert you to your flaws. And right now, it's-
+b: Naštěstí, já, tvůj věrný hlídací pes, tě vždy upozorním na tvé chyby. A právě teď, je-
 
 `bb({body:"scream_b_1"})`
 
-b: EVERYTHING. EVERYTHING IS WRONG
+b: VŠECKO. VŠECIČKO ŠPATNĚ
 
 ```
 hong({body:"attacked"});
@@ -1004,15 +1004,15 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"})`
 
-b: Native Americans are *actual people*, not some "noble savages" you can namedrop to make your fortune-cookie advice more *exotic*.
+b: Původní Američané jsou *reální lidé*, ne nějací "povznešení divoší", které můžeš zmínit, abys své rady z horoskopu udělala více *exotická*.
 
 `bb({eyes:"suspect_r"})`
 
-b: You're reducing individual persons & complex cultures to a Hallmark card! That's "benevolent racism"! 
+b: Ty redukuješ individua a komplexní kultury do nápisu na kartičce se přáním! To je "benevolentní rasismus"!
 
 `bb({body:"scream_b_1"})`
 
-b: STOP BEING RACIST YOU SQUINTY-EYED JERK
+b: PŘESTAŇ BÝT RASISTA TY ŠILHAVÝ HRUBIÁNE
 
 ```
 hong({body:"attacked"});
@@ -1026,45 +1026,45 @@ attack("10p", "bad");
 
 # act2e
 
-h: ^ASSDAMMIT^.
+h: DO ^PRDELE^.
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: You know what? You're *irrational*.
+h: Víš co? Jsi *iracionální*.
 
-h: Everyone knows emotions are irrational! Especially fear!
+h: Každý ví, že emoce jsou iracionální! Obvzláště strach!
 
 `hong({body:"facepalm_2"})`
 
-h: You're a useless evolutionary leftover, like my appendix or wisdom teeth!
+h: Jsi jen neužitečný pozůstatek evoluce, jako slepé střevo nebo zub moudrosti!
 
 `hong({body:"yell", mouth:"yell"})`
 
-h: ^Hell^, this whole wolf metaphor is stupid! You're just a bunch of neuro-chemicals in my head.
+h: ^Kruci^, tahle celá vlční metafora je stupidní! Ty jsi jen hromada neurotransmiterů v mojí hlavě.
 
 `hong({body:"cross", mouth:"cross"})`
 
-h: So why should I listen to a worthless, irrational, non-existent piece of ^shit^ like you?!
+h: Proč bych měla poslouchat takové bezcenný, iracionální, neexistující kus ^hovna^, jako jsi ty?!
 
 `bb({eyes:"sad", MOUTH_LOCK:true})`
 
 b: ...
 
-[Jeez, human. That's really hurtful.](#act2e_hurtful)
+[Sakra, člověče. To mě fakt ranilo.](#act2e_hurtful)
 
-[I'm a feeling. Feelings are valid.](#act2e_valid)
+[Jsem pocit, pocity jsou validní.](#act2e_valid)
 
-[Human, we're *both* "just chemicals."](#act2e_rational)
+[Člověče, my jsme *oba* "jen chemikálie."](#act2e_rational)
 
 # act2e_hurtful
 
 `bb({body:"chest"})`
 
-b: I'm *part* of you, you know. When you say that, you're hurting *yourself*.
+b: Jsem *část* tebe, víš. Když to říkáš, tak jen ubližuješ sama *sobě*.
 
 `bb({body:"scream_a_1"})`
 
-b: Why are you hitting yourself, human? STOP HITTING YOURSELF.
+b: Proč si ubližuješ, člověče? PŘESTAŇ SI UBLIŽOVAT.
 
 ```
 music(null);
@@ -1081,23 +1081,23 @@ attack("10p", "harm");
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"});`
 
-b: Your deepest motivations are dopamine, your richest joys are serotonin.
+b: Tvá nejnitěrněší motivace je dopamin, tvá největší radost je serotonin.
 
 `bb({body:"one_up"});`
 
-b: Your memories are synaptic weights, your reason is fault-prone electrical signals.
+b: Tvé vzpomínky jsou jen synaptické váhy, tvé uvažování jsou jen poruchové elekrické signály.
 
 `bb({eyes:"normal", body:"normal"});`
 
-b: So if me being "just chemicals" means *I'm* irrational... then that means *you're* irrational!
+b: Takže pokud to, že jsem "jen chemikálie" znamená, že *jsem* iracionální... tak to znamená, že i "ty jsi" iracionální!
 
 `bb({body:"two_up", eyes:"shock"});`
 
-b: And if we're *both* irrational, then we'll *never* figure out how to be fulfilled and happy!
+b: A pokud jsme *oba* iracionální, tak *nikdy* nepříjdeme na to jak žít šťastný a naplněný život.
 
 `bb({body:"scream_a_1"})`
 
-b: AHHH WE'RE BROKEN! SO BROKEN SO BROKEN SO BROKEN--
+b: AHHH JSME ROZBITÍ! TAK ROZBITÍ TAK ROZBITÍ--
 
 ```
 music(null);
@@ -1114,19 +1114,19 @@ attack("10p", "bad");
 
 `bb({body:"normal", mouth:"normal", eyes:"suspect"});`
 
-b: Hang on... "they" say that feelings are valid, that you should always accept your emotions.
+b: Počkej... "oni" říkají, že pocity jsou validní, že bys měla vždy příjmout své emoce.
 
 `bb({eyes:"suspect_r"});`
 
-b: But "they" also say emotions are irrational, that emotions are not to be trusted.
+b: Ale "oni" také říkají, že emoce jsou iracionální, že emocím se nedá věřit.
 
 `bb({eyes:"angry"});`
 
-b: Oh my gosh, "they" have been lying to us this whole time!
+b: Ó můj bože, "oni" nám celou tu dobu lhali!
 
 `bb({body:"scream_a_1"})`
 
-b: "THEY" FEED US CONTRADICTIONS TO MAKE US DEPENDENT ON THE SELF-HELP INDUSTRIAL COMPLEX
+b: "ONI" NÁM PŘEDHAZOVALI NAVZÁJEM ROZPORUJÍCÍ SE INFORMACIE, ABY NÁS UDĚLALI ZÁVYSLÝMI NA SELF-HELP PRŮMYSLU
 
 ```
 music(null);
@@ -1145,62 +1145,62 @@ attack("10p", "harm");
 
 h: ...
 
-h: I hate this. God it hurts so much I *hate* this.
+h: Nesnášim to. Bože to bolí tak moc, já tohle *nesnáším*.
 
-h: I can't appease you. I can't ignore you. I can't fight you. 
+h: Nemůžu tě nijak upokojit. Nemůžu tě ignorovat. Nemůžu s tebou bojovat.
 
 `bb({eyes:"suspect"});`
 
-h: No matter what I do, I can't seem to get rid of yo--
+h: Ať dělám, co dělám, nemůžu se tě zba-
 
 `bb({body:"cry_1"});`
 
-b: Well maybe you're NOT *SUPPOSED* TO GET RID OF ME.
+b: Možna, ty se máš *ZBAVIT* mě.
 
 `bb({body:"cry_2"});`
 
-b: How do you think *I* feel, human?!
+b: Jak si myslíš, že se cítím *já*, člověče?!
 
 `bb({body:"cry_4", mouth:"cry", eyes:"cry"})`
 
-b: I'm trying my best to be your guard-dog, but you keep seeing me as some Big Bad Wolf!
+b: Já se snažím být tvým ochraným psem, ale ty mě stále vidíš jako nějakého velkého zlého vlka!
 
-b: So I try even *harder* to alert you to danger! *More* danger! *Different* danger!
+b: Takže já se budu snažit ještě *víc* abych tě varoval na nebezpečí! *Více* nebezpečí! *Nejrůznější* nebezpečí!
 
 `bb({eyes:"cry_2"})`
 
-b: But no matter how hard I try to protect you, you *still* think I'm your enemy!
+b: Ale bez ohledu na to, jak moc se snažím tě chránit, ty si *stále* myslíš, že jsem tvůj nepřítel!
 
 `bb({body:"cry_5"});`
 
-b: What am I doing wrong?!
+b: Co dělám špatně?!
 
 `bb({body:"cry_2"});`
 
-b: I *know* I suck at my job. But I'm *trying*, human!
+b: Já *vím*, že mi to moc nejde, ale já se *snažím*, člověče!
 
 `bb({body:"cry_3"});`
 
-b: ...I'm trying.
+b: ...já se snažím.
 
 `bb({body:"cry_6", mouth:"right", eyes:"cry_r_1"});`
 
-b: You don't have to heed my warnings, or agree with me, or even *like* me.
+b: Nemusíš dbát na mé varování, nebo se mnou souhlasit, či mě mít *ráda*.
 
 `bb({eyes:"cry_r_2"});`
 
-b: I just... all I want is for you to be patient with me.
+b: Já jen... jediné co chci je, abys byla se mnou trpělivá.
 
 `bb({eyes:"cry_r_3"});`
 
-b: I just want for you to sit with me for a while, instead of turning away and--
+b: Já jen chci, aby sis sedla se mnou chvilku, místo otáčení se ke mě zády a--
 
 ```
 bb({eyes:"cry_r_4"});
 hong({body:"listen"});
 ```
 
-r: Hey.
+r: Hej.
 
 ```
 hong({body:"look"});
@@ -1217,21 +1217,21 @@ publish("act2",["party_hunter",2]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: Looks like you're caught in a fight with yourself, kid.
+r: Vypadá to, že jsem tě chytnul ve vnitřním boji, špunte.
 
 ```
 publish("act2",["party_hunter",3]);
 publish("act2",["party_hong",13]);
 ```
 
-h2: Was it that obvious?
+h2: Bylo to tak očividné?
 
 ```
 publish("act2",["party_hunter",4]);
 publish("act2",["party_hong",14]);
 ```
 
-r: You were, uh, mumbling at your hoodie about {{_.a2_hoodie_callback}} or something.
+r: Ty jsi, ah, mumlala na svou mikinu ohledně {{_.a2_hoodie_callback}} nebo něco takového.
 
 ```
 publish("act2",["party_hunter",13]);
@@ -1247,7 +1247,7 @@ setTimeout(function(){
 },801);
 ```
 
-h2: oh god i'm such a mess.
+h2: Ah bože já jsem taková ^kráva^.
 
 ```
 publish("act2",["party_hunter",7]);
@@ -1255,7 +1255,7 @@ publish("act2",["party_hong",18]);
 sfx("squeak");
 ```
 
-r: Hey. You're not alone, friend. Anxiety's super common.
+r: Hej. Nejsi sama, kamarádko. Úzkost je mega běžná.
 
 ```
 publish("act2",["party_hunter",5]);
@@ -1263,38 +1263,38 @@ publish("act2",["party_hong",19]);
 ```
 
 {{if _.act1_ending=="fight"}}
-r: Heck, just yesterday, I heard someone on campus had a nervous breakdown and smashed their phone!
+r: Kruci, třeba včera, jsem slyšel, jak se někdo na kampusu nervově zhroutil a rozmlátil si svůj telefon!
 {{/if}}
 
 {{if _.act1_ending=="flight"}}
-r: Heck, just yesterday, I heard someone curled up into an armadillo ball and cried in public!
+r: Kruci, třeba včera, jsem slyšel, že se někdo schoulil jak pásovec a na veřejnosti se rozplakal!
 {{/if}}
 
 ```
 publish("act2",["party_hunter",2]);
 ```
 
-r: Listen: I know what it's like to have that animal in your head.
+r: Poslouchej: Já vím, jaké to je mít to zvíře v hlavě.
 
 ```
 publish("act2",["party_hunter",8]);
 ```
 
-r: We *all* do. That's why I throw these parties every weekend, to forget our worries, forget that animal.
+r: My *všichni* ho máme. To je důvod, proč dělám každý víkend party, aby se zapomělo na trable, zapomělo na to zvíře.
 
 ```
 publish("act2",["party_hunter",9]);
 publish("act2",["party_hong",20]);
 ```
 
-h2: but my anxiety...
+h2: ale moje úzkost...
 
 ```
 publish("act2",["party_hunter",2]);
 publish("act2",["party_hong",21]);
 ```
 
-r: Don't worry, kid. I used to be like you. But then I found a little trick to get that negative voice to shut up forever...
+r: Žádný strach, špunte. Býval jsem jako ty. Pak jsem ale objevil menší trik jak ten negativní hlas umlčet na vždy...
 
 ```
 publish("act2",["party_hunter",3]);
@@ -1324,14 +1324,14 @@ sfx("rustle2");
 publish("act2",["party_hunter",11]);
 ```
 
-r: My own specialty blend. It's a bit stronger than... well, anything legal really.
+r: Můj vlastní osobní mix. Je trochu silnější než... no, vlastně cokoliv legálního.
 
 ```
 publish("act2",["party_hunter",12]);
 publish("act2",["party_hong",24]);
 ```
 
-r: Bottoms up, ^bee-yatch^!
+r: Do dna, ^ču-bíno^!
 
 ```
 hong({body:"hold"});
@@ -1344,11 +1344,11 @@ publish("hp_show");
 
 (...3500)
 
-[Oh my God.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
+[O můj bože.](#act2g_1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is a bad coping mechanism.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Tohle je špatný coping mechanismus.](#act2g_2) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Don't take drinks from strangers.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Neber si pití od cizích lidí.](#act2g_3) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2g_1
 
@@ -1364,7 +1364,7 @@ b: T--
 
 # act2g_3
 
-b: D--
+b: N--
 
 (#act2g)
 
@@ -1383,34 +1383,34 @@ hong({body:"forward", mouth:"forward"});
 bb({body:"frazzled", mouth:"frazzled", eyes:"frazzled"});
 ```
 
-h: Mmm, what an exquisite palette!
+h: Hmmm, jaká unikátní chuťová paleta!
 
-h: A full-bodied flavor of "shut your mind up," with a subtle aftertaste of "never feel anything ever again"!
+h: Taková plnotučná příchuť "umlč svou mysl," s lehkým ocasem z "nikdy už nechci nic cítit"!
 
-b: This is bad, human. This is really, really bad.
+b: Tohle je špatné, člověče. Tohle je fakt, fakt špatné.
 
-[This is *actually* how addiction starts.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Tohle je *pesně* jak závislost začíná.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[I *knew* the host was deeply messed up!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
+[Já *vědel*, že s tím pozváním bylo něco špatně!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[Also, they could have drugged that!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
+[Víš, že do toho mohl něco hodit?!](#act2h_opt2) `Game.OVERRIDE_CHOICE_LINE=true`
 
 
 # act2h_opt1
 
-b: This is *actu*--
+b: Tohle je *pes*--
 
 (#act2h)
 
 # act2h_opt2
 
-b: Also, they co--
+b: Víš, že do to --
 
 (#act2h)
 
 # act2h_opt3
 
-b: I *knew* th--
+b: Víš, že do to--
 
 (#act2h)
 
@@ -1429,17 +1429,17 @@ hong({body:"back", mouth:"back"});
 bb({body:"panicked", mouth:"panicked", eyes:"panicked"});
 ```
 
-h: Delicious, *and* cheaper than therapy!
+h: Výborné *a* levnější než terapie!
 
-b: HUMAN PLEASE STOP
+b: ČLOVĚČE PROSÍM PŘESTAŇ
 
 h: Hehehe!
 
-h: And what are *you* gonna do about it, ^asshole^?
+h: A co s tím *ty* uděláš, ^kreténe^?
 
-b: I'm so sorry, human.
+b: Já se ti omlouvám, člověče.
 
-b: I'm going to have to use my SPECIAL ATTACK
+b: Já budu muset použít můj SPECIÁLNÍ ÚTOK
 
 ```
 bb({body:"special_a"});
@@ -1466,9 +1466,9 @@ hong({body:"forward", mouth:"forward"});
 sfx("charging");
 ```
 
-h: What's this ^crap^?
+h: Co je to za ^sračku^?
 
-h: You're gonna yap more stupid *words* at me to--
+h: Ty budeš tlachat víc stupidních *slovíček* mým směrem, aby--
 
 ```
 bb({body:"special_c"});
@@ -1504,45 +1504,45 @@ setTimeout(function(){
 
 (...2500)
 
-h: WHAT THE ^HELL^ WAS THAT
+h: CO TO ^KURVA^ BYLO
 
-b: I'm sorry. I needed to show you the consequences.
+b: Já se omlouvám. Musel jsem ti ukázat následky.
 
 {{if _.SPECIAL_ATTACK=="harm"}}
-h: I COULD *SEE* MY OWN CORPSE. I COULD *FEEL* THE SENSATION OF BEING ACTUALLY DEAD.
+h: MOHLA JSEM *VIDĚT* MOJÍ VLASTNÍ MRTVOLU. MOHLA JSEM *CÍTIT*, JAKÉ JE TO BÝT SKUTEČNÉ MRTVÁ.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="alone"}}
-h: I COULD *SEE* EVERYONE'S LOOK OF DISGUST. I COULD *HEAR* ALL THE THINGS THEY SAID.
+h: MOHLA JSEM *VIDĚT* VŠECHNY TY ZNECHUCENÉ POHLEDY. MOHLA JSEM *SLYŠET* VŠECHNY TY DRBY CO ŘÍKALI.
 {{/if}}
 
 {{if _.SPECIAL_ATTACK=="bad"}}
-h: I COULD *HEAR* THE CRUNCHING OF RIBS. I COULD *TASTE* THE BLOOD IN THE AIR.
+h: MOHLA JSEM *SLYŠET* DRCENÍ ŽEBER. MOHLA JSEM *CÍTIT* KREV VE VZDUCHU.
 {{/if}}
 
-b: I'm sorry, human.
+b: Promiň, člověče.
 
-n: *FINISH THEM*
+n: *UKOČNI TO*
 
-[{FIGHT: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{BOJUJ: Punch the host.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
+[{UTEČ: Let's get out of here.}](#act2j_flight) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act2j_fight
 
 `bb({ eyes:"angry" });`
 
-b: That psychopath was taking advantage of you.
+b: Ten psychouš tě zneužívá.
 
-b: They were trying to corrupt you, make you as messed up as they are!
+b: Snaží se tě zkazit, udělat tě stejně narušenou, jako je on!
 
 `bb({ body:"yell_angry_1" });`
 
-b: Punch that jerk! Knock their friggin' lights out!
+b: Dej mu pěstí! Dej mu absolutního vypínáka!
 
 `bb({ body:"final_1" });`
 
-b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THE--
+b: PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRAŠŤ HO PRA--
 
 `_.a2_ending = "fight";`
 
@@ -1550,15 +1550,15 @@ b: PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM PUNCH THEM 
 
 # act2j_flight
 
-b: I *knew* all these partygoers were deeply messed up. They all dull their pain with horrible things!
+b: Já *věděl*, že tihle pařmeni jsou hluboce narušená individua. Všichni utlumují své trable hroznými věcmi!
 
 `bb({ body:"yell_1" });`
 
-b: And they're tricking you into doing the same thing! They're corrupting you! We need to get out!
+b: A tebe přesvědčují, abys dělala to samé! Kazí tě! Musíme vypadnout!
 
 `bb({ body:"final_1" });`
 
-b: GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OUT GET OU--
+b: VYPADNOUT VYPADNOUT VYPADNOUT VYPADNOUT VYPADNOUT VYPA--
 
 `_.a2_ending = "flight";`
 
@@ -1587,7 +1587,7 @@ publish("act2",["party_hunter",14]);
 Game.WORDS_HEIGHT_BOTTOM = 230;
 ```
 
-r: You alright, kid?
+r: Jsi v poho, špunte?
 
 `publish("act2",["party_hunter",13]);`
 
@@ -1619,7 +1619,7 @@ publish("act2",["dee",6]);
 publish("act2",["dum",6]);
 ```
 
-r: Y-you...
+r: T-ty...
 
 ```
 publish("act2",["party_hunter",23]);
@@ -1629,22 +1629,22 @@ publish("act2",["dum",5]);
 music('party1', {volume:0.6, fade:6});
 ```
 
-r: are *kinky*.
+r: jsi *kinky*.
 
-r: I like that. Come to my party next weekend, cutie.
+r: To se mi líbí. Přijď na párty příští víkend, cukrouši.
 
 ```
 publish("act2",["party_hunter",19]);
 publish("act2",["party_hong",36]);
 ```
 
-h2: ok bye, ciao, adios, au revoir
+h2: ok, čau, ciao, adios, au revoir, bye
 
-r: The animal might have won today, but come back, and I'll mix something even stronger for you!
+r: To zvíře možná vyhrálo dneska, ale přijď zpět, a já ti namíchám něco ještě něco silnějšího!
 
 h2: sayōnara, auf wiedersehen, zài jiàn, shalom
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Ty a já, špunte, my ukážeme tomu zvířeti, kdo je šéf!
 
 (#act2k_end)
 
@@ -1652,23 +1652,23 @@ r: You and me, kid, we'll show that beast who's boss!
 
 `publish("act2",["party_hong",36]);`
 
-h2: ok sorry i have to run
+h2: ok promiň, musím běžet
 
 `publish("act2",["party_hunter",16]);`
 
-r: ^Damn^ it. The animal won today, huh?
+r: ^Sakra^. To zvíře dnes vyhrálo, co?
 
 `publish("act2",["party_hunter",15]);`
 
-h2: no no, just, uh, gotta run a marathon. gotta go fast.
+h2: ne ne, jen, hmmm, musím dát maraton. musím běžet.
 
 `publish("act2",["party_hunter",19]);`
 
-r: Come to my party next weekend, cutie. I'll mix something even stronger for you.
+r: Přijď na mojí party příští víkend, cukrouší. Namíchám něco ještě něco silnějšího.
 
-h2: ok thanks gonna run run run run run
+h2: ok, díky musím běžet běžet běžet běžet
 
-r: You and me, kid, we'll show that beast who's boss!
+r: Ty a já, špunte, my ukážeme tomu zvířeti, kdo je šéf!
 
 (#act2k_end)
 
@@ -1691,13 +1691,13 @@ sfx("whoosh");
 
 (...1000)
 
-b: Human! Are you okay?!
+b: Člověče! Jsi v pohodě?!
 
 ```
 publish("act2", ["act2_end","next"]);
 ```
 
-b: Gosh, that was *close.* We really could've--
+b: Jéžiš, to bylo *těsné.* Vážně jsme mohli--
 
 ```
 Game.clearText();
@@ -1715,11 +1715,11 @@ sfx("hit");
 
 (...1000)
 
-h: I'm coming back to the party next weekend.
+h: Já na tu párty jdu znova příští víkend.
 
-h: The next time we fight, I'm not just going to *defeat* you...
+h: Přiště, až budeme spolu bojovat, nejn že tě *porazím*...
 
-h: I'm going to ^fuck^ing *kill* you.
+h: Já tě ^kurva^ *zabiju*.
 
 ```
 Game.clearText();

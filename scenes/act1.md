@@ -1586,9 +1586,9 @@ n: VYBERTE SI SVŮJ ZÁVĚREČNÝ TAH
 
 n: *DOKONČTE JE*
 
-[{FIGHT: Potrestejte svůj stresující telefon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{BOJUJ: Potrestejte svůj stresující telefon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Schouli se do klubíčka a plač!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{UTEČ: Schouli se do klubíčka a plač!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 
