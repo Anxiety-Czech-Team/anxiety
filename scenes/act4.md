@@ -885,60 +885,59 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: We could practice skills like asking questions, listening and empathizing, being open and vulnerable, etc?
+h: Mohli bychom se naučit nějaké schopnosti jako: ptát se na otázky, naslouchání, empatie, otevírat se novým myšlenkám a být zranitelný, atd?
 
 `hong({ eyes:"normal_l" });`
 
-h: Or make better social habits, like scheduling time with friends or regularly going to meetups?
+h: Či si udělat lepší sociální návyky, jako plánovaní volného času s kamarády nebo pravidelně chodit na srazy?
 
 `hong({ body:"one_up" });`
 
-h: Could also learn to get more comfortable with rejection.
-
+h: Také se naučit být víc v pohodě s odmítnutím.
 `hong({ eyes:"normal" });`
 
-h: Or learn to know when people *aren't* rejecting us, they're just tired or have Resting ^Bitch^ Face.
+h: Nebo se naučit poznat kdy lidi *nejsou* na nás naštvaní, jsou jen unaveni z našeho ksichtění.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: That's a lot of options. But, about "learning social skills"...
+b: To je hromada možností. Ale, ohledně "učení se sociálních schopností"...
 
-[Isn't that *manipulative?*](#act4_alone_skills_manipulative)
+[Není to *manipulativní?*](#act4_alone_skills_manipulative)
 
-[Won't that make us *easier to manipulate?*](#act4_alone_skills_manipulated)
+[Neučiní nás to *náchylnější na manipulace?*](#act4_alone_skills_manipulated)
 
-[What if we still fail?](#act4_alone_skills_fail)
+[Co, když i přes to selžeme?](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
 `bb({ eyes:"suspect" });`
 
-b: Aren't serial killers who can read their victims' emotions great at "empathy"?
+b: Nejsou sérioví kteří čtou emoce jejich obětí dobří v empatii?
 
 `bb({ eyes:"annoyed" });`
 
-b: Didn't Charles Manson win friends and influence people?
+b: Nezískával si Charles Manson přátele a neměl vliv na lidi?
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
-h: No, you're right.
+h: Ano, máš pravdu.
 
-h: "Social skills" mean nothing if we don't genuinely care *for* people.
+h: "Sociální schopnosti" neznamenají nic, pokud nás pokud *o* lidi nemáme upřímný zájem.
 
 `hong({ body:"normal" });`
 
-h: Basically, just don't be a ^dick^.
+h: Prostě, nebuď ^kokot^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
-b: That's a motivational poster caption right there.
+b: To bych chtěl jako motivační popisek na plakát.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Don't Be A ^Dick^™”
+h: “Prostě, Nebuď ^Kokot^™”
 
 (#act4_something_else)
 
@@ -946,29 +945,29 @@ h: “Don't Be A ^Dick^™”
 
 `bb({ eyes:"angry" })`
 
-b: We'll become a Welcome doormat, saying Please and Thank You as people wipe their feet on us!
+b: Budeme jako vítací rohožka, říkat Prosím a Děkuji Ti jako by si lidi o nás otírali boty!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
-b: We'll kiss so much butt, it'll look like we're wearing brown lipstick!
+b: Políbíme tolik zadků, že to bude vypadat, že nosíme hnědou rtěnku!
 
 ```
 bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Nah, you're right. "Social skills" can't be just about pleasing others, it's also got to be about setting *boundaries.*
+h: Jo, máš pravdu. "Sociální dovendosti" nemohou být jen o tom uspokojovat ostatní, taky by to mělo být o nastavování *hranic*.
 
 `hong( body:"one_up" });`
 
-h: We can't invite others into our home, if we have no walls to hold up our home.
+h: Nemůžeme pozvat cizí lidi domů, když nemáš žádné zdi, které by ten dům držely.
 
 ```
 hong( eyes:"angry", mouth:"narrow" });
 bb( eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Also... re: that lipstick mental image... *ew??*
+h: Taky... ta představa té rtěnky... *fuj??*
 
 (#act4_something_else)
 
@@ -976,26 +975,26 @@ h: Also... re: that lipstick mental image... *ew??*
 
 `bb({ eyes:"annoyed" });`
 
-h: We might fail. Actually, we *will* fail.
+h: Můžeme selhat. Ve skutečnosti, *selžeme*.
 
 ```
 bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: And that's fine! Failing is how anyone learns anything new at first!
+h: To je v pořádku! Selhání je jak se všichni učíme novým věcem!
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: So let's fail forward together, yeah?
+h: Tak pojďmě společně selháním kupředu, jo?
 
 `bb({ eyes:"normal_r" });`
 
-b: Sure, I guess... worst-case scenario, we can just skip town and get a new identity.
+b: Jasně, proč ne... v nejhorším se odstěhujeme a získáme si novou identitu.
 
 `bb({ eyes:"normal" });`
 
-h: Yeah I think that only costs two bitcoins these days.
+h: To myslím stojí dnes jen dva bitcoiny.
 
 (#act4_something_else)
 
@@ -1006,33 +1005,33 @@ hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: We could try some experiments!
+h: Můžeme zkusit nějaké experimenty!
 
 `hong({ body:"chin" });`
 
-h: We could ping a friend to hang out, reconnect with an old pal, or even just chat with a barista.
+h: Můžeme pošťouchnout kamaráda, aby jsme se potkali, setkání po letech se starým brachem, nebo jen pokecat s baristou.
 
 `hong({ body:"normal" });`
 
-h: I think we may find we're more likeable than we suspect.
+h: Myslím si, že můžeme zjistit, že jsme oblíbenější, než si myslíme.
 
 `bb({ eyes:"annoyed" });`
 
-[What if these are small, cheap "wins"?](#act4_alone_experiment_cheap)
+[Co když tohle jsou jen malá, levná "vítezství"?](#act4_alone_experiment_cheap)
 
-[What if this is a burden to others?](#act4_alone_experiment_burden)
+[Co když tohle je zátěž pro ostatní?](#act4_alone_experiment_burden)
 
-[But small talk isn't the *real* us!](#act4_alone_experiment_real_us)
+[Ale *small talk* není to *pravé* my!](#act4_alone_experiment_real_us)
 
 # act4_alone_experiment_real_us
 
 `bb({ eyes:"sad" });`
 
-b: If we put on a shallow smile, we'll never really connect with anyone,
+b: Pokud nasadímé mělký úsměv, nikdy nebudeme schopni se propojit s kýmkoliv,
 
 `bb({ eyes:"super_sad" });`
 
-b: *But* if we open up, other people will see all our messed-up insides!
+b: *Ale* pokud se otevřeme ostatním lidem, uvidí, jak jsme uvnitř rozbití!
 
 `hong({body:"chin", mouth:"narrow", MOUTH_LOCK:true})`
 
@@ -1043,64 +1042,64 @@ hong({body:"normal", mouth:"normal"});
 bb({eyes:"normal"});
 ```
 
-h: Roll over.
+h: Překul se.
 
-b: What.
+b: Co?
 
 `hong({body:"hands_1"})`
 
-h: When dogs want to show love and trust, they make themselves vulnerable by exposing their belly.
+h: Když psi chtějí ukázat lásku a důvěru, učiní se zranitelnými ukázáním břicha.
 
 `hong({body:"one_up"})`
 
-h: Maybe we're not *yet* secure enough to be too vulnerable, but with enough training,
+h: Možná *ještě* nemáme dostatečný pocit bezpečí, abychom byli zranitelní, ale s dostatečným tréninkem...
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: One day we can show people the real us – all messed-up, all human.
+h: Jednoho dne budeme moci ukázat lidem naše pravá já, naprosto robité, naprosto lidské.
 
 ```
 hong({eyes:"normal"});
 bb({ eyes:"super_sad", mouth:"smile", body:"chest" });
 ```
 
-b: I'll roll over if you give me a treat.
+b: Já se převalím, pokud mi dáš pamlsek.
 
 `bb({ eyes:"normal", mouth:"normal" });`
 
-h: No.
+h: Ne.
 
 (#act4_something_else)
 
 
 # act4_alone_experiment_cheap
 
-b: Saying "hi" to the barista isn't exactly gold-medal performance in the Social Butterfly Olympics.
+b: Řikat "ahoj" baristovi není úplně olympijský výkon v disciplíně sociálního přizpůsobování.
 
 ```
 hong({ body:"point", eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: It is for *us!*
+h: Je to pro *nás!*
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: In the social arena, we're not even featherweight class, we're like... quark-weight.
+h: V ringu sociálních schopností jsme nesme ani v peříčkové váhové kategorii. Jsme spíše... kvarková váhová kategorie.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: If we have to start with small, cheap wins, so be it. Gotta climb the 1st step before the 1000th step.
+h: A někde musíme začít a jestli to mají být jednoduchá vítězství, tak ať. Musíš udělat ten první krok než uděláš tes tisícátý.
 
-b: Yeah! Maybe after saying "Hi", we can advance to saying...
+b: Jo! Možná po tom co řekneme "Ahoj", můžeme pokračovat a říct...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
-b: *"How are you?"*
+b: *"Jak se máš?"*
 
 `hong({ body:"shrug", mouth:"smile", eyes:"surprise_l" });`
 
-h: *"Not much!"*
+h: *"Nic moc!"*
 
 (#act4_something_else)
 
@@ -1868,11 +1867,11 @@ b: Maybe you can tame this wolf.
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Good dog.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
+[Hodný pejsek.](#act4f-pat-bb) `Game.OVERRIDE_CHOICE_SPEAKER = "h"; publish("act4", ["hong_closer", 2]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "b"`
 
-[Good human.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
+[Hodný člověk.](#act4f-pat-hong) `Game.OVERRIDE_CHOICE_SPEAKER = "b"; publish("act4", ["bb_closer", 8]);`
 
 # act4f-pat-hong
 
@@ -1969,15 +1968,15 @@ publish("act4", ["hong_closer", 5]);
 ```
 
 {{if _.fifteencigs}}
-b: AAAAA YOU'RE STILL EATING ALONE FIFTEEN CIGARETTES AAAAA
+b: AAAAA STÁLE JÍŠ SAMA PATNÁCT CIGARET AAAAA
 {{/if}}
 
 {{if _.parasite}}
-b: AAAAA YOU'RE STILL NOT PRODUCTIVE WHILE EATING WE'RE SOCIETY-PARASITES AAAAA
+b: AAAAA STÁLE NEJSI PRODUKTIVNÍ KDYŽ JÍŠ JSME SOCIÁLNÍ PARAZITI AAAAA
 {{/if}}
 
 {{if _.whitebread}}
-b: AAAAA YOU'RE EATING MORE WHITE BREAD AAAAA
+b: AAAAA JÍŠ VÍCE BÍLÉHO PEČIVA AAAAA
 {{/if}}
 
 ```
