@@ -1107,29 +1107,29 @@ h: *"Nic moc!"*
 
 `bb({ eyes:"suspect_r" })`
 
-b: Maybe the barista just wants to make some dang coffee, not be an *experiment* to see if our social skills suck.
+b: Možná barista chce prostě dělat dobré kafe, ne být *experimentem*, jestli naše sociální schopnosti stojí za prd.
 
 `bb({ eyes:"annoyed" })`
 
-h: Well, if it turns out we *are* being a burden...
+h: Víš, jestli se ukáže, že *jsme* průda...
 
 ```
 hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: That's good to know, too!
+h: To je taky dobré to vědet.
 
 `hong({ eyes:"normal" });`
 
-h: We can then learn how to pro-actively ask people what they're comfortable with, to know and respect others' boundaries.
+h: Můžeme se pak naučit, jak se předem zeptat lidí, s čím jsou komfortní, abychom znali a respektovali hranice ostatních lidí.
 
 ```
 hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Y'know, all that "inter-personal skills" ^crap^ we see in counselor brochures.
+h: Víš, všchny ty ^sračky^ okolo "dovedností v oblasti mezilidských vztahů", kteých jsou plné psychologické letáky.
 
 (#act4_something_else)
 
@@ -1144,43 +1144,43 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: I want to defend your moral needs, that drive to become a better person,
+b: Já chci zajistit tvé morální potřeby, které tě vede k tomu, byýt lepším člověkem.
 
 `bb({ eyes:"sad_d" })`
 
-b: But it just feels like deep down, we're so fundamentally... broken.
+b: Ale hluboko uvnitř cítím, že jsme od základu... rozbití.
 
 `bb({ body:"two_up", eyes:"angry" })`
 
 {{if _.INJURED}}
-b: And don't tell me we're *not* messed up. We jumped off a *roof*.
+b: A opovaž se mi říkát, že *ne*jsme rozbití. Skočili jsme ze *střechy*.
 {{/if}}
 
 {{if !_.INJURED}}
-b: And don't tell me we're *not* messed up. We almost jumped off a *roof*.
+b: A opovaž se mi říkát, že *ne*jsme rozbití. Skoro jsme skočili ze *střechy*.
 {{/if}}
 
 `bb({ body:"normal", eyes:"sad" })`
 
 {{if _.a4_fears_discussed==1}}
-b: I dunno, enough of *me* choosing what to say next. What do *you* say, human?
+b: Já nevím, *já* už jsem dost dlouho rozhodoval, o čem se bavíme. Co na to říkáš *ty*, člověče?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-b: Again, back to you, human. What do you think?
+b: Znovu, co sy myslíš ty člověče?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: More thoughts, human?
+b: Nějaké další myšlenky, člověče?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[So we're broken. Let's fix us.](#act4_bad_fix)
+[Tak jsme rozbití. Pojďme se spravit.](#act4_bad_fix)
 
-[So we're broken. Let's accept it.](#act4_bad_accept)
+[Tak jsme rozbití. Pojďme to příjmout.](#act4_bad_accept)
 
-[Thank you.](#act4_thanks) `_.thanks_for = "moral well-being";`
+[Děkuji ti.](#act4_thanks) `_.thanks_for = "morální pohodu";`
 
 # act4_bad_fix
 
@@ -1189,48 +1189,48 @@ bb({eyes:"normal"});
 hong({body:"chin"});
 ```
 
-h: We could slowly build better habits, get our life more in line with what we value,
+h: Můžeme si vytvořit lepší návyky, sladit náš život s tím, čeho si vážíme.
 
 `hong({body:"one_up"});`
 
-h: And if needed, we could get professional help – a therapist or counsellor.
+h: A pokud bude třeba, můžeme vyhledat profesionální pomoc, terapeuta nebo konzultace.
 
 `hong({body:"normal"});`
 
-h: There's ways to fix us.
+h: Jsou možnosti, jak nás spravit.
 
-[What if we can't fix it all?](#act4_bad_fix_cant)
+[Co, když nemůžeme spravit všechno?](#act4_bad_fix_cant)
 
-[What if we fix *too* much?](#act4_bad_fix_too_much)
+[Co když toho opravíme až *moc*?](#act4_bad_fix_too_much)
 
-[We can't afford professional help.](#act4_bad_fix_afford)
+[Nemůžeme si dovolit profesionální pomoc.](#act4_bad_fix_afford)
 
 # act4_bad_fix_cant
 
 `hong({eyes:"annoyed"});`
 
-h: Nah, I guess you're right.
+h: Jako, myslím, že máš pravdu.
 
-h: We can't fix it all.
+h: Nemůžeme spravit všechno.
 
 `bb({mouth:"scream", eyes:"scream_sad"});`
 
-b: Ahhh I knew it we'll always be broken!
+b: Ehhhh já vědel, že vždy budeme rozbití!
 
 `hong({eyes:"surprise"});`
 
-h: But we can at least be *less* broken.
+h: Ale můžeme být při nejmenším být *méně* rozbití.
 
 ```
 bb({mouth:"normal", eyes:"annoyed"});
 hong({eyes:"sad", mouth:"smile"});
 ```
 
-h: Scars heal with time, but they never go away. And that's okay.
+h: Jizvy se časem zacelí, ale nikdy nezmizí. A to je v pořádku.
 
 `bb({eyes:"annoyed_r"});`
 
-b: I guess. Besides,
+b: Asi jo. Mimoto,
 
 ```
 Game.FORCE_TEXT_Y = 460;
@@ -1238,7 +1238,7 @@ Game.clearText();
 publish("act4-sexy", [true]);
 ```
 
-b: Scars are *sexy.*
+b: Jizvy jsou *sexy.*
 
 ```
 Game.FORCE_TEXT_Y = -1;
@@ -1248,7 +1248,7 @@ bb({body:"chest", mouth:"smile_talk", MOUTH_LOCK:true, eyes:"sexy"}, 0);
 hong({eyes:"normal", mouth:"normal"}, 0);
 ```
 
-h: Please do not do that.
+h: Prosim přestaň.
 
 (#act4_something_else)
 
@@ -1256,35 +1256,35 @@ h: Please do not do that.
 
 `bb({ eyes:"angry_d" })`
 
-b: This feels sick to admit, but... some part of me *wants* to have this disorder.
+b: Tohle je asi divné přiznat, ale... nějaká část mě *chce* mít tuhle poruchu.
 
 `bb({ eyes:"angry" })`
 
-b: I mean, without it, won't we be *boring?*
+b: Jako, nebudeme bez ní *nudní?*
 
 `bb({ eyes:"sad_r", body:"one_up" })`
 
-b: Without the disorder, won't our art become stale and bland?
+b: Bez této poruchy, nebudeme naše umění nemastné, neslané?
 
 `bb({ eyes:"sad_u", body:"two_up" })`
 
-b: Without the disorder, won't we be unable to connect with our friends who have the disorder?
+b: Bez té poruchy, budeme stále schopní se bavit s kamarády, kteří mají poruchu?
 
 `bb({ eyes:"sad", body:"chest" })`
 
-b: If we're ever content with life, won't we stop driving ourselves to do great things?
+b: Pokud najdeme smír v duši, nebude nás to brzdit od dělání velkých věcí?
 
 `hong({ MOUTH_LOCK:true })`
 
 h: ...
 
-h: If we even fear... "running out of fears"...
+h: Pokud se bojíme... "že se nebudeme ničeho bát"...
 
-h: I don't think we're gonna run out of fears.
+h: Mám pocit, že nám strachy jen tak nedojdou.
 
 `bb({ eyes:"smile_u", body:"normal", mouth:"smile" })`
 
-b: Oh, yeah! Whew! What a relief!
+b: Uff! Ahh! Jaké to úleva!
 
 (#act4_something_else)
 
@@ -1292,53 +1292,53 @@ b: Oh, yeah! Whew! What a relief!
 
 `bb({ body:"one_up", eyes:"sexy", mouth:"normal" })`
 
-b: "Doc, I'm anxious that I'm paying $100/hr just to hear you ask *how does that make you feel?*"
+b: "Dotore, mám úzkosti, že platím 1000 Kč/hod, jen abych slyšela, jak se zeptáte *jak se z toho cítite?*"
 
 `bb({ body:"paw", eyes:"closed", mouth:"narrow" })`
 
-b: "Mm-hmm. And how does that make you feel?"
+b: "Mm-hmm. A jak se z toho cítíš?"
 
 ```
 bb({ body:"normal", eyes:"normal", mouth:"normal" });
 hong({ eyes:"sad" });
 ```
 
-h: Nah, that's a totally reasonable worry.
+h: Meh, to zní jako naprosto pochopitelná obava.
 
 `hong({ eyes:"annoyed", mouth:"sad" });`
 
-h: And it genuinely sucks that mental healthcare isn't affordable for lots of folks.
+h: A stojí za prd, že mentální zdaví není dostupné pro hromadu lidí.
 
 `hong({ eyes:"normal", mouth:"normal" });`
 
-h: Still, there are some cheap or free options:
+h: Přes to, jsou tu levnější alternativy:
 
 `hong({ body:"chin" })`
 
-h: Support groups, online therapy, student/non-profit health centers...
+h: Podporné skupiny, online terapie, studentská/nezisková zdravotní centra...
 
 `hong({ body:"hands_1" })`
 
-h: Building habits like meditation, sleeping well, chatting regularly with friends, learning new things...
+h: Učit se návyky jako meditace, bavit se pravidelně s kamarády, učit se nové věci, zaměřit se na kvalitní spánek...
 
 `hong({ body:"hands_2" })`
 
-h: Going to a library to borrow workbooks for evidence-based psychotherapies...
+h: Jít do knivny si půjčit knížky pro psychoterapie založené na poznatcích...
 
 `hong({ body:"one_up" })`
 
-h: There's a full list of resources at the end of this game!
+h: Tady je celý seznam na konci této hry!
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed", mouth:"narrow" });
 ```
 
-b: Well *that* fourth wall didn't last long.
+b: No, *ta* čtvrá stěna nevydržela moc dlouho.
 
 `hong({ body:"point" });`
 
-h: Some things are more important than narrative convention. Such as mental health.
+h: Jsou duležitější věci než správné vypravění příběhu. Třeba mentální zdraví.
 
 (#act4_something_else)
 
@@ -1350,7 +1350,7 @@ bb({ eyes:"normal" });
 hong({ eyes:"normal_l", body:"one_up", mouth:"narrow" });
 ```
 
-h: I mean, that's what therapists say right? Accept all your emotions, even the negative ones?
+h: Já myslím, že to říkají terapeuti? Příjmy své emoce, i ty negativní?
 
 ```
 bb({ eyes:"annoyed" });
@@ -1359,39 +1359,39 @@ hong({ eyes:"normal", body:"normal", mouth:"normal" });
 
 b: Wait.
 
-["Accept" as in *give up*?](#act4_bad_accept_give_up)
+["Příjmi" jako *vzdej to*?](#act4_bad_accept_give_up)
 
-["Accept" as in *approve*?](#act4_bad_accept_approve)
+["Příjmi" jako *schvaluj*?](#act4_bad_accept_approve)
 
-["Accept" as in *take literally*?](#act4_bad_accept_literally)
+["Příjmi" jako *ber doslova*?](#act4_bad_accept_literally)
 
 # act4_bad_accept_give_up
 
 `bb({ eyes:"angry", body:"one_up" });`
 
-b: Do you think Martin Luther King would've said, "Shucks we can't sit in the front of the bus, let's just *accept* it?"
+b: Myslíš si, že Martin Luther King by řekl, "Hoši, nemžeme sedět vepředu v autobuse, pojďme to *akceptovat*?"
 
 `bb({ eyes:"angry_r", body:"two_up" });`
 
-b: Why does the Self-Help Industrial Complex think waving the white flag is some *profound wisdom?*
+b: Přoč si self-help průmysl myslí, že mávat bílým praporem je nějaké *hluboké moudro?*
 
 `bb({ eyes:"annoyed", body:"normal" });`
 
-h: I think therapists mean "accept" bad things as in: acknowledging they exist and are hard to change,
+h: Myslím si, že terapeuti myslí "příjmi" špatné věci jako: přiznej, že existují a jsou těžké změnit,
 
-h: But not necessarily giving up a commitment to change.
+h: Ale ne nutně se vzdát snahy to změnit.
 
 `bb({ eyes:"suspect" });`
 
-b: Then therapists should say *acknowledge*, not *accept*.
+b: Tak by měli terapeuti říkat *přiznej*, ne *příjmi*.
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" is kinda confusing.
+h: Jako, jak nda tím přemýšlím, "příjmi" je docela matoucí.
 
 `bb({ eyes:"closed", mouth:"narrow" });`
 
-b: Well, I *acknowledge* that.
+b: Tak to *přiznávám*.
 
 (#act4_something_else)
 
@@ -1399,52 +1399,52 @@ b: Well, I *acknowledge* that.
 
 `bb({ eyes:"angry" });`
 
-b: Like it's *good* that we're broken or something? No!
+b: Jako, kdyby bylo *dobře*, že jsme rozbití nebo tak nějak? Ne!
 
 `bb({ eyes:"angry_r", body:"one_up" });`
 
-b: All those dang Hollywood screenwriters who romanticize mental illness are full of crud!
+b: Všichni tihle Hollywoodští scénáristé, kteří romantizovali mentální nemoce kecají nesmysly!
 
 `bb({ eyes:"angry", body:"two_up" });`
 
-b: Having a mental disorder *sucks!* It robs people of *lives!* Why should we "accept" that?!
+b: Mít mentální poruchu stojí za *prd!* Lidem to kazí *životy!* Proč bychom to měli "přijímout"?!
 
 `bb({ body:"normal" });`
 
-h: I think therapists mean "accept" our emotions as in: be patient with them.
+h: Myslím si, že terapeuti myslí "příjmout" naše emoce ve smyslu: měj s nimi trpělivost.
 
 ```
 hong({ body:"one_up" });
 bb({ eyes:"normal" });
 ```
 
-h: Like how struggling in quicksand makes you sink faster, and the solution is to patiently lie flat,
+h: Jako soupeření s tekutým pískem tě jen potopí rychleji a řešení problému je trpělivě počkat,
 
 `hong({ eyes:"surprise" });`
 
 {{if _.INJURED}}
-h: Fighting against you, my fear, led me to jump off a roof.
+h: Bojovat proti tobě, můj strachu, mě vedlo k tomu, abych skočila ze střechy.
 {{/if}}
 
 {{if !_.INJURED}}
-h: Fighting against you, my fear, almost led me to jump off a roof.
+h: Bojovat proti tobě, můj strachu, mě skoro vedlo k tomu, abych skočila ze střechy.
 {{/if}}
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Instead, the solution is to do what we're doing now – not to fight, but to patiently be with each other.
+h: Místo toho, řešení ješení je to, co děláme teď. Nebojujeme, ale ukazujeme tomu druhému trpělivost.
 
 `bb({ eyes:"annoyed" });`
 
-b: Then they should say *that* instead of some problematic word like "accept".
+b: Tak by měli říkat *tohle* místo nějakých problematických slov jako "příjmout".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: Yeah come to think of it, "accept" kind of sucks.
+h: Jak nad tím přemýšlím, "příjmout" stojí za prd.
 
 `bb({ eyes:"closed_annoyed", mouth:"narrow" });`
 
-b: I do not accept "accept".
+b: Já nepříjímám "příjmout".
 
 (#act4_something_else)
 
@@ -1452,30 +1452,30 @@ b: I do not accept "accept".
 
 `bb({ eyes:"sad", body:"one_up" });`
 
-b: But we already *know* you shouldn't take me literally!
+b: Ale už *víme*, že bys mě neměla brát doslova!
 
 `bb({ eyes:"sad_u", body:"two_up" });`
 
-b: The whole *problem* is that I want to help you, but I suck at using words to do so!
+b: Celý ten *problém* je to, že já ti chci pomoc, ale stojím za prd ve vybírání těch pravých slov!
 
 `bb({ eyes:"sad", body:"normal" });`
 
-h: I think therapists mean "accept" your emotions as in: "don't fight or ignore them."
+h: Já si myslím, že terapeuti myslí "příjímaní" svých emoci jako: "nebojuj s nimi nebo je neignoruj."
 
 `hong({ eyes:"surprise", body:"one_up" });`
 
-h: To listen to you, work *with* you, but not take what you say as 100% literal truth.
+h: Vyslechnout tě, pracovat *s* tebou, ale nebrat tě jaki 100% doslovnou pravdu.
 
 ```
 hong({ eyes:"normal", body:"normal" });
 bb({ eyes:"annoyed", mouth:"normal" });`
 ```
 
-b: Then therapists should say *that* instead of some vague confusing word like "accept".
+b: Tak by terapeuti měli říkat *tohe* míst vágního a matoucího slova jako je "příjmout".
 
 `hong({ body:"chin", eyes:"annoyed" });`
 
-h: I guess they suck at using words, too.
+h: Asi jim taky nejde vybírání těch pravých slov.
 
 (#act4_something_else)
 
@@ -1490,11 +1490,11 @@ hong({ body:"normal", mouth:"normal", eyes:"normal" });
 ```
 
 {{if _.a4_fears_discussed==1}}
-h: Anyway, anything else you wanna chat about?
+h: Každopádně, ještě něco, o čem by ses rád pobavil?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
-h: So, anything else on your heavy heart?
+h: Ještě něco tíží tvé srdce?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
@@ -1502,34 +1502,34 @@ h: So, anything else on your heavy heart?
 {{/if}}
 
 {{if _.a4_talked_about_harm!=true}}
-[I'm scared we'll be harmed.](#act4_harm)
+[Bojím se, že nám bude ublíženo.](#act4_harm)
 {{/if}}
 
 {{if _.a4_talked_about_alone!=true}}
-[I'm scared we'll be alone.](#act4_alone)
+[Bojím se, že skončíme osamocení.](#act4_alone)
 {{/if}}
 
 {{if _.a4_talked_about_bad!=true}}
-[I'm scared we're bad people.](#act4_bad)
+[Bojím se, že jsme špatní lidé.](#act4_bad)
 {{/if}}
 
-[Nah, I'm good for now.](#act4c_prelude)
+[Ne, to stačí.](#act4c_prelude)
 
 # act4_something_else_2
 
-h: Okay, I think we've talked about all our fears now.
+h: Ok, myslím si, že jsme zatím probrali všechny naše strachy.
 
-b: Yes, there are only three fears.
+b: Ano, jsou tady jen tři strachy.
 
-h: Yup, exactly three.
+h: Jo, přesně tři.
 
-b: Convenient.
+b: Příhodné.
 
 (#act4c)
 
 # act4c_prelude
 
-h: Good chat, team.
+h: Dobrý pokec, týme.
 
 (#act4c)
 
@@ -1550,28 +1550,28 @@ h: ...
 
 `bb({eyes:"annoyed_d"})`
 
-b: This isn't some *game*, you know.
+b: Tohle není nějaká *hra*, víš.
 
 `bb({eyes:"angry_d", body:"one_up"})`
 
-b: Building a healthy relationship with your emotions isn't as simple as clicking buttons on a screen.
+b: Vybudovat si zdravý vztah se svými emocemi není tak jednoduché, jako klikat na čudlíky na obrazovce.
 
 `bb({eyes:"sad", body:"normal"})`
 
-b: *Can* we really get along?
+b: Vážně *můžeme* spolu vyhcázet?
 
-b: *Can* we work together, as a team?
+b: *Můžeme* spolupracovat jako tým?
 
 `hong({eyes:"sad", body:"one_up"})`
 
-h: Well,
+h: No,
 
 ```
 hong({eyes:"surprise_l"});
 bb({eyes:"normal"});
 ```
 
-a: E-excuse me...
+a: Odpusť mi...
 
 ```
 Game.clearText();
@@ -1589,50 +1589,50 @@ music('campus', {volume:0.5, fade:1});
 
 `publish("act4", ["alshire", 0]);`
 
-a: W-wo-would you mind if I sat with you for lunch?
+a: Měla bys problém kdybych si k tobě přisedla na oběd?
 
 `publish("act4", ["alshire", 1]);`
 
 {{if _.TOP_FEAR=="harm"}}
-s: *This* is your crush? Why are they sitting alone like a psycho serial killer?
+s: Do *téhle* jsi se zakoukala? Proč sedí osamoťe jako nějký psychopatický sériový vrah?
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: Asking your crush if you can sit with them? Do you know how *needy* we sound?!
+s: Ptát se holky do které ses zakoukala, jestli si k ní můžeš sednou? Víš jak *vtěrně* zníme?!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: *This* is your crush? We interrupted their peace and quiet! We're such a burden!
+s: Do *téhle* jsi se zakoukala? Narušujeme její klid a mír! Jsme takoví otravové!
 {{/if}}
 
 `publish("act4", ["alshire", 2]);`
 
-a: I- I mean- it's, it's okay if not, I just...
+a: Já- Já myslím- je, je v pořádku pokud ne, já jen...
 
 `publish("act4", ["alshire", 3]);`
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h2"`
 
-[Wait, didn't I see you at the party?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
+[Počkej neviděla jsem tě na té párty?](#act4d_recognition) `publish("act4", ["hong_to_alshire",1])`
 
-[Yeah, of course! Come here.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
+[Jo, samozřejmě! Pojď sem.](#act4d_yes) `publish("act4", ["hong_to_alshire",2])`
 
-[Sorry, I need alone time right now.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
+[Promiň, ale teď potřebuji býs sama.](#act4d_no) `publish("act4", ["hong_to_alshire",8])`
 
 # act4d_recognition
 
 `publish("act4", ["hong_to_alshire",2]);`
 
-h2: Yeah you were on the couch! At the first party I went to...
+h2: Jó ty jsi byla na té pohovce! Na té první párty, kam jsem šla...
 
 `publish("act4", ["hong_to_alshire",10]);`
 
 {{if _.a2_ending=="fight"}}
-h2: Where I had that panic attack and punched the host.
+h2: Kde jsem měla záchvat paniky a jednu jsem vlepila hostiteli.
 {{/if}}
 
 {{if _.a2_ending=="flight"}}
-h2: Where I had that panic attack and ran out crying.
+h2: Kde jsem měla záchvat paniky a utekla jsem s brekem.
 {{/if}}
 
 ```
@@ -1640,18 +1640,18 @@ publish("act4", ["hong_to_alshire", 0]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Počkej člověče, vybá to, že je jsme je vyvedli z rovnováhy.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to put you on the spot!
+h2: Oh, promiň nechtěla jsem tě postavit vás do nepříjemné situace!
 
 `publish("act4", ["hong_to_alshire",4]);`
 
-h2: Just remembering a friendly face, is all.
+h2: Jen si pamatuji přátelkou tvář, to je věe.
 
 ```
 publish("act4", ["hong_to_alshire",5]);
@@ -1659,15 +1659,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: AHHHHH I KNEW IT! THEY'RE A DANGEROUS PANIC-DRIVEN PSYCHO!
+s: AAAAAAA JÁ TO VĚDĚLA! JE NEBEZPEČNÍ PANIKOU ŘÍZENÝ PSYCHOUŠ!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: AAHHH THE FIRST IMPRESSION WE MADE WAS "WITNESSED MY TRAUMA"! THAT MEANS THEY HATE US!
+s: AAAAAA PRVNÍ DOJEM, KTERÝ JSME UDĚLALY, JE "VIDĚLI JSME JEJÍ TRAUMA"! TO ZNAMENÁ, ŽE NÁS NENÁVIDÍ!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AAAHHH WE MADE SOMEONE REMEMBER A TRAUMATIC EVENT. OUR MERE PRESENCE HURTS OTHERS.
+s: AAAAAA PŘIPOMĚLI JSME NĚKOMU JEHO NEPŘÍJEMNOU VZPOMÍNKU. NAŠE PŘÍTOMNOST UBLIŽUJE OSTATNÍM.
 {{/if}}
 
 (#act4e)
@@ -1679,18 +1679,18 @@ publish("act4", ["hong_to_alshire", 5]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, they seem uncomfortable.
+b: Zadrž človče, vypadá znás docela nesvá.
 
 ```
 publish("act4", ["hong_to_alshire", 6]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, no pressure of course!
+h2: Oh, nestresuj se!
 
 `publish("act4", ["hong_to_alshire", 4]);`
 
-h2: Just saying, you can sit here if you want to.
+h2: Jen říkám, že si sem můžeš sednou jestli chceš.
 
 ```
 publish("act4", ["hong_to_alshire", 5]);
@@ -1698,15 +1698,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: THEY'RE BEING *TOO* FRIENDLY! LIKE TED BUNDY, THE SERIAL KILLER!
+s: JSE AŽ *MOC* PŘÁTĚLSKÁ! JAKO TEN BUNDY, SÉRIOVÝ VRAH!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: THEY'RE JUST ACTING NICE! NO ONE *REALLY* WANTS TO BE CLOSE TO US!
+s: JEN PŘEDSTÍRÁ, ŽE JE MILÁ! NIKDO *VÁŽNĚ* NECHCE BÝT BLÍZKO NÁS!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: AHHH WE ALWAYS MAKE OTHERS FEEL AWKWARD! WE'RE A STAIN UPON THE EARTH!
+s: AAAA MY VŽDY ZAVINÍME, ŽE SE OSTATNÍ CÍTÍ DIVNĚ! JSME JEN ODUTIVÉ BYTOSTI NA ZEMI!
 {{/if}}
 
 (#act4e)
@@ -1718,18 +1718,18 @@ publish("act4", ["hong_to_alshire", 9]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 3 : 1]);
 ```
 
-b: Hang on human, we may be making them uncomfortable.
+b: Zadrž človče, vypadá znás docela nesvá.
 
 ```
 publish("act4", ["hong_to_alshire", 3]);
 publish("act4", ["bb_to_alshire", _.INJURED ? 2 : 0]);
 ```
 
-h2: Ah, I don't mean to be rude!
+h2: Oh, já nechtěla být neurvalá!
 
 `publish("act4", ["hong_to_alshire", 6]);`
 
-h2: I just need some time to process my emotions. Please don't take it as a personal rejection.
+h2: Já se jen snažím pochopit moje emoce. Prosím neber si to osobně.
 
 ```
 publish("act4", ["hong_to_alshire", 7]);
@@ -1737,15 +1737,15 @@ publish("act4", ["alshire", 4]);
 ```
 
 {{if _.TOP_FEAR=="harm"}}
-s: WHAT SICK, TWISTED THOUGHTS ARE THEY PROCESSING?! WHAT DARK DESIRES FILL THIS PSYCHO'S HEART?!
+s: CO ZA DIVNÉ, ZVRÁCENÉ MYŠLENKY SE JIM HONÍ V HLAVE?! CO ZA TEMNÉ TOUHY NAPLŇUJÍ SRDCE TOHLE PSYCHOUŠE?!
 {{/if}}
 
 {{if _.TOP_FEAR=="alone"}}
-s: WE'VE BEEN PERSONALLY REJECTED! WE'LL NEVER BE LOVED!
+s: BYLY JSME ODMÍTNUTI! NIKDY NÁS NIKDO NEBUDE MILOVAT!
 {{/if}}
 
 {{if _.TOP_FEAR=="bad"}}
-s: WE INTERRUPTED THEIR EMOTIONAL PROCESSING! NOW THEY'LL BE TRAUMATIZED FOREVER AND IT'S ALL OUR FAULT!
+s: NAUŠILI JSME JIM CHÁPANÍ JEJÍCH EMOCÍ! NYNÍ BUDE NAVŽDY TRAUMATIZOVANÁ A JE TO VŠECHNO NAŠE CHYBA!
 {{/if}}
 
 (#act4e)
@@ -1757,7 +1757,7 @@ Game.WORDS_HEIGHT_BOTTOM = 195;
 publish("act4", ["alshire", 6]);
 ```
 
-s: RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN RUN
+s: BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ BĚŽ
 
 ```
 Game.clearText();
@@ -1784,18 +1784,18 @@ Game.WORDS_HEIGHT_BOTTOM = -1; /* reset */
 
 `publish("act4-jumpcut-hong");`
 
-h: Huh. That was weird. I wonder what was going on in their head.
+h: Huh. To bylo divné. Zajimá mě, co jí vrtalo hlavou.
 
 `publish("act4", ["hong_closer", 2]);`
 
-h: Anyway, you were saying?
+h: Každopádně, co jsi to říkal?
 
 ```
 publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 6]);
 ```
 
-b: Uh, I forget? Something about teams and work?
+b: Ach, já zapoměl? Něco ohledně týmu a práce?
 
 ```
 publish("act4", ["bb_closer", 0]);
@@ -1809,55 +1809,55 @@ publish("act4", ["hong_closer", 1]);
 publish("act4", ["bb_closer", 4]);
 ```
 
-b: They say you should "make peace" with your emotions, as if your emotions are *war criminals*.
+b: Měla bys "uzavřít mír" se svými emocemi, jako kdyby to byli nějací *váleční zločinci*.
 
 `publish("act4", ["bb_closer", 7]);`
 
-b: But I want us to make *more* than mere peace! I want us to be *allies!*
+b: Chci aby mezi námi bylo *víc* něž jen mír! Chci aby jsme byli *spojenci!*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: I want to be a good guard-dog. Just like how hunger & thirst are alarms for your physical needs,
+b: Já chci být hodný hlídací pes. Jako hlad a žízeň jsou signaly fizických potřeb,
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: I want to be the alarm for your *psychological* needs – your needs for safety, belonging, goodness.
+b: Já chci být signál tvých *psychických* potřeb, tých potřeb na bezpečí, soundaležitost a dobrosrdečnost.
 
 `publish("act4", ["bb_closer", 1]);`
 
-b: But... I suck at my job, so I need you to train me.
+b: Ale... moje práce stojí za prd, takže budu potřebovat od tebe trochu vycvičit.
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: I'm not "always valid," nor "always irrational." I'm just... trying my best. So, please,
+b: Ne vždy "mám pravdu," ani nejsem "vždy iracionální." Já se jen... snažím dělat to nejlepší. Tak, prosím,
 
 `publish("act4", ["bb_closer", 30]);`
 
-b: Help me help you!
+b: Pomoc mi ti pomáhat!
 
 `publish("act4", ["bb_closer", 6]);`
 
-b: Though, teaching an old dog new tricks *will* take a while. Maybe *years.*
+b: Ačkoliv, učit starého psa novým triků chvilku *zabere*. Možná *roky.*
 
 `publish("act4", ["bb_closer", 3]);`
 
-b: And sometimes I'll relapse, I'll slip into my old habits.
+b: A někdy se mi to možná vrátí, a já zase spadnu do starých kolejí.
 
 `publish("act4", ["bb_closer", 2]);`
 
-b: I'll bark at shadows. I'll scare you with words. I might even show you some intrusive images of... things.
+b: Budu štěkat na stíny. Strašit tě slovy. Možná ti budu ukázovat nějaké vtíravé obrázky... věcí.
 
 `publish("act4", ["bb_closer", 9]);`
 
-b: I'm sorry! I'm a battered shelter dog! Battered dogs poop on your bed sometimes!
+b: Já se omlouvám! Jsem pošramocený pes z útulku! Pošramocení psi se ti občas vykadí do postele!
 
 `publish("act4", ["bb_closer", 4]);`
 
-b: But if you're patient with me... and just stay and sit with me...
+b: Ale jestli budeš se mnou trpělivá... a zůstaneš a sedneš si se mnou...
 
 `publish("act4", ["bb_closer", 8]);`
 
-b: Maybe you can tame this wolf.
+b: Možná skrotíš toho vlka.
 
 `publish("act4", ["bb_closer", 0]);`
 
