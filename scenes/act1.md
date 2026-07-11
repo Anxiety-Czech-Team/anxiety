@@ -361,15 +361,15 @@ n: SNIŽTE ENERGETICKOU HODNOTU SVÉHO ČLOVĚKA NA NULU
 
 n: PRO OCHRANU JEJICH FYZICKÝCH + SOCIÁLNÍCH + MORÁLNÍCH POTŘEB, MŮŽETE POUŽÍT:
 
-n: STRACH ZE *ZRANĚNÍ* #zranění#
+n: STRACH ZE *ZRANĚNÍ* #harm#
 
-n: STRACH Z *OPUŠTĚNÍ* #opuštění#
+n: STRACH Z *OPUŠTĚNÍ* #alone#
 
-n: A STRACH Z *VLASTNÍ ŠPATNOSTI* #špatnost#
+n: A STRACH Z *VLASTNÍ ŠPATNOSTI* #bad#
 
 `Game.OVERRIDE_TEXT_SPEED = 1.25;`
 
-n4: (POZNÁMKA: POUŽIJ TY VOLBY, KTERÉ TI OSOBNĚ ZASÁHNOU DO NEJHLUBŠÍCH, TEMNÝCH STRACHŮ!~)
+n: (POZNÁMKA: POUŽIJ TY VOLBY, KTERÉ TI OSOBNĚ ZASÁHNOU DO NEJHLUBŠÍCH, TEMNÝCH STRACHŮ!~)
 
 h: ...
 
@@ -1264,7 +1264,7 @@ bb({eyes:"smile", mouth:"smile"});
 Game.FORCE_TEXT_DURATION = 1000;
 ```
 
-b: ♫ PERVERT-MON! MUSÍM CH-
+b: ♫ PERVERT-MON! VŠECH-
 
 ```
 Game.FORCE_CANT_SKIP = false;
@@ -1586,9 +1586,9 @@ n: VYBERTE SI SVŮJ ZÁVĚREČNÝ TAH
 
 n: *DOKONČTE JE*
 
-[{FIGHT: Potrestejte svůj stresující telefon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
+[{BOJUJ: Potrestejte svůj stresující telefon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[{FLIGHT: Schouli se do klubíčka a plač!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
+[{UTEČ: Schouli se do klubíčka a plač!}](#act1i_cry) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act1i_phone
 

@@ -6,7 +6,7 @@ Game.WORDS_HEIGHT_BOTTOM = 205;
 sfx("cheers");
 ```
 
-r: Cheers!
+r: Nazdraví!
 
 ```
 publish("act3",["roofhunter",1]);
@@ -23,41 +23,41 @@ publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",3]);
 ```
 
-h2: *Ah* that hits the spot.
+h2: *Joo* to mi bodlo.
 
 ```
 publish("act3",["roofhunter",2]);
 publish("act3",["roofhong",2]);
 ```
 
-r: You know, kid...
+r: Víš, špunte...
 
 ```
 publish("act3",["roofhunter",3]);
 publish("act3",["roofhong",6]);
 ```
 
-h2: Specifically, the spots hit are my left and right amygdala.
+h2: Přesněji, přesněji mi to bodlo do pravé a levé amygdaly.
 
 ```
 publish("act3",["roofhunter",8]);
 publish("act3",["roofhong",5]);
 ```
 
-r: You remind me of myself when I was younger. Back when I was tormented by the animal in my head.
+r: Připomínáš mi, když jsem byl mladší. Tehdá, když mě trýznilo to zvíře v hlavě.
 
 ```
 publish("act3",["roofhunter",9]);
 publish("act3",["roofhong",2]);
 ```
 
-r: I'm so grateful I can pay it forward, and help you kill the beast the way I killed mine.
+r: Jsem tak rát, že mohu to mohu oplatit a pomoct ti zabít to zvíře stejně, jako jsem já zabil moje.
 
 ```
 publish("act3",["roofhunter",2]);
 ```
 
-r: Hey, quick question: truth or da--
+r: Hej, rychlá otázka: pravda or výz--
 
 ```
 publish("act3",["roofhunter",3]);
@@ -65,7 +65,7 @@ publish("act3",["roofhong",7]);
 publish("act3-alpha", ["dizzyhong",0]);
 ```
 
-h2: DARE!
+h2: VÝZVA!
 
 ```
 publish("act3-alpha", ["dizzyhong",1]);
@@ -73,14 +73,14 @@ publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",2]);
 ```
 
-r: Haha! Good.
+r: Haha! Dobře.
 
 ```
 publish("act3",["roofhunter",21]);
 publish("act3",["roofhong",4]);
 ```
 
-r: Ok. You see that baby-blue swimming pool down there?
+r: Ok. Vidíš tam ten světle modrý bazén tam dole?
 
 ```
 publish("act3-alpha", ["dizzyhong",0]);
@@ -88,14 +88,14 @@ publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",9]);
 ```
 
-h2: Yeah? Six floors down?
+h2: Jo? Šest pater dole?
 
 ```
 publish("act3",["roofhunter",10]);
 publish("act3",["roofhong",8]);
 ```
 
-r: Jump in.
+r: Skoč do něj.
 
 ```
 publish("act3",["roofhunter",11]);
@@ -108,39 +108,39 @@ h2: ...
 publish("act3",["roofhong",11]);
 ```
 
-h2: Wait, what?
+h2: Počkat, co?
 
 ```
 publish("act3",["roofhong",10]);
 publish("act3",["roofhunter",2]);
 ```
 
-r: The animal's started whining, hasn't it?
+r: Zvířátko začalo skučet?
 
 ```
 publish("act3",["roofhunter",23]);
 ```
 
-r: *Oh nooooo it's dangerous, don't do iiiiit.*
+r: *Ale neee je to nebezpečné, neděleeej toooo.*
 
 ```
 publish("act3",["roofhunter",22]);
 ```
 
-r: But that's exactly why we need death-defying thrills! Party hard! Carpe diem! Snort coke off a hooker's ^ass^, #YOLO!
+r: Ale to je přesně proč potřebuje zážitky blízké smrti! Pořádně si zapař! Carpe diem! Šnupni si kokain ze zadku ^štětky^, #YOLO!
 
 ```
 publish("act3",["roofhunter",10]);
 ```
 
-r: Show that animal we don't give two *^dick^s* about its ^bitch^ing! Jump in.
+r: Ukaž tomu zvíředi, že nedáváš *^mrd^* ohledně jeho tlachání! Skákej.
 
 ```
 publish("act3",["roofhunter",11]);
 publish("act3",["roofhong",13]);
 ```
 
-h2: Uh, but sometimes, um... fear has a point...
+h2: Ahh, ale občas, ahh... strach má nějaký důvod...
 
 ```
 publish("act3",["roofhunter",5]);
@@ -156,43 +156,43 @@ publish("act3",["roofhunter",6]);
 publish("act3",["dd",1]);
 ```
 
-r: I'm sorry, did you fall for that McMindfulness propaganda that claims feeling bad is *good?*
+r: Já se oblouvám, že jsi padla za oběť proagandě panstva dokonalých, co se ti snaží naslepičit, že cítit se špatně je *dobré*?
 
 ```
 publish("act3",["roofhunter",17]);
 ```
 
-r: The ^assholes^ who run this world give the rest of *us* anxiety and depression,
+r: Ti ^sráči^, co ovládají svět, dávají *nám*, zbytku, úzkosti a deprese,
 
 ```
 publish("act3",["roofhunter",18]);
 ```
 
-r: Then make TED Talks to tell us to "accept" being ^fucked^ over, and "embrace" that sadistic demon in our heads!
+r: Pak nám dají přednášku, abychom "přijali" to že nás ^ojebou^, a "uvítali" toho sadistického demona v naší hlavě!
 
 ```
 publish("act3",["roofhunter",6]);
 ```
 
-r: Kid, I know that *you* know that animal *hurts* people like us. It *tortures* people like us.
+r: Špunte, Já vím, že *ty* víš, že to zvíře *ubližuje* lidem jako jsme my. *Trýzní* to lidi jako jsme my.
 
 ```
 publish("act3",["roofhunter",19]);
 ```
 
-r: It's not our friend. It's a rabid beast, which either needs to be *tranquilized*,
+r: Není to náš přítel. Je to vzteklé zvíře, které musí mýt *uspáno*,
 
 ```
 publish("act3",["roofhunter",20]);
 ```
 
-r: Or have a *bullet put in its skull*.
+r: Nebo vložit *trochu olova do jeho lebky*.
 
 ```
 publish("act3",["roofhunter",27]);
 ```
 
-r: Otherwise, you're going to let it win.
+r: Jinak ho necháš vyhrát.
 
 ```
 publish("act3",["roofhunter",31]);
@@ -200,7 +200,7 @@ publish("act3",["roofhong",14]);
 publish("act3",["dd",2]);
 ```
 
-h2: No. You're wrong.
+h2: Ne. Nemáš pravdu.
 
 ```
 publish("act3",["roofhunter",13]);
@@ -210,7 +210,7 @@ music('battle_dark', {volume:1.0}, function(){
 });
 ```
 
-h2: I'm not going to let it win.
+h2: Nenechám ho vyhrát.
 
 ```
 publish("act3",["roofhunter",25]);
@@ -219,7 +219,7 @@ publish("act3-alpha", ["transition",1]);
 publish("act3",["dd",6]);
 ```
 
-r: ^Fuck^ yeah! I believe in you, babe! Kill it! <3
+r: Do ^prdele^! Já věřím ti, kotě! Zab ho! <3
 
 (#act3a)
 
@@ -240,13 +240,13 @@ _.act3_bb_body = 1;
 publish("hp_show");
 ```
 
-b: no no no no no no
+b: ne ne ne ne ne ne
 
-n: THIS CHAPTER HAS TWO POSSIBLE ENDINGS. ONE IS *VERY, VERY BAD.*
+n: TATO KAPITOLA MÁ 2 MOŽNÉ KONCE. JEDEN JE *VELMI, VELMI ŠPATNÝ.*
 
-b: NO NO NO NO NO NO NO NO NO NO NO NO NO NO
+b: NE NE NE NE NE NE NE NE NE NE NE NE NE NE
 
-n: CHOOSE WISELY. PROTECT YOUR HUMAN
+n: VYBÍREJ MOUDŘE. CHRAŇ SVÉHO ČLOVĚKA
 
 `bb({ eyes:"oh_crap", mouth:"normal_talk", MOUTH_LOCK:true });`
 
@@ -254,24 +254,24 @@ b: AAAAAAAAAAAAAAAAAA
 
 `bb({ mouth:"normal" });`
 
-n: GOOD LUCK
+n: HODNĚ ŠTĚSTÍ
 
 ```
 Game.clearText();
 bb({ eyes:"start" });
 ```
 
-[Human, you could actually DIE here!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
+[Člověče, tady můžeš reálně umřít!](#act3a_harm) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[This is stupid and self-destructive!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
+[Tohle je hloupé a sebedestruktivní!](#act3a_bad) `Game.OVERRIDE_CHOICE_LINE=true`
 
-[These sickos aren't really your friends!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
+[Tihle magoři nejsou tví praví kamarádi!](#act3a_alone) `Game.OVERRIDE_CHOICE_LINE=true`
 
 # act3a_harm
 
 `bb({ MOUTH_LOCK:true, mouth:"normal_talk" });`
 
-b: H--
+b: Č--
 
 (#act3a_after)
 
@@ -307,9 +307,9 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You know, I might've believed you... if you hadn't tried that a zillion times before.
+h: Víš, možná bych ti věřila... kdybys to nezkusil zillionkrát předtím.
 
-h: You're the wolf who cried wolf.
+h: Ty jsi vlk, který volal o pomoc.
 
 ```
 bb({ eyes:"sad" });
@@ -354,43 +354,43 @@ hong({ body:"normal" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: You tried that too.
+h: To jsi taky zkoušel.
 
-b: human, please...
+b: člověče, prosím...
 
 `hong({ eyes:"look_right" });`
 
-h: Oh I'm *sorry* Big Pharma doesn't approve of my self-medication.
+h: Ach promiň, že farmaceutický průmysl neschvaluje mojí medikaci.
 
-h: Look ^asshole^, we *all* have a way of shutting you the ^fuck^ up.
+h: Podívej ^hajzle^, *všichni* mame způsob jak tě donutit sklapnout.
 
 `hong({ body:"look_up", eyes:"look_up" });`
 
-h: Some people throw themselves into work.
+h: Někteří se vrhají horlivě na práci.
 
 `hong({ body:"look_down", eyes:"look_down" });`
 
-h: Some people throw themselves into sex, drugs, and refreshing their Facebook feed.
+h: Někteří se vrhají do světa sexu, drog a sledování feedu na Facebooku.
 
 `hong({ body:"normal", eyes:"look_right" });`
 
-h: Some people throw themselves into other people. 
+h: Někteří se vrhají do náruče jiným lidem. 
 
 `hong({ eyes:"angry" });`
 
-h: I'm going to throw myself into that swimming pool.
+h: Já se vrhnu do toho bazénu.
 
-[You're drunk and it's SIX FLOORS DOWN](#act3_bad_1_harm)
+[Jsi opilá a je to ŠEST PATER](#act3_bad_1_harm)
 
-[Dang it, this is the thanks I get?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
+[Sakra, tohle je to poděkování, které dostanu?!](#act3_bad_1_insult) `bb({eyes:"angry"});`
 
-[Okay, I admit it. I messed up.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Dobře, přiznávám. Pokazil jsem to.](#act3_good_1) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 # act3_bad_1_harm
 
-b: Even if you land in the water, the surface tension will crack your ribs and give you a concussion *at the least!*
+b: I kdybys dopadla to vody, tak povrchové napětí ti zlomí žebra a budeme mít otřes mozku *minimálně*
 
-h: Eh.
+h: Uhh.
 
 ```
 hong({body:"drink"});
@@ -406,7 +406,7 @@ hong({ body:"normal", mouth:"angry", eyes:"angry" });
 bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 ```
 
-h: I saw a Russian guy do this on YouTube once.
+h: Jednou jsem viděla to dělat Rusáky na YouTube.
 
 (#act3_bad_2)
 
@@ -414,13 +414,13 @@ h: I saw a Russian guy do this on YouTube once.
 
 `hong({ eyes:"look_right" });`
 
-h: I- Excuse me, the *thanks?*
+h: Já- Promiň, jaké *poděkování?*
 
 `bb({ eyes:"angry" });`
 
-b: This is exactly why I *exist!* Because humans can't be trusted to protect themselves!
+b: Tohle je přesně, proč *existuji!* Protože lidem se nedá věřit, že se zvládnou ochránit sami!
 
-b: I've been trying to protect your stupid butt all my life and now you're just going t--
+b: Já jsem se snažil ochránit tvou hloupo maličkost celý svůj život a nyní ty prostě bud--
 
 ```
 hong({body:"drink"});
@@ -442,7 +442,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `hong({ body:"laugh_1" })``
 
-h: heh.
+h: huh.
 
 `hong({ body:"laugh_2" })``
 
@@ -457,26 +457,26 @@ bb({ eyes:"sorry"});
 hong({ body:"yell_1", mouth:"yell", eyes:"blank" });
 ```
 
-h: Oh WOW is that the biggest *^fuck^ing* understatement of the century!
+h: Ah. WOW je to ^kurva^ největší podhodnocení celého století!
 
 `hong({ body:"yell_2" });`
 
-h: Yeah, you rotting pile of blood-coated ^shit^! You messed the ^fuck^ up!
+h: Jo, ty hnijící kupo zakrvácených ^hoven^! Tohles ^kuvra^ posral!
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" });`
 
-h: Any other remarks, Captain Obvious?
+h: Nějaké další namitky, pane Samozřejmý?
 
-[But revenge on me isn't the answer!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Ale pomsta není odpověď!](#act3_good_1_fail_revenge) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[But this time I'm *actually* right!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
+[Ale tentokrát mám *reálně* pravdu!](#act3_good_1_fail_harm) `bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });`
 
-[I've hurt you.](#act3_good_2a)
+[Ublížil jsem ti.](#act3_good_2a)
 
 
 # act3_good_1_fail_revenge
 
-b: You need to have a healthier relationship with your emotions, rather than drown them wi--
+b: Potřebuješ mít zdravější vztah se svými emocemi a ne je utápět v alk--
 
 ```
 hong({body:"drink"});
@@ -498,7 +498,7 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 # act3_good_1_fail_harm
 
-b: So please, put the bottle down and let's--
+b: Tak prosím, položtu láhev a pojďme--
 
 ```
 hong({body:"drink"});
@@ -523,24 +523,24 @@ bb({ body:"normal_"+_.act3_bb_body, mouth:"normal", eyes:"normal" });
 
 `bb({ eyes:"sad" });`
 
-b: please... don't...
+b: prosím... nedělej to...
 
-h: Your energy bar's looking awfully low there, wolf.
+h: Tvůj ukazatel energie vypadá podezřele nízce, vlku.
 
-h: If I were you, I'd choose your next words very carefully.
+h: Já být tebou, tak volím svá slova velmi opatrně.
 
 `bb({ eyes:"normal" });`
 
-[Fine. I'm done protecting you.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
+[Budiž. Já už končím s tím, tě chránit.](#act3_bad_2_jump) `bb({ mouth:"ignore", eyes:"ignore" });`
 
-[I was right all along.](#act3_bad_2_right)
+[Měl jsem celou dobu pravdu.](#act3_bad_2_right)
 
-[I'm sorry.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
+[Já se omlouvám.](#act3_good_2b) `bb({mouth:"sorry", eyes:"sorry_down"});`
 
 
 # act3_bad_2_jump
 
-b: So, go ahead and jump. See what I care.
+b: No tak, do toho, skoč.  So, go ahead and jump. Co mi je po tom.
 
 `hong({ eyes:"look_right", mouth:"normal", MOUTH_LOCK:true });`
 
@@ -551,14 +551,14 @@ hong({ eyes:"less_angry", mouth:"normal" });
 bb({ eyes:"ignore_oh_crap" });
 ```
 
-h: Okay then. Bottoms up.
+h: Tak jo. Do dna.
 
 ```
 bb({ mouth:"normal", eyes:"oh_crap" });
 Game.OVERRIDE_TEXT_SPEED = 2;
 ```
 
-b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF WHAT I SA--
+b: POČKEJ NE TO BYLA OBRÁCENÁ PSYCHOLOGIE TY JSI MĚLA UDĚLAT *OPAK* NEŽ CO JSEM ŘE--
 
 (#act3_bad_3)
 
@@ -568,13 +568,13 @@ b: WAIT NO THAT WAS REVERSE PSYCHOLOGY YOU WERE SUPPOSED TO DO THE *OPPOSITE* OF
 
 `bb({ eyes:"angry" });`
 
-b: You *are* putting yourself in danger. Your so-called friends *are* using you. And *you* are using your so-called friends.
+b: Ty se sama stavíš do nebezpečí. Ti tvoji takzvaní kamarádi tě využívají a ty využíváš tvé takzvané kamarády.
 
 `bb({ eyes:"sad" });`
 
-b: So please, human... why don't you believe me?!
+b: Tak prosím, člověče... proč mi nevěříš?!
 
-h: Because you never believed in *me*.
+h: Protože ty jsi nikdy nevěřil ve *mě*.
 
 (#act3_bad_3)
 
@@ -583,13 +583,13 @@ h: Because you never believed in *me*.
 
 `bb({ eyes:"angry" });`
 
-b: Other guard-wolves have humans who actually take time to patiently train them, to *learn* to work together,
+b: Ostatní hlídací psi mají lidi, kteří je trpělivě vycvičili, aby se *naučili* spolupracovat,
 
-b: Rather than hate the guard-wolves for trying to protect them! So why can't you jus--
+b: Místo toho, aby nenáviděli hlídací psy snažící se je chránit! Tak proč nemůžeš pros--
 
 `bb({ eyes:"normal" });`
 
-h: Wrong ^fuck^ing answer.
+h: Špatná, ^debil^ní odpověď.
 
 (#act3_bad_3)
 
@@ -614,7 +614,7 @@ bb({ body:"dead" });
 
 (...999)
 
-h: *"The only thing to fear is fear itself."*
+h: *"Jediné věci, které se boj je strach samotný."*
 
 `hong({ body:"look_up", mouth:"happy", eyes:"blank" });`
 
@@ -622,21 +622,21 @@ h: *"Don't worry, be happy!"*
 
 `hong({ body:"normal", mouth:"normal", eyes:"normal" });`
 
-h: All the wise folk of our time agree: negative emotions are *bad!*
+h: Všichni moudří lidé naší doby souhlasí: negativní emoce jsou *špatné!*
 
 `hong({ eyes:"less_angry" });`
 
-h: Duh! That's why they're called *negative!*
+h: Hej! Proto se jim říká *negativní!*
 
-b: human... please...
+b: člověče... prosím...
 
 `hong({ eyes:"normal" });`
 
-h: A while back, I said: “I just want to be free from all this pain.”
+h: Chvíli zpátky jsem řekla: “Já už nechci nikdy cítit tuhle bolest.”
 
-h: I got my wish. I no longer feel pain, or fear, or anxiety...
+h: A mé přání se vyplnilo. Já už necítím ani bolest, ani strach, ani úzkosti...
 
-h: I don't feel anything at all.
+h: Já vůbec nic necítím.
 
 `_.a3_ending = "jump";`
 
@@ -648,22 +648,22 @@ h: I don't feel anything at all.
 
 `bb({mouth:"sorry", eyes:"sorry_down"});`
 
-b: I was so obsessed with making sure nothing else hurt you, that I didn't realize *I* was creating the hurt.
+b: Já byl posedlý zajišťováním, aby ti nic neublížilo, že jsem si neuvědomil, že *já* jsem ten, co ti ubližuje.
 
 ```
 bb({ eyes:"sorry"});
 hong({ body:"yell_2", mouth:"yell", eyes:"blank" });
 ```
 
-h: NO. S^HIT^.
+h: NE. H^OVNO^.
 
 `hong({ body:"yell_1" });`
 
-h: ^GODDAMN^. It really took you this long to finally figure it out?!
+h: DO ^PRDELE^. To ti fakt trvalo tak dlouho na to přijít?!
 
 `hong({ body:"cry", mouth:"cry", eyes:"blank" });`
 
-h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't you realize this sooner?...
+h: Mohl jsi nám ušetřit tolik problémů, ty velký chlupadý blečku. Proč jsi si to neuvědomil dříve?...
 
 `_.apologized_for_hurt = true;`
 
@@ -675,13 +675,13 @@ h: You could've saved us so much trouble, you big fluffy dumb^ass^. Why didn't y
 
 `hong({ body:"normal", mouth:"angry", eyes:"look_right" });`
 
-h: ...you're *sorry.*
+h: ...ty se *omlouváš.*
 
 `hong({ eyes:"angry", MOUTH_LOCK:true });`
 
 h: ...
 
-h: Sorry for *what*?
+h: Promiň za *co*?
 
 (#act3_good_2q)
 
@@ -703,22 +703,22 @@ h: Sorry for *what*?
 
 `hong({ body:"normal", mouth:"angry", eyes:"less_angry" });`
 
-[I'm sorry I wasn't a good protector.](#act3_good_3_protector)
+[Promiň, že jsem nebyl dobrý ochránce.](#act3_good_3_protector)
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Promiň, že jsem tě nerespektoval.](#act3_good_3_respect)
 
-[I'm sorry.](#act3_good_4)
+[Já se omlouvám.](#act3_good_4)
 
 
 # act3_good_2q_not_already_apologized
 
 `hong({ body:"normal", mouth:"angry", eyes:"angry" }, 0);`
 
-[I'm sorry I have a terrible human!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
+[Já se omlouvám, že mám hruzného člověka!](#act3_bad_2_terrible) `bb({mouth:"normal", eyes:"normal"})`
 
-[I'm sorry I didn't respect you.](#act3_good_3_respect)
+[Já se omlouvám, že jsem tě nerespektvoal.](#act3_good_3_respect)
 
-[I'm sorry I hurt you.](#act3_good_3_hurt)
+[Já se omlouvám, že jsem ti ublížil.](#act3_good_3_hurt)
 
 
 
@@ -726,19 +726,19 @@ h: Sorry for *what*?
 
 `bb({eyes:"sorry_down"});`
 
-b: It's my duty to warn you against *real* danger, but I kept barking at cars and the mailman.
+b: Je mou poviností tě varovat před *realnými* hrozbami, ale já jsem furt štěkal po autech a pošťákovi.
 
 `bb({eyes:"sorry_up"});`
 
-b: Barking at shadows. Barking so much.
+b: Štěkal na stíny. Štěkal tak moc,
 
 `bb({eyes:"sorry"});`
 
-b: It only makes sense that you'd want to muzzle me.
+b: že dává smysl, že jsi mi chtěla nandat náhubek.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Já se omlouvám.
 
 (#act3_good_4)
 
@@ -748,15 +748,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was supposed to be *your* loyal guard-dog, but I acted as if you were supposed to obey *me*.
+b: Měl jsem být *tvůj* věrný hlídací pes, ale choval jsem se, jako bys ty měla poslouchat *mě*.
 
 `bb({eyes:"sorry_up"});`
 
-b: There's a difference between a protector and a prison warden, and I crossed the line.
+b: Je tu rozdíl mezi ochráncem a vězeňským bachařem. Já tuto linii překročil.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Já se omlouvám.
 
 (#act3_good_4)
 
@@ -766,15 +766,15 @@ b: I'm sorry.
 
 `bb({eyes:"sorry_down"});`
 
-b: I was so obsessed with trying to protect you from being hurt, I never stopped to realize *I* was hurting you.
+b: Byl jsem tak posedlý tím tě chránit, aby sis neublížila, že jsem nikdy nezastavil a nezamyslel se, abych si uvědomil, že já ti ubližuju.
 
 `bb({eyes:"sorry_up"});`
 
-b: I was a bad dog.
+b: Byl jsem špatný pes.
 
 `bb({eyes:"sorry_down"});`
 
-b: I'm sorry.
+b: Já se omlouvám.
 
 (#act3_good_4)
 
@@ -792,11 +792,11 @@ h: ...
 hong({ body:"stop", mouth:"stop", eyes:"blank" });
 ```
 
-h: Yeah, well, this was a dumb idea anyway.
+h: Jo, víš, tohle byl celkově blbý nápad.
 
-h: I only did this to mess you up, and, well, I messed you up.
+h: Já jsem tohle udělala jen, aby tě to naštvalo a, vidíš, naštvala jsem tě.
 
-h: Let's just call this round a tie, okay?
+h: Co tohle kolo prohlásit za remízu, dobré?
 
 ```
 bb({ mouth:"sorry", eyes:"sorry" });
@@ -805,11 +805,11 @@ bb({ MOUTH_LOCK:true });
 
 b: ...
 
-b: Okay.
+b: Dobré.
 
-h: Okay.
+h: Dobré.
 
-n: *TIE*
+n: *REMÍZA*
 
 `_.a3_ending = "walkaway";`
 
@@ -885,26 +885,26 @@ publish("act3",["roofhunter",27]);
 
 `Game.FORCE_CANT_SKIP = false;`
 
-r: Oh *come on*. After all that animal's done to you, you're just *giving up?*
+r: Ah, *neblbni*. Po všem co ti to zvíře udělalo. Ty to prostě *vzdáváš*?
 
-r: What's the matter, kid? Are you *scared?*
+r: Copak se děje, špunte? *Bojíš se?*
 
 ```
 publish('hong-next');
 publish("act3",["roofhunter",26]);
 ```
 
-h2: Yes.
+h2: Ano.
 
-h2: I'm scared.
-
-`publish('hong-next')`
-
-h2: And that's okay!
+h2: Bojím se.
 
 `publish('hong-next')`
 
-h2: It's okay to be scared.
+h2: A je to v pořádku!
+
+`publish('hong-next')`
+
+h2: Je v pořádku se bát.
 
 `publish('hong-next')`
 
@@ -973,7 +973,7 @@ publish("act3",["roofhunter",32]);
 publish("act3",["roofhunter",33]);
 ```
 
-r: Did they just lock the door?
+r: Zamkla právě ty dveře?
 
 ```
 Game.clearAll();
@@ -1063,7 +1063,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no...
+b: ne...
 
 (...501)
 
@@ -1082,7 +1082,7 @@ publish('hong-next');
 
 `publish('hong-next')`
 
-b: no no no
+b: ne ne ne
 
 (...501)
 
@@ -1150,7 +1150,7 @@ Game.FORCE_TEXT_Y = 325;
 Game.OVERRIDE_FONT_SIZE = 50;
 ```
 
-b: NO!
+b: NE!
 
 (...400)
 
