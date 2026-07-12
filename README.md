@@ -1,4 +1,4 @@
-Testovací stránka: https://klimarek.github.io/anxiety/
+Stránka hry: [https://anxiety-czech-team.github.io/anxiety/](https://anxiety-czech-team.github.io/anxiety/)
 
 ![](https://ncase.me/anxiety/sharing/banner.png)
 
