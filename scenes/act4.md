@@ -280,6 +280,7 @@ h: Hm?
 `bb({eyes:"surprise"});`
 
 b: Přežili jsme!
+
 (#act4b)
 
 # act4a_right
