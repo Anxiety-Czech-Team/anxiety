@@ -216,7 +216,7 @@ n4: (NECH _SVOU_ ÚZKOST JÍT SI HRÁT! VYBER, CO NEJVÍC ODPOVÍDÁ TOMU, CO TI
 
 [Znova na obědě jíme o samotě! Znova!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[Nejsme produktivní když jíme!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Nejsme produktivní, když jíme!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
 [Ten bílí chleba je pro nás špatný!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
@@ -383,7 +383,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: víš co, možná že je čas se kouknout na mobil.
+h: víš co, možná, že je čas se kouknout na mobil.
 
 ```
 sfx("rustle2");
@@ -598,7 +598,7 @@ h: Každopádně. Facebook je na mě až moc. Potřebuji něco klidnějšího, m
 
 `hong({eyes:"neutral"});`
 
-h: Co je nového na Twittru?
+h: Co je nového na Twitteru?
 
 `bb({eyes:"look"});`
 
@@ -1576,7 +1576,7 @@ n: PROČ, PODÍVEJTE SE, JAK JSOU VDĚČNÍ!
 
 (...500)
 
-n: NYNÍ, KDYŽ JE JEJICH ENERGIE NA NULE, MŮŽETE PŘÍMO OVLÁDAT JEJICH ČINNOST
+n: NYNÍ, KDYŽ JE JEJÍ ENERGIE NA NULE, MŮŽETE PŘÍMO OVLÁDAT JEJÍ ČINNOST
 
 `bb({mouth:"smile", eyes:"normal"});`
 
@@ -1584,7 +1584,7 @@ n: VYBERTE SI SVŮJ ZÁVĚREČNÝ TAH
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *DOKONČTE JE*
+n: *DOKONČI JO*
 
 [{BOJUJ: Potrestejte svůj stresující telefon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
