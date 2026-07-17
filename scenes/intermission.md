@@ -16,13 +16,13 @@ Game.FORCE_CANT_SKIP = true;
 publish("show_stats");
 ```
 
-n2: STRACHY TOTO KOLO:
+n2: STRACHY V TOMTO KOLE:
 
-i: #harm# *BÝT ZRANĚN:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
+i: #harm# *STRACH ZE ZRANĚNÍ:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
-i: #alone# *BÝT NEMILOVÁN:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
+i: #alone# *STRACH Z ODMÍTNUTÍ:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *BÝT ZLÝM ČLOVĚKEM:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *STRACH Z VLASTNÍ ŠPATNOSTI:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```
@@ -31,7 +31,7 @@ Game.FORCE_CANT_SKIP = false;
 Game.CLICK_TO_ADVANCE = true;
 ```
 
-n5: (hra se sama uložila! je v pohodě odejít a pokračovat později)
+n5: (Hra se sama uložila! Je v pořádku odejít a pokračovat později.)
 
 ```
 Game.clearAll();

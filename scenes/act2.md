@@ -38,7 +38,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",3]);
 ```
 
-a: Boha. Já nesnáším zprávy. Je to jen o senzacích a clikbaitu.
+a: Boha. Já nesnáším zprávy. Je to jen o senzacích a clickbaitu.
 
 ```
 publish("act2",["dum",2]);
@@ -53,7 +53,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",1]);
 ```
 
-s: Pravda, ale oni jednají jen popudově. Ten *realný* problém je s lidmi co klikají na clickbaity.
+s: Pravda, ale oni jednají jen popudově. Ten *reálný* problém je s lidmi, kteří klikají na clickbaity.
 
 ```
 publish("act2",["dee",3]);
@@ -108,7 +108,7 @@ publish("act2",["party_hunter",0]);
 publish("act2",["dee",3]);
 ```
 
-s: Vážně kámo. Jako fakt? Co si Otevřít Google a ověřit si fakta?
+s: Vážně kámo. Jako fakt? Co takhle otevřít Google a ověřit si fakta?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -142,7 +142,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: Rozeber tu myšenku trochu.
+a: Rozeber tu myšlenku trochu.
 
 ```
 publish("act2",["dum",0]);
@@ -163,7 +163,7 @@ s: Víš, viděla jsem včera někoho retweetnout GIF kočky, co pije mléko.
 publish("act2",["dee",3]);
 ```
 
-s: Nemůžou ten ^kekel^ trávit! Kdo by taktko retweetoval *zneužívaní zvířat*?
+s: Nemůžou ten ^kekel^ trávit! Kdo by takhle retweetoval *zneužívání zvířat*?
 
 ```
 publish("act2",["party_hunter",1]);
@@ -197,7 +197,7 @@ publish("act2",["party_hong","next"]);
 publish("act2",["dum",1]);
 ```
 
-a: I přes to, že máte oba match na Tinderu?
+a: I přesto, že máte oba match na Tinderu?
 
 ```
 publish("act2",["dum",0]);
@@ -251,7 +251,7 @@ publish("act2",["dee",3]);
 
 s: Já ti nevím. Třeba si myslí, že jednorázovky nezaplní tu díru v jejich životě?
 
-s: Nebuď taková pruda! Otevři jsou mysl, pak rozhoď nohy!
+s: Nebuď taková pruda! Otevři svou mysl, pak rozhoď nohy!
 
 ```
 publish("act2",["party_hunter",1]);
@@ -279,7 +279,7 @@ publish("act2",["dee",2]);
 publish("act2",["dum",3]);
 ```
 
-a: VŠECHNY CHITI MÁŠ!™ 
+a: CHYŤ JE VŠECHNY!™ 
 
 (#act2-preamble-end)
 
@@ -311,7 +311,7 @@ n: DRUHÉ KOLO: *BOJUJTE!*
 
 `bb({eyes:"sad"})`
 
-b: Kazíme náladu na celé partý, tím že jsme takový smutný ^zaprděnec^!
+b: Kazíme náladu na celé párty tím, že jsme takový smutný ^zaprděnec^!
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -319,7 +319,7 @@ b: Zabíjíme tady tu dobrou atmosféru! Právě pácháme atmo-vraždu první k
 
 `bb({eyes:"normal", body:"normal"})`
 
-b: Človeče, musíme *teď* odejít, než--
+b: Člověče, musíme *teď* odejít, než--
 
 ```
 _.a2_first_danger = 'social';
@@ -340,7 +340,7 @@ b: JSME ÚCHYLÁCI
 
 `bb({body:"normal"})`
 
-b: Jsme úchylní, zlí, špatný špatný špatný hrozlivý hrozlivý úchy--
+b: Jsme úchylní, zlí, špatní špatní špatní hrozní hrozní úchy--
 
 ```
 _.a2_first_danger = 'perv';
@@ -353,7 +353,7 @@ _.a2_attack_1 = "bad";
 
 `bb({body:"one_up", eyes:"normal_r"})`
 
-b: Všecho všudy, co zásadního můžeme udělat?
+b: Konec konců, co zásadního můžeme udělat?
 
 `bb({body:"normal", eyes:"sad"})`
 
@@ -373,7 +373,7 @@ b: A, že "smrt nás nutí cenit si života"? To je jako říkat, že otroctví 
 
 `bb({body:"one_up"})`
 
-b: A, že "si musíš udělat vlasní smysl života"? To je přesně, co kultisti a konspirační teoretici dělají!
+b: A, že "si musíš udělat vlastní smysl života"? To je přesně, co kultisti a konspirační teoretici dělají!
 
 `bb({eyes:"shock", body:"two_up"})`
 
@@ -394,7 +394,7 @@ b: ...
 
 `bb({eyes:"suspect"})`
 
-b: Uhh... vidíš mě člověče?
+b: Uhh... vidíš mě, člověče?
 
 `bb({eyes:"normal", MOUTH_LOCK:true})`
 
@@ -415,7 +415,7 @@ b: MUSÍM TĚ VAROVAT...
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[*Jiné* moralí nebezpečí!](#act2b_different_moral)
+[*Jiné* morální nebezpečí!](#act2b_different_moral)
 {{/if}}
 
 [Ignoruješ nebezpečí! To je nebezpečné!](#act2b_ignore)
@@ -485,7 +485,7 @@ sfx("gravel");
 
 (...501)
 
-b: Proti-úchylný zákon č. 152/2021 Sb.: (1) Kokoliv kdo koukne na (a) ta nasvalená ramena (b) tu oblou zadnici (2) bude znám jako
+b: Proti-úchylný zákon č. 152/2021 Sb.: (1) Kdokoliv, kdo koukne na (a) ta nasvalená ramena (b) tu oblou zadnici (2) bude znám jako
 
 `bb({eyes:"shock", body:"two_up", mouth:"normal"})`
 
@@ -511,7 +511,7 @@ b: Alfred Nobel chtěl světový mír a aby si kultury rozuměly. Tak se rozhodl
 
 `bb({eyes:"normal_r"})`
 
-b: Což vyžadovalo způsob jak jednoduše hloubit tunely. Tak vynalezl nový materiál zvaný "dynamit"...
+b: Což vyžadovalo způsob, jak jednoduše hloubit tunely. Tak vynalezl nový materiál zvaný "dynamit"...
 
 `bb({body:"one_up", eyes:"normal"})`
 
@@ -519,7 +519,7 @@ b: který použili v první světové, aby ZABILI MILIÓNY LIDÍ
 
 `bb({body:"two_up", eyes:"shock"})`
 
-b: JE TO EFEKT MOLTÝLÍCH KŘÍDEL! KOLIK LIDÍ OMYLEM ZABÍJÍŠ PRÁVĚ TEĎ
+b: JE TO EFEKT MOTÝLÍCH KŘÍDEL! KOLIK LIDÍ OMYLEM ZABÍJÍŠ PRÁVĚ TEĎ
 
 ```
 _.a2_second_danger = 'butterfly';
@@ -543,11 +543,11 @@ b: No jo, stát se jedním z *těch* požitkářských večírkových pařmenů.
 
 `bb({body:"normal", mouth:"small"})`
 
-b: Povrchní život s povrchními přáteli, kteří znají tvé povchní já.
+b: Povrchní život s povrchními přáteli, kteří znají tvé povrchní já.
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
-b: Člověče, musíme utéct od těchto požitkářských zombíků než nás přemění na jednoho z nich!
+b: Člověče, musíme utéct od těchto požitkářských zombíků, než nás přemění na jednoho z nich!
 
 ```
 _.a2_second_danger = 'zombies';
@@ -567,7 +567,7 @@ b: Celé rodiny umírají v genocidách *právě teď* a my tu paříme!
 
 `bb({body:"point", eyes:"closed", mouth:"small"})`
 
-b: Moudrý člověk jednou řekl, "jediná věc je nezbytná pro triumf zla, aby dobří lidé nic nedělali"
+b: Moudrý člověk jednou řekl, "Jediné, co je nezbytné pro triumf zla, je, aby dobří lidé nic nedělali"
 
 `bb({body:"two_up", eyes:"shock", mouth:"normal"})`
 
@@ -639,7 +639,7 @@ b: MUSÍM TĚ VAROVAT O...
 {{/if}}
 
 {{if _.a2_first_danger=="perv" || _.a2_first_danger=="meaning"}}
-[*Jiné* moralí nebezpečí!](#act2c_different_moral)
+[*Jiné* morální nebezpečí!](#act2c_different_moral)
 {{/if}}
 
 [Zkontrolovala jsi ten punč, který pijem?](#act2c_punch)
@@ -721,7 +721,7 @@ b: pokud to tedy není *jejich záliba*
 
 `bb({body:"scream_a_1"})`
 
-b: prože je VELKÝ NECHUTNÝ HNUSNÝ ÚCHYL
+b: protože je VELKÝ NECHUTNÝ HNUSNÝ ÚCHYL
 
 `_.a2_attack_3 = "bad";`
 
@@ -733,11 +733,11 @@ b: prože je VELKÝ NECHUTNÝ HNUSNÝ ÚCHYL
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
-b: EFEKT MOTÝLÍCH KŘÍDEL! Používaš nebiorozkladatelný kelímek?
+b: EFEKT MOTÝLÍCH KŘÍDEL! Používáš nerozložitelný kelímek?
 
 `bb({body:"two_up", mouth:"normal", eyes:"shock"})`
 
-b: BUM, ZKLÁDKA VYPUSTÍ JED A ZABIJE DÍTĚ
+b: BUM, SKLÁDKA VYPUSTÍ JED A ZABIJE DÍTĚ
 
 `bb({body:"normal", mouth:"small", eyes:"suspect"})`
 
@@ -785,7 +785,7 @@ b: Říkat, *ještě že 'dobří lidé' se poflakovali 'relaxováním' a 'self-
 
 `bb({body:"point", mouth:"smile", eyes:"happy_r"})`
 
-b: *Náš plán je jít kupředu, zpátky ni krok!*
+b: *Náš plán je jít kupředu, ani krok zpátky!*
 
 `_.a2_attack_3 = "bad";`
 
@@ -797,7 +797,7 @@ b: *Náš plán je jít kupředu, zpátky ni krok!*
 
 `bb({body:"normal", mouth:"normal", eyes:"normal_r"})`
 
-b: Zamysli se nad tím, víme, zda tato buda *má* detektory oxidu uhelnatého?!
+b: Zamysli se nad tím, víme, zda tato budova *má* detektory oxidu uhelnatého?!
 
 `bb({body:"two_up", mouth:"small", eyes:"normal"})`
 
@@ -821,7 +821,7 @@ b: Co když jsme *absolutně neschopní* být milováni, nebo milovat ostatní?
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: Co když se něco nevratně rozbilo uvnitř nás hlouho zpátky? Nebo to nikdy neexistovalo?
+b: Co když se něco nevratně rozbilo uvnitř nás dlouho zpátky? Nebo to nikdy neexistovalo?
 
 `bb({body:"scream_a_1"})`
 
@@ -839,11 +839,11 @@ b: Co když jsme *zhnilí zevnitř?*
 
 `bb({body:"one_up", eyes:"sad"})`
 
-b: Ostatní mají vlastní chuť dělat dobré věci, ale my děláme "dobré věci" jen kůli pocitu viny či studu, pokud vůbec.
+b: Ostatní mají vlastní chuť dělat dobré věci, ale my děláme "dobré věci" jen kvůli pocitu viny či studu, pokud vůbec.
 
 `bb({body:"normal", mouth:"small", eyes:"sad_r"})`
 
-b: Co když naše nátura ublíží ostaním? Co když nezvládneme být *něčím jiným* než přítěží pro ty kolem nás?
+b: Co když naše nátura ublíží ostatním? Co když nezvládneme být *něčím jiným* než přítěží pro ty kolem nás?
 
 `bb({body:"scream_a_1"})`
 
@@ -857,7 +857,7 @@ b: AHH JSME ROZBITÍ! TAK ROZBITÍ TAK ROZBITÍ TAK ROZB--
 
 `bb({body:"normal", mouth:"normal", eyes:"normal"})`
 
-b: Já nejsem iracionální. Lidé *dělají* drogové punčové údery. To je reálne věc, co se reálně děje.
+b: Já nejsem iracionální. Lidé *dělají* drogové punčové údery. To je reálná věc, co se reálně děje.
 
 `bb({eyes:"suspect"})`
 
@@ -917,7 +917,7 @@ h: Ach jo, ty jeden hlupáčku.
 
 h: Znáš ten příběh od původních Američanů?
 
-h: "Uvnitř tebe jsou dva vlci: jeden je naděje, druhý je zoufalství. Který z nich vyhraje? Ten kterého krmíš."
+h: "Uvnitř tebe jsou dva vlci: jeden je naděje, druhý je zoufalství. Který z nich vyhraje? Ten, kterého krmíš."
 
 ```
 hong({body:"facepalm_3"});
@@ -928,9 +928,9 @@ h: Snažila jsem se tě *vyhladovět*. Ty sadistický ^zmetku^!
 
 `hong({body:"smile", mouth:"smile"})`
 
-h: Kašlu na to. Zkusím pozitivnívní myšlení.
+h: Kašlu na to. Zkusím pozitivní myšlení.
 
-h: *Jsem milováná. Jsem dobrá. Jsem chytrá. Jsem krásná. Jsem speciální.*
+h: *Jsem milovaná. Jsem dobrá. Jsem chytrá. Jsem krásná. Jsem speciální.*
 
 `bb({eyes:"suspect"});`
 
@@ -944,15 +944,15 @@ h: *Jsem milováná. Jsem dobrá. Jsem chytrá. Jsem krásná. Jsem speciální.
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Ve skutečnosti, se to u lidí s malým sebevědomím vždy *obrátí* proti nim! 
+b: Ve skutečnosti se to u lidí s malým sebevědomím vždy *obrátí* proti nim! 
 
 `bb({body:"one_up", mouth:"small", eyes:"normal"})`
 
-b: Byla to dobře navržená studie. Náhodný kontrolní vzorek. Byl to dvojtě slepý experiment, takže vědec nevědel, jaká skupina je jaká.
+b: Byla to dobře navržená studie. Randomizovaná kontrolovaná studie. Byl to dvojitě zaslepený experiment, takže vědec nevěděl, jaká skupina je jaká.
 
 `bb({body:"two_up", mouth:"small", eyes:"normal_r"})`
 
-b: Výsledek: pokud máš nízké sebevědomí, snažit se o pozitivní myšlení tvé myšlení ovlivní *hůře*, než když bys nedělala nic.
+b: Výsledek: pokud máš nízké sebevědomí, snažit se o pozitivní myšlení tvé myšlení ovlivní *hůře*, než kdybys nedělala nic.
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 

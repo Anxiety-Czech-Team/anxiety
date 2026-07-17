@@ -273,7 +273,7 @@ h: ?
 
 `bb({eyes:"normal_d"});`
 
-b: And yet...
+b: A přesto...
 
 h: Hm?
 
@@ -380,7 +380,7 @@ music('dontfight',{fade:5, volume:0.6});
 bb({eyes:"annoyed_d"});
 ```
 
-b: Nejsem Velký zlý vlk. Ale nejsem ani strážný vlk.
+b: Nejsem velký zlý vlk. Ale nejsem ani strážný vlk.
 
 `bb({eyes:"sad_d"})`
 
@@ -388,7 +388,7 @@ b: Jsem týraný pes z útulku.
 
 `bb({eyes:"sad"})`
 
-b: Prošli jsme si těžkými věcmi. Možná trauma nebo zanedbávání. Proto někdy reaguji přehnaně a odcházím:
+b: Prošli jsme si těžkými věcmi. Možná trauma nebo zanedbávání. Proto někdy reaguji přehnaně a začnu:
 
 ```
 sfx("yaps", {volume:0.6});
@@ -470,7 +470,7 @@ b: Ale *celý svět* se zdá být tak nebezpečný. Tak plný tragédií a zla.
 `bb({eyes:"sad"})`
 
 {{if _.a4_fears_discussed==1}}
-b: Nevím, už dost toho, že si vybírám, co řeknu dál. Co říkáš *ty*, člověče?
+b: Nevím, už bylo dost toho, abych vybíral, co řeknu dál. Co říkáš *ty*, člověče?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
@@ -483,7 +483,7 @@ b: Další myšlenky, člověče?
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
 
-[Máte pravdu. Tak se chraňme.](#act4_harm_skills)
+[Máš pravdu. Tak se chraňme.](#act4_harm_skills)
 
 [Vystavme se *většímu* nebezpečí.](#act4_harm_exposure)
 
@@ -534,7 +534,7 @@ bb({ body:"normal", mouth:"normal" });
 hong({ body:"normal", mouth:"normal", eyes:"normal"});
 ```
 
-h: Právě teď si procvičujeme dobrou komunikaci. Což nám pomůže lépe odhalit nebezpečí, s menším počtem falešných poplachů,
+h: Právě teď si procvičujeme dobrou komunikaci, což nám pomůže lépe odhalit nebezpečí, s menším počtem falešných poplachů,
 
 `hong({ eyes:"surprise" });`
 
@@ -570,7 +570,7 @@ h: Je pravda, že neexistuje způsob, jak se stoprocentně ochránit...
 
 `hong({ body:"one_up" });`
 
-h: Ale i 1% zlepšení má svou cenu, že?
+h: Ale i zlepšení o 1 % stojí za to, že?
 
 ```
 bb({ eyes:"annoyed" });
@@ -655,7 +655,7 @@ h: Protože jsi pes, mělo by to fungovat i pro tebe, ne? Všichni savci mají s
 
 [Co když budeme vystaveni *pravému* nebezpečí?](#act4_harm_exposure_hurt)
 
-[Jsem vla a ne pes.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
+[Jsem vlk, a ne pes.](#act4_harm_exposure_dog) `bb({ eyes:"suspect" })`
 
 # act4_harm_exposure_dog
 
@@ -699,11 +699,11 @@ h: Nevím, ale *ty* mi s tím můžeš pomoci!
 
 `hong({ eyes:"normal", body:"normal" })`
 
-h: Pracovaním a vyjednávaním s tebou tu hranici někde vytyčíme.
+h: Pracováním a vyjednáváním s tebou tu hranici někde vytyčíme.
 
 `bb({ body:"paw", mouth:"narrow", eyes:"closed" })`
 
-b: Dobře. Ale já nemám protilehlé palce, takža to zapíchávání kolíků je na tobě.
+b: Dobře. Ale já nemám protilehlé palce, takže to zapíchávání kolíků je na tobě.
 
 (#act4_something_else)
 
@@ -728,13 +728,13 @@ h: Jako máš pravdu. Člověk *může* zajít moc daleko.
 
 `hong({ eyes:"normal" });`
 
-h: To je přesně proč, kdybycho začali expoziční terapii, tak začneme pomalu a malými krůčky kupředu.
+h: To je přesně proč, kdybychom začali expoziční terapii, tak začneme pomalu a malými krůčky kupředu.
 
-h: Právě před tím než narazíme na *skutečné* nebezpečí, zastavíme.
+h: Právě předtím, než narazíme na *skutečné* nebezpečí, zastavíme.
 
 `bb({ eyes:"annoyed_r", mouth:"narrow" });`
 
-b: Já vymezuji hranici mezi tím, že slyším vzdáleného hromu a stáním v bouřce se špičatou čepicí.
+b: Já vymezuji hranici mezi tím, že slyším vzdálené hřmění a stáním v bouřce se špičatou čepicí.
 
 (#act4_something_else)
 
@@ -766,7 +766,7 @@ b: Počkej, žádné argumenty pro nebo proti tomu, co cítím? Prostě... "děk
 
 `hong({ eyes:"surprise", body:"shrug" })`
 
-h: Jo! Děkuji ti, že jsi se staral o moje {{_.thanks_for}}.
+h: Jo! Děkuji ti, že ses staral o moje {{_.thanks_for}}.
 
 ```
 bb({ eyes:"closed_annoyed", MOUTH_LOCK:true });
@@ -793,7 +793,7 @@ h: I když máš přehnané reakce, já oceňuji, že hledíš na mé {{_.thanks
 
 `bb({ eyes:"annoyed" })`
 
-b: Počkej... neříkáš furt dokola "děkuji ti", aby ses vyhnula mluvit o tvých straších, že ne?
+b: Počkej... neříkáš furt dokola "děkuji ti", aby ses vyhnula mluvení o tvých straších, že ne?
 
 ```
 bb({ eyes:"normal" });
@@ -804,7 +804,7 @@ h: Víš, je to komplikované a já nebudu mít vždy připravené odpovědi.
 
 `hong({ eyes:"annoyed_l", body:"one_up" })`
 
-h: Život ti ale nedává seznam tři předpřipravených dialogových odpovědí.
+h: Život ti ale nedává seznam tří předpřipravených dialogových odpovědí.
 
 `hong({ eyes:"normal", mouth:"smile", body:"normal" })`
 
@@ -814,13 +814,13 @@ b: No, já děkuji tobě taky, za trpělivé vysvětlování.
 
 `bb({ eyes:"closed" });`
 
-b: Ty malé bezchlupý savče z masa a kostí.
+b: Ty malý bezchlupý savče z masa a kostí.
 
 (#act4_something_else)
 
 # act4_thanks_3
 
-h: I když mě tvé žvaňění straší, snažíš se prostě chránit moje {{_.thanks_for}}.
+h: I když mě tvé žvanění straší, snažíš se prostě chránit moje {{_.thanks_for}}.
 
 `bb({ eyes:"smile_r" });`
 
@@ -831,7 +831,7 @@ bb({ eyes:"smile" });
 hong({ eyes:"annoyed" });
 ```
 
-h: Ale, já jsem jen zranitelná holka a ty jsi velký, zlý vlk. Co nejhoršího se můž--
+h: Ale já jsem jen zranitelná holka a ty jsi velký, zlý vlk. Co nejhoršího se můž--
 
 `hong({ eyes:"normal", body:"point" });`
 
@@ -855,12 +855,12 @@ b: Já chci zajistit, že naplníš tu niternou lidskou potřebu někam patřit.
 
 `bb({ eyes:"sad_u" });`
 
-b: Já se ale bojím, že pokud někdo nás pozná, naše skutečné já, tak je vyděsíme a utečou.
+b: Já se ale bojím, že pokud nás někdo pozná, naše skutečné já, tak je vyděsíme a utečou.
 
 `bb({ eyes:"sad" });`
 
 {{if _.a4_fears_discussed==1}}
-b: Já ti nevím, dost *mě* vybírající, co řeknu dál. Co na to říkáš *ty*, člověče?
+b: Já ti nevím, už bylo dost toho, abych vybíral, co řeknu dál. Co na to říkáš *ty*, člověče?
 {{/if}}
 
 {{if _.a4_fears_discussed==2}}
@@ -868,7 +868,7 @@ b: Zase, zpět k tobě, člověče. Co si myslíš?
 {{/if}}
 
 {{if _.a4_fears_discussed==3}}
-b: Nějake další návrhy, člověče?
+b: Nějaké další návrhy, člověče?
 {{/if}}
 
 `Game.OVERRIDE_CHOICE_SPEAKER = "h"`
@@ -886,51 +886,51 @@ bb({ eyes:"normal" });
 hong({ body:"chin" });
 ```
 
-h: Mohli bychom se naučit nějaké schopnosti jako: ptát se na otázky, naslouchání, empatie, otevírat se novým myšlenkám a být zranitelný, atd?
+h: Mohli bychom se naučit některým dovednostem, například klást otázky, naslouchat, projevovat empatii, otevírat se novým myšlenkám a být zranitelní?
 
 `hong({ eyes:"normal_l" });`
 
-h: Či si udělat lepší sociální návyky, jako plánovaní volného času s kamarády nebo pravidelně chodit na srazy?
+h: Či si udělat lepší sociální návyky, jako plánování volného času s kamarády nebo pravidelně chodit na srazy?
 
 `hong({ body:"one_up" });`
 
 h: Také se naučit být víc v pohodě s odmítnutím.
 `hong({ eyes:"normal" });`
 
-h: Nebo se naučit poznat kdy lidi *nejsou* na nás naštvaní, jsou jen unaveni z našeho ksichtění.
+h: Nebo se naučit poznat, kdy lidé na nás *nejsou* naštvaní, jsou jen unaveni z našeho ksichtění.
 
 ```
 hong({ body:"normal" });
 bb({ eyes:"annoyed_r" });
 ```
 
-b: To je hromada možností. Ale, ohledně "učení se sociálních schopností"...
+b: To je hromada možností. Ale ohledně "učení se sociálních schopností"...
 
 [Není to *manipulativní?*](#act4_alone_skills_manipulative)
 
-[Neučiní nás to *náchylnější na manipulace?*](#act4_alone_skills_manipulated)
+[Neučiní nás to *náchylnější k manipulaci?*](#act4_alone_skills_manipulated)
 
-[Co, když i přes to selžeme?](#act4_alone_skills_fail)
+[Co když i přes to selžeme?](#act4_alone_skills_fail)
 
 # act4_alone_skills_manipulative
 
 `bb({ eyes:"suspect" });`
 
-b: Nejsou sérioví kteří čtou emoce jejich obětí dobří v empatii?
+b: Nejsou sérioví vrazi, kteří čtou emoce jejich obětí, dobří v empatii?
 
 `bb({ eyes:"annoyed" });`
 
-b: Nezískával si Charles Manson přátele a neměl vliv na lidi?
+b: Nezískával Charles Manson přátele a neměl vliv na lidi?
 
 `hong({ eyes:"annoyed", body:"chin" });`
 
 h: Ano, máš pravdu.
 
-h: "Sociální schopnosti" neznamenají nic, pokud nás pokud *o* lidi nemáme upřímný zájem.
+h: "Sociální schopnosti" neznamenají nic,  pokud *o* lidi nemáme upřímný zájem.
 
 `hong({ body:"normal" });`
 
-h: Prostě, nebuď ^kokot^.
+h: Prostě nebuď ^kokot^.
 
 `bb({ eyes:"annoyed", mouth:"smile" });`
 
@@ -938,7 +938,7 @@ b: To bych chtěl jako motivační popisek na plakát.
 
 `hong({ body:"shrug", mouth:"narrow" });`
 
-h: “Prostě, Nebuď ^Kokot^™”
+h: “Prostě Nebuď ^Kokot^™”
 
 (#act4_something_else)
 
@@ -946,7 +946,7 @@ h: “Prostě, Nebuď ^Kokot^™”
 
 `bb({ eyes:"angry" })`
 
-b: Budeme jako vítací rohožka, říkat Prosím a Děkuji Ti jako by si lidi o nás otírali boty!
+b: Budeme jako vítací rohožka, říkat Prosím a Děkuji Ti jako by si o nás lidé o nás otírali boty!
 
 `bb({ mouth:"scream", eyes:"scream" })`
 
@@ -957,7 +957,7 @@ bb({ mouth:"normal", eyes:"normal" });
 hong( body:"chin" });
 ```
 
-h: Jo, máš pravdu. "Sociální dovendosti" nemohou být jen o tom uspokojovat ostatní, taky by to mělo být o nastavování *hranic*.
+h: Jo, máš pravdu. "Sociální dovednosti" nemohou být jen o tom uspokojovat ostatní, taky by to měly být o nastavování *hranic*.
 
 `hong( body:"one_up" });`
 
@@ -983,11 +983,11 @@ bb({ eyes:"normal" });
 hong({ eyes:"surprise", body:"shrug" });
 ```
 
-h: To je v pořádku! Selhání je jak se všichni učíme novým věcem!
+h: To je v pořádku! Selháním se všichni učíme novým věcem!
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: Tak pojďmě společně selháním kupředu, jo?
+h: Tak pojďme společně selháním kupředu, jo?
 
 `bb({ eyes:"normal_r" });`
 
@@ -1010,7 +1010,7 @@ h: Můžeme zkusit nějaké experimenty!
 
 `hong({ body:"chin" });`
 
-h: Můžeme pošťouchnout kamaráda, aby jsme se potkali, setkání po letech se starým brachem, nebo jen pokecat s baristou.
+h: Můžeme pozvat kamaráda na setkání, sejít se po letech se starým brachou nebo si jen popovídat s baristou.
 
 `hong({ body:"normal" });`
 
@@ -1018,7 +1018,7 @@ h: Myslím si, že můžeme zjistit, že jsme oblíbenější, než si myslíme.
 
 `bb({ eyes:"annoyed" });`
 
-[Co když tohle jsou jen malá, levná "vítezství"?](#act4_alone_experiment_cheap)
+[Co když tohle jsou jen malá, levná "vítězství"?](#act4_alone_experiment_cheap)
 
 [Co když tohle je zátěž pro ostatní?](#act4_alone_experiment_burden)
 
@@ -1028,7 +1028,7 @@ h: Myslím si, že můžeme zjistit, že jsme oblíbenější, než si myslíme.
 
 `bb({ eyes:"sad" });`
 
-b: Pokud nasadímé mělký úsměv, nikdy nebudeme schopni se propojit s kýmkoliv,
+b: Pokud nasadíme mělký úsměv, nikdy nebudeme schopni se propojit s kýmkoliv,
 
 `bb({ eyes:"super_sad" });`
 
@@ -1057,7 +1057,7 @@ h: Možná *ještě* nemáme dostatečný pocit bezpečí, abychom byli zranitel
 
 `hong({body:"normal", eyes:"surprise"})`
 
-h: Jednoho dne budeme moci ukázat lidem naše pravá já, naprosto robité, naprosto lidské.
+h: Jednoho dne budeme moci ukázat lidem naše pravé já, naprosto rozbité, naprosto lidské.
 
 ```
 hong({eyes:"normal"});
@@ -1075,7 +1075,7 @@ h: Ne.
 
 # act4_alone_experiment_cheap
 
-b: Řikat "ahoj" baristovi není úplně olympijský výkon v disciplíně sociálního přizpůsobování.
+b: Říkat "ahoj" baristovi není úplně olympijský výkon v disciplíně sociálního přizpůsobování.
 
 ```
 hong({ body:"point", eyes:"surprise" });
@@ -1086,13 +1086,13 @@ h: Je to pro *nás!*
 
 `hong({ body:"one_up", eyes:"annoyed" });`
 
-h: V ringu sociálních schopností jsme nesme ani v peříčkové váhové kategorii. Jsme spíše... kvarková váhová kategorie.
+h: V ringu sociálních schopností nejsme ani v peříčkové váhové kategorii. Jsme spíše... kvarková váhová kategorie.
 
 `hong({ body:"normal", eyes:"normal" });`
 
-h: A někde musíme začít a jestli to mají být jednoduchá vítězství, tak ať. Musíš udělat ten první krok než uděláš tes tisícátý.
+h: A někde musíme začít a jestli to mají být jednoduchá vítězství, tak ať. Musíš udělat ten první krok, než uděláš ten tisící.
 
-b: Jo! Možná po tom co řekneme "Ahoj", můžeme pokračovat a říct...
+b: Jo! Možná poté, co řekneme "Ahoj", můžeme pokračovat a říct...
 
 `bb({ body:"two_up", mouth:"smile", eyes:"smile_u" });`
 
@@ -1119,7 +1119,7 @@ hong({ eyes:"surprise" });
 bb({ eyes:"normal" });
 ```
 
-h: To je taky dobré to vědet.
+h: To je také dobré vědět.
 
 `hong({ eyes:"normal" });`
 
@@ -1130,7 +1130,7 @@ hong({ eyes:"annoyed_l", mouth:"narrow" });
 bb({ eyes:"annoyed", mouth:"smile" });
 ```
 
-h: Víš, všchny ty ^sračky^ okolo "dovedností v oblasti mezilidských vztahů", kteých jsou plné psychologické letáky.
+h: Víš, všechny ty ^sračky^ okolo "dovedností v oblasti mezilidských vztahů", kterých jsou plné psychologické letáky.
 
 (#act4_something_else)
 
@@ -1200,7 +1200,7 @@ h: A pokud bude třeba, můžeme vyhledat profesionální pomoc, terapeuta nebo 
 
 h: Jsou možnosti, jak nás spravit.
 
-[Co, když nemůžeme spravit všechno?](#act4_bad_fix_cant)
+[Co když nemůžeme spravit všechno?](#act4_bad_fix_cant)
 
 [Co když toho opravíme až *moc*?](#act4_bad_fix_too_much)
 
