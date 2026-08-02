@@ -208,7 +208,7 @@ hong({body:"sigh_2"});
 bb({eyes:"look_down"});
 ```
 
-h: *sigh*
+h: *ach jo*
 
 ```
 hong({body:"hold", eyes:"normal", mouth:"normal"});

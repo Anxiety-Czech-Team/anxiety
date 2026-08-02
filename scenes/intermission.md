@@ -18,11 +18,11 @@ publish("show_stats");
 
 n2: STRACHY V TOMTO KOLE:
 
-i: #harm# *STRACH ZE ZRANĚNÍ:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
+i: #harm# *STRACH ZE ÚJMY:* {{_.INTERMISSION_STAGE==1 ? _.attack_harm_ch1 : _.attack_harm_ch2}}
 
 i: #alone# *STRACH Z ODMÍTNUTÍ:* {{_.INTERMISSION_STAGE==1 ? _.attack_alone_ch1 : _.attack_alone_ch2}}
 
-i: #bad# *STRACH Z VLASTNÍ ŠPATNOSTI:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
+i: #bad# *STRACH ZE ŠPATNOSTI:* {{_.INTERMISSION_STAGE==1 ? _.attack_bad_ch1 : _.attack_bad_ch2}}
 
 
 ```
