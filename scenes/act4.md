@@ -260,6 +260,7 @@ b: Rozhodně jsme si zkrátili život o několik let...
 `bb({eyes:"surprise"});`
 
 b: Ale alespoň *máme* stále ještě průměrnou délku života! Přežili jsme!
+
 ```
 hong({eyes:"surprise"});
 bb({eyes:"normal"});
