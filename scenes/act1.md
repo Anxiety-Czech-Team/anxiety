@@ -1107,6 +1107,7 @@ b: Takže řekněme, že jsme si kvit.
 h: Necháváš mě... se bavit?
 
 b: No, myslím tím, že osamělost nás *může* zabít.
+
 `hong({eyes:"neutral", mouth:"neutral"});`
 
 (#act1e_no_changetoyes)
