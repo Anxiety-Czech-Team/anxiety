@@ -1167,7 +1167,7 @@ b: NEBEZPEČÍ NEBEZPEČÍ NEBEZPEČÍ NEBEZPEČÍ NEBEZPEČÍ NEBEZPEČÍ
 
 [Jenom *využíváme* ostatní lidi.](#act1f_using_others)
 
-[TVŮJE SHODA JE SÉRIOVÝ VRAH](#act1f_killer)
+[TVOJE SHODA JE SÉRIOVÝ VRAH](#act1f_killer)
 
 # act1f_used_by_others
 

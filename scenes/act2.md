@@ -1389,7 +1389,7 @@ h: Taková plnotučná příchuť "umlč svou mysl," s lehkým ocasem z "nikdy u
 
 b: Tohle je špatné, člověče. Tohle je fakt, fakt špatné.
 
-[Tohle je *pesně* jak závislost začíná.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
+[Tohle je *přesně* jak závislost začíná.](#act2h_opt1) `Game.OVERRIDE_CHOICE_LINE=true`
 
 [Já *vědel*, že s tím pozváním bylo něco špatně!](#act2h_opt3) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1522,7 +1522,7 @@ h: MOHLA JSEM *SLYŠET* DRCENÍ ŽEBER. MOHLA JSEM *CÍTIT* KREV VE VZDUCHU.
 
 b: Promiň, člověče.
 
-n: *UKOČNI TO*
+n: *UKONČI TO*
 
 [{BOJUJ: Dej pěstí hostiteli.}](#act2j_fight) `Game.OVERRIDE_CHOICE_LINE=true`
 
@@ -1717,7 +1717,7 @@ sfx("hit");
 
 h: Já na tu párty jdu znova příští víkend.
 
-h: Přiště, až budeme spolu bojovat, nejn že tě *porazím*...
+h: Přiště, až budeme spolu bojovat, nejen že tě *porazím*...
 
 h: Já tě ^kurva^ *zabiju*.
 

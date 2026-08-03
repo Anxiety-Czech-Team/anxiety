@@ -1146,7 +1146,7 @@ _.a4_fears_discussed += 1;
 
 `bb({ eyes:"annoyed_r" })`
 
-b: Já chci zajistit tvé morální potřeby, které tě vede k tomu, byýt lepším člověkem.
+b: Já chci zajistit tvé morální potřeby, které tě vede k tomu, být lepším člověkem.
 
 `bb({ eyes:"sad_d" })`
 
@@ -1560,7 +1560,7 @@ b: Vybudovat si zdravý vztah se svými emocemi není tak jednoduché, jako klik
 
 `bb({eyes:"sad", body:"normal"})`
 
-b: Vážně *můžeme* spolu vyhcázet?
+b: Vážně *můžeme* spolu vycházet?
 
 b: *Můžeme* spolupracovat jako tým?
 
