@@ -1147,7 +1147,7 @@ hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, mám shodu! Vypadají roztomile!
+h: Oh, mám shodu! Vypadá roztomile!
 
 ```
 bb({eyes:"narrow_eyebrow"});
@@ -1352,7 +1352,7 @@ h:
 
 h: Já chci jen žít svůj život.
 
-h: já chci jen být volný/á od této... bolesti.
+h: já chci jen být zbavena téhle... bolesti.
 
 `bb({eyes:"look_sad"});`
 
@@ -1366,7 +1366,7 @@ b: Bude to v pořádku.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Jako tvůj věrný hlídací vlk, Vždycky si budu dávat pozor na nebezpečí, a udělám vše pro to, aby jsme se uchránili.
+b: Jako tvůj věrný hlídací vlk, Vždycky si budu dávat pozor na nebezpečí, a udělám vše pro to, abychom uchránili.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
@@ -1586,7 +1586,7 @@ n: VYBERTE SI SVŮJ ZÁVĚREČNÝ TAH
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *DOKONČI JO*
+n: *DOKONČI JI*
 
 [{BOJUJ: Potrestejte svůj stresující telefon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 
