@@ -32,9 +32,9 @@ n: TVÝM ÚKOLEM JE CHRÁNIT SVÉHO ČLOVĚKA PŘED *NEBEZPEČÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: VE SKUTEČNOSTI JE PŘEHRÁVÁNÍ TÉTO HRY PRÁVĚ TEĎ VYSTAVUJE *NEBEZPEČÍ*
+n: VE SKUTEČNOSTI JÍ PŘEHRÁVÁNÍ TÉTO HRY NÁS PRÁVĚ TEĎ VYSTAVUJE *NEBEZPEČÍ*
 
-n: RYCHLE, VARUJ JE!
+n: RYCHLE, VARUJ Jí!
 
 ```
 sfx("squeak");
@@ -194,9 +194,9 @@ n: TVOJE PRÁCE JE CHRÁNIT ČLOVĚKA PŘED *NEBEZPEČÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: VE SKUTEČNOSTI JE TEN SENDVIČ VYSTAVUJE *NEBEZPEČÍ* PRÁVĚ TEĎ
+n: VE SKUTEČNOSTI JI TEN SENDVIČ TĚ PRÁVĚ TEĎ *OHROŽUJE*
 
-n: RYCHLE, VARUJ JE!
+n: RYCHLE, VARUJ JI!
 
 ```
 sfx("squeak");
@@ -216,9 +216,9 @@ n4: (NECH _SVOU_ ÚZKOST JÍT SI HRÁT! VYBER, CO NEJVÍC ODPOVÍDÁ TOMU, CO TI
 
 [Znova na obědě jíme o samotě! Znova!](#act1a_alone) `bb({body:"squeeze_talk"})`
 
-[Nejsme produktivní když jíme!](#act1a_productive) `bb({body:"squeeze_talk"})`
+[Nejsme produktivní, když jíme!](#act1a_productive) `bb({body:"squeeze_talk"})`
 
-[Ten bílí chleba je pro nás špatný!](#act1a_bread) `bb({body:"squeeze_talk"})`
+[Ten bílý chleba je pro nás špatný!](#act1a_bread) `bb({body:"squeeze_talk"})`
 
 # act1a_alone
 
@@ -227,7 +227,7 @@ bb({body:"normal", mouth:"small", eyes:"narrow"});
 hong({body:"0_sammich"});
 ```
 
-b: Copak nevíš že samota je spojená s předčasnou smrtí stejně jako kouření 15 cigaret denně?-
+b: Copak nevíš, že samota je spojená s předčasnou smrtí stejně jako kouření 15 cigaret denně?-
 
 `Game.OVERRIDE_TEXT_SPEED = 2;`
 
@@ -275,7 +275,7 @@ b: Vytáhni svůj laptop a začni pracovat, hned teď!
 
 `hong({eyes:"0_annoyed"})`
 
-h: Um, Nevim jesi se mi úplně chce si drobit do kláve--
+h: Um... Nevím, jestli se mi úplně chce si drobit do kláve--
 
 ```
 bb({mouth:"normal", eyes:"fear"});
@@ -383,7 +383,7 @@ bb({body:"normal", mouth:"normal", eyes:"normal"});
 
 `Game.OVERRIDE_TEXT_SPEED = 1.5;`
 
-h: víš co, možná že je čas se kouknout na mobil.
+h: Víš co, možná, že je čas se kouknout na mobil.
 
 ```
 sfx("rustle2");
@@ -420,7 +420,7 @@ b: Nepořádá ten podivín párty *každý* víkend?
 
 `bb({eyes:"uncertain_right"});`
 
-b: Jakou vnitřní prázdnotu se snaží zaplnit? Musí mít uvnitř uplný chaos!
+b: Jakou vnitřní prázdnotu se snaží zaplnit? Musí mít uvnitř úplný chaos!
 
 `hong({eyes:"surprise"});`
 
@@ -447,7 +447,7 @@ b: Patnáct cigaret denně, člověče! Patnáct!
 {{/if}}
 
 {{if !_.fifteencigs}}
-b: Pak se nikdo neoběví na našem pohřbu, vysypou náš popel do oceánu, budeme sežráni velrybou,
+b: Pak se nikdo neobjeví na našem pohřbu, vysypou náš popel do oceánu, budeme sežráni velrybou,
 {{/if}}
 
 {{if !_.fifteencigs}}
@@ -482,6 +482,7 @@ b: Jen pokud nepodávají BÍLÝ CHLEBA
 `hong({mouth:"anger", eyes:"anger"});`
 
 h: BOŽE. Pokud tě to umlčí, fajn.
+
 h: Řeknu ano.
 
 {{if _.whalepoop}}
@@ -520,7 +521,7 @@ attack("18p", "harm");
 (...2500)
 
 {{if _.parasite}}
-b: Kromě toho, nemůžeme pařit, musíme pracovat, nebo jsme hrozní společenskí paraziti!
+b: Kromě toho, nemůžeme pařit, musíme pracovat, nebo jsme hrozní společenští paraziti!
 {{/if}}
 
 `hong({mouth:"anger", eyes:"anger"});`
@@ -548,7 +549,7 @@ b: Na večírcích se jen trápíme tím, jak bychom měli být místo toho prod
 {{/if}}
 
 {{if _.whitebread}}
-b: Na večírcích se jen trápíme tím, jaké tam mají nezdravé jídlo které nás zabije.
+b: Na večírcích se jen trápíme tím, jaké tam mají nezdravé jídlo, které nás zabije.
 {{/if}}
 
 ```
@@ -556,7 +557,7 @@ bb({mouth:"normal", eyes:"normal"});
 hong({mouth:"neutral", eyes:"lookaway"});
 ```
 
-h: jé, zajímalo by mě proč.
+h: Jé, zajímalo by mě proč.
 
 `hong({eyes:"neutral"});`
 
@@ -598,13 +599,13 @@ h: Každopádně. Facebook je na mě až moc. Potřebuji něco klidnějšího, m
 
 `hong({eyes:"neutral"});`
 
-h: Co je nového na Twittru?
+h: Co je nového na Twitteru?
 
 `bb({eyes:"look"});`
 
-[O né, koukej na tu strašnou novinku!](#act1d_news)
+[Ale ne, koukej na tu strašnou novinku!](#act1d_news)
 
-[O né, je ten tweet tajně o *nás*?](#act1d_subtweet)
+[Ale ne, je ten tweet tajně o *nás*?](#act1d_subtweet)
 
 [Hele, GIF kde kočka pije mléko.](#act1d_milk)
 
@@ -726,7 +727,7 @@ h: o-KAY, zkusíme Snapchat.
 
 `hong({mouth:"smile", eyes:"neutral"});`
 
-h: Heh jo to je roztomilé, zrovna jsme to retweetly, Myslí--
+h: Heh jo to je roztomilé, zrovna jsme to retweetli, myslí--
 
 ```
 hong({mouth:"shock", eyes:"shock"});
@@ -759,7 +760,7 @@ h: o-KAY, zkusíme Snapchat.
 
 `hong({mouth:"neutral", eyes:"neutral"});`
 
-h: Huh, fotky ze včerejší noci. Takže *takhle* ty týdení párty vypadají.
+h: Huh, fotky ze včerejší noci. Takže *takhle* ty týdenní párty vypadají.
 
 {{if _.partyinvite=="yes"}} (#act1e_said_yes) {{/if}}
 
@@ -773,7 +774,7 @@ h: Huh, fotky ze včerejší noci. Takže *takhle* ty týdení párty vypadají.
 
 h: Uf, to vypadá na mou úzkost příliš přeplněně.
 
-h: Možná jsem na tu pozvánku přecejen neměla říct ano?
+h: Možná jsem na tu pozvánku přece jen neměla říct ano?
 
 ```
 hong({mouth:"neutral", eyes:"neutral"});
@@ -793,7 +794,7 @@ bb({mouth:"normal", eyes:"normal"});
 {{/if}}
 
 {{if (!_.subtweet && !_.badnews)}}
-[Víš že máš fakt špatné držení těla?](#act1e_ignore_posture)
+[Víš, že máš fakt špatné držení těla?](#act1e_ignore_posture)
 {{/if}}
 
 # act1e_yes_dontchange
@@ -810,7 +811,7 @@ b: PATNÁCT. CIGARET.
 {{/if}}
 
 {{if _.whalepoop}}
-b: VELRYBÝ. TRUS.
+b: VELRYBÍ. TRUS.
 {{/if}}
 
 ```
@@ -836,7 +837,7 @@ bb({eyes:"fear"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: Nevíš o davovích panikách?
+b: Nevíš o davových panikách?
 
 ```
 bb({body:"fear", mouth:"small", eyes:"narrow"});
@@ -852,7 +853,7 @@ hong({mouth:"shock"});
 Game.OVERRIDE_TEXT_SPEED = 1.5;
 ```
 
-b: CHCEŠ ABY SE NÁM TO STALO TAKY-
+b: CHCEŠ, ABY SE NÁM TO STALO TAKY-
 
 ```
 bb({body:"scream"});
@@ -891,7 +892,7 @@ h: Možná jsme neměli odmítnout to pozvání?
 
 [Změnit naši odpověď? Jako hulvát?!](#act1e_no_dontchange)
 
-[Změň naši odpověď! Neumři osamotě!](#act1e_no_changetoyes)
+[Změň naši odpověď! Neumři o samotě!](#act1e_no_changetoyes)
 
 {{if _.subtweet}}
 [Jo, subtweetovali nás.](#act1e_ignore_subtweet)
@@ -1107,6 +1108,7 @@ b: Takže řekněme, že jsme si kvit.
 h: Necháváš mě... se bavit?
 
 b: No, myslím tím, že osamělost nás *může* zabít.
+
 `hong({eyes:"neutral", mouth:"neutral"});`
 
 (#act1e_no_changetoyes)
@@ -1145,7 +1147,7 @@ hong({eyes:"surprise", mouth:"smile"});
 bb({eyes:"normal"});
 ```
 
-h: Oh, mám shodu! Vypadají roztomile!
+h: Oh, mám shodu! Vypadá roztomile!
 
 ```
 bb({eyes:"narrow_eyebrow"});
@@ -1167,7 +1169,7 @@ b: NEBEZPEČÍ NEBEZPEČÍ NEBEZPEČÍ NEBEZPEČÍ NEBEZPEČÍ NEBEZPEČÍ
 
 [Jenom *využíváme* ostatní lidi.](#act1f_using_others)
 
-[TVŮJE SHODA JE SÉRIOVÝ VRAH](#act1f_killer)
+[TVOJE SHODA JE SÉRIOVÝ VRAH](#act1f_killer)
 
 # act1f_used_by_others
 
@@ -1350,7 +1352,7 @@ h:
 
 h: Já chci jen žít svůj život.
 
-h: já chci jen být volný/á od této... bolesti.
+h: já chci jen být zbavena téhle... bolesti.
 
 `bb({eyes:"look_sad"});`
 
@@ -1364,7 +1366,7 @@ b: Bude to v pořádku.
 
 `bb({body:"point_heart", eyes:"look_sad_smile", mouth:"smile"});`
 
-b: Jako tvůj věrný hlídací vlk, Vždycky si budu dávat pozor na nebezpečí, a udělám vše pro to, aby jsme se uchránili.
+b: Jako tvůj věrný hlídací vlk, Vždycky si budu dávat pozor na nebezpečí, a udělám vše pro to, abychom uchránili.
 
 `bb({body:"normal", eyes:"look_sad", mouth:"smile"});`
 
@@ -1576,7 +1578,7 @@ n: PROČ, PODÍVEJTE SE, JAK JSOU VDĚČNÍ!
 
 (...500)
 
-n: NYNÍ, KDYŽ JE JEJICH ENERGIE NA NULE, MŮŽETE PŘÍMO OVLÁDAT JEJICH ČINNOST
+n: NYNÍ, KDYŽ JE JEJÍ ENERGIE NA NULE, MŮŽETE PŘÍMO OVLÁDAT JEJÍ ČINNOST
 
 `bb({mouth:"smile", eyes:"normal"});`
 
@@ -1584,7 +1586,7 @@ n: VYBERTE SI SVŮJ ZÁVĚREČNÝ TAH
 
 `bb({mouth:"small_lock", eyes:"fear"});`
 
-n: *DOKONČTE JE*
+n: *DOKONČI JI*
 
 [{BOJUJ: Potrestejte svůj stresující telefon!}](#act1i_phone) `Game.OVERRIDE_CHOICE_LINE=true`
 

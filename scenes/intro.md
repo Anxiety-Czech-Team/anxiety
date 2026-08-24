@@ -65,7 +65,7 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 {{/if}}
 
 {{if !window.localStorage.act4}}
-[III. Druhý Sendvič´]()
+[IV. Druhý Sendvič]()
 {{/if}}
 
 {{if window.localStorage.credits}}
@@ -92,17 +92,17 @@ _.PLAYED_BEFORE = !!window.localStorage.continueChapter;
 
 `clearText()`
 
-n3: Ahoj! Tohle není tak moc "hra" jak spíš interaktivní příbeh. Doufám že rád čteš, trubko!
+n3: Ahoj! Tohle není ani tak "hra" jako spíš interaktivní příběh. Doufám, že rád čteš, trubko!
 
-n3: Takže před tím než začneme, jak se *tobě* čte nejlépe?
+n3: Takže předtím, než začneme, jak se *tobě* čte nejlépe?
 
 `publish("show_options_bottom")`
 
 # intro-start-2
 
-n3: Super! Poznámka: kdykoliv můžeš změnit nastavení ikonou ⚙ dole. Ještě něco, hra automaticky ukládá každou kapitolu!
+n3: Super! Poznámka: kdykoliv můžeš změnit nastavení pomocí ikony ⚙ dole. Ještě něco, hra automaticky ukládá každou kapitolu!
 
-n3: Tak, pojďme začít naš příběh...
+n3: Tak, pojďme začít s naším příběhem...
 
 `clearText()`
 
