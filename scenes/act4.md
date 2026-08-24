@@ -400,7 +400,7 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: ŠTĚK ŠTĚK ŠTĚK ŠTĚK ŠTĚK
 
 (...1884)
 
@@ -1991,6 +1991,6 @@ Game.FORCE_TEXT_DURATION = 90;
 Game.FORCE_NO_VOICE = true;
 ```
 
-b: YAP YAP YAP YAP YAP
+b: ŠTĚK ŠTĚK ŠTĚK ŠTĚK ŠTĚK
 
 (#credits)

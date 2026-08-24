@@ -482,6 +482,7 @@ b: Jen pokud nepodávají BÍLÝ CHLEBA
 `hong({mouth:"anger", eyes:"anger"});`
 
 h: BOŽE. Pokud tě to umlčí, fajn.
+
 h: Řeknu ano.
 
 {{if _.whalepoop}}

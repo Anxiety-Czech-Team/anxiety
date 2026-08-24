@@ -956,7 +956,7 @@ b: Výsledek: pokud máš nízké sebevědomí, snažit se o pozitivní myšlen�
 
 `bb({body:"point", mouth:"normal", eyes:"closed"})`
 
-b: Wood 2009, Psychological Science. Najdi si to na Google Scholar, člověče,
+b: Wood 2009, Psychological Science. Najdi si to na Google Scholar, člověče
 
 `bb({body:"scream_b_1"})`
 
