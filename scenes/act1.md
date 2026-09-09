@@ -194,7 +194,7 @@ n: TVOJE PRÁCE JE CHRÁNIT ČLOVĚKA PŘED *NEBEZPEČÍM*
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: VE SKUTEČNOSTI JI TEN SENDVIČ TĚ PRÁVĚ TEĎ *OHROŽUJE*
+n: VE SKUTEČNOSTI JI TEN SENDVIČ PRÁVĚ TEĎ *OHROŽUJE*
 
 n: RYCHLE, VARUJ JI!
 
